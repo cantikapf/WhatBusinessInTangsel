@@ -16,8 +16,13 @@ const paths = [
   // If next.js project is inside D:\PERSONAL PROJECT\tangsel_bisnis_dashboard\tangsel_bisnis_v2
   path.join(__dirname, '..', 'src', 'js', 'data', 'geojson', 'tangsel_subdistricts.json'),
   // Absolute fallback path
-  'D:\\PERSONAL PROJECT\\tangsel_bisnis_dashboard\\src\\js\data\\geojson\\tangsel_subdistricts.json'
+  'D:\\PERSONAL PROJECT\\tangsel_bisnis_dashboard\\src\\js\\data\\geojson\\tangsel_subdistricts.json'
 ];
+
+if (fs.existsSync(destPath)) {
+  console.log('GeoJSON already exists at destination, skipping copy.');
+  process.exit(0);
+}
 
 let copied = false;
 for (const src of paths) {
