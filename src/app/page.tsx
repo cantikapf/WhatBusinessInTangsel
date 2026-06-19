@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { LineChart, Moon, Sun } from 'lucide-react';
+import { LineChart, Moon, Sun, Linkedin, Github } from 'lucide-react';
 
 import FilterForm from '../components/FilterForm';
 import { AnalyticsPanel, MetricsPanel } from '../components/AnalyticsPanel';
@@ -141,13 +141,42 @@ export default function Home() {
             <div className="p-2 bg-indigo-50 text-indigo-600 rounded-lg">
               <LineChart className="w-6 h-6" />
             </div>
-            <h1 className="text-xl md:text-2xl font-extrabold tracking-tight text-slate-900">
-              Tangsel Business Prospect Analytics
-            </h1>
+            <div>
+              <h1 className="text-xl md:text-2xl font-extrabold tracking-tight text-slate-900">
+                WhatBusinessInTangsel
+              </h1>
+              <p className="text-xs text-indigo-500 font-semibold tracking-wide uppercase mt-0.5">
+                Business Prospect Analytics · Kota Tangerang Selatan
+              </p>
+            </div>
           </div>
-          <p className="text-sm text-slate-500 mt-1">
-            Analisis kelayakan lokasi bisnis interaktif Kota Tangerang Selatan berdasarkan data BPS & OpenStreetMap.
+          <p className="text-sm text-slate-500 mt-2 max-w-lg">
+            Membantu calon pengusaha mengidentifikasi lokasi terbaik di 7 kecamatan Tangsel — meminimalisir risiko berbasis data BPS & OpenStreetMap.
           </p>
+          {/* Author CTA */}
+          <div className="flex items-center gap-3 mt-3">
+            <span className="text-xs text-slate-400">Dibuat oleh</span>
+            <a
+              href="https://www.linkedin.com/in/cantikaputri-febrianti/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-[#0A66C2] text-white hover:bg-[#004182] transition-colors shadow-sm"
+              aria-label="Cantika Putri Febrianti LinkedIn"
+            >
+              <Linkedin className="w-3.5 h-3.5" />
+              Cantika Putri Febrianti
+            </a>
+            <a
+              href="https://github.com/cantikapf/tangsel-bisnis-v2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-white hover:bg-slate-700 transition-colors shadow-sm"
+              aria-label="Source Code GitHub"
+            >
+              <Github className="w-3.5 h-3.5" />
+              View Source
+            </a>
+          </div>
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <button
