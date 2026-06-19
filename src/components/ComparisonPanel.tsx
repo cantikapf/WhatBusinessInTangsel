@@ -137,7 +137,7 @@ export const ComparisonPanel: React.FC<ComparisonPanelProps> = ({
       <div className="overflow-x-auto rounded-xl border border-slate-150 scroll-indicator">
         <table id="comparison-table" className="min-w-full divide-y divide-slate-200 text-sm">
           <thead>
-            <tr class="bg-slate-50 text-left text-slate-500 font-semibold uppercase tracking-wider text-xs">
+            <tr className="bg-slate-50 text-left text-slate-500 font-semibold uppercase tracking-wider text-xs">
               <th className="px-4 py-3.5">Kecamatan</th>
               <th className="px-4 py-3.5">Sektor</th>
               <th className="px-4 py-3.5">Skor Komposit</th>
