@@ -1,0 +1,51 @@
+{
+  "setu": {
+    "id": "setu",
+    "name": "Setu",
+    "trafficLevel": "Rendah",
+    "accessibilityScore": 0.50,
+    "details": "Tingkat kepadatan lalu lintas relatif rendah. Akses jalan arteri utama terbatas dan jauh dari pintu tol utama, namun terhubung dengan jalur penghubung Bogor."
+  },
+  "serpong": {
+    "id": "serpong",
+    "name": "Serpong",
+    "trafficLevel": "Tinggi",
+    "accessibilityScore": 0.90,
+    "details": "Lalu lintas sangat padat terutama pada jam kerja. Aksesibilitas luar biasa dengan jalan boulevard lebar, interkoneksi tol Jakarta-Serpong, serta stasiun KRL commuter line (Rawa Buntu & Serpong)."
+  },
+  "pamulang": {
+    "id": "pamulang",
+    "name": "Pamulang",
+    "trafficLevel": "Tinggi",
+    "accessibilityScore": 0.65,
+    "details": "Kepadatan jalan lokal sangat tinggi di koridor utama seperti Jl. Pamulang Raya & Jl. Siliwangi. Tidak memiliki stasiun KRL langsung, namun dekat dengan jalan tol Serpong-Cinere."
+  },
+  "ciputat": {
+    "id": "ciputat",
+    "name": "Ciputat",
+    "trafficLevel": "Tinggi",
+    "accessibilityScore": 0.70,
+    "details": "Koridor utama Jl. Raya Ciputat-Bogor sangat padat dengan titik macet di pasar dan flyover. Akses angkutan umum sangat baik, dekat stasiun Sudimara/Jurang Mangu."
+  },
+  "ciputat_timur": {
+    "id": "ciputat_timur",
+    "name": "Ciputat Timur",
+    "trafficLevel": "Sedang",
+    "accessibilityScore": 0.75,
+    "details": "Tingkat kepadatan lalu lintas sedang hingga tinggi di koridor Rempoa/Cirendeu. Sangat dekat dengan stasiun MRT Lebak Bulus di perbatasan Jakarta Selatan."
+  },
+  "pondok_aren": {
+    "id": "pondok_aren",
+    "name": "Pondok Aren",
+    "trafficLevel": "Tinggi",
+    "accessibilityScore": 0.85,
+    "details": "Kepadatan tinggi di sekitar Bintaro Jaya dan jalan penghubung utama. Aksesibilitas sangat baik berkat gerbang tol Pondok Aren dan stasiun commuter line Pondok Ranji & Jurang Mangu."
+  },
+  "serpong_utara": {
+    "id": "serpong_utara",
+    "name": "Serpong Utara",
+    "trafficLevel": "Sedang",
+    "accessibilityScore": 0.80,
+    "details": "Lalu lintas ramai lancar di kawasan mandiri Alam Sutera & Graha Raya. Akses tol Jakarta-Tangerang langsung memudahkan logistik dan perjalanan."
+  }
+}

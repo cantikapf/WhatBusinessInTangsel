@@ -1,0 +1,9 @@
+{
+  "setu": { "id": "setu", "name": "Setu", "population": 84700, "area": 14.80, "density": 5723 },
+  "serpong": { "id": "serpong", "name": "Serpong", "population": 162100, "area": 24.04, "density": 6743 },
+  "pamulang": { "id": "pamulang", "name": "Pamulang", "population": 312500, "area": 26.82, "density": 11652 },
+  "ciputat": { "id": "ciputat", "name": "Ciputat", "population": 208800, "area": 18.38, "density": 11360 },
+  "ciputat_timur": { "id": "ciputat_timur", "name": "Ciputat Timur", "population": 172800, "area": 15.43, "density": 11199 },
+  "pondok_aren": { "id": "pondok_aren", "name": "Pondok Aren", "population": 304300, "area": 29.88, "density": 10184 },
+  "serpong_utara": { "id": "serpong_utara", "name": "Serpong Utara", "population": 137200, "area": 17.84, "density": 7691 }
+}

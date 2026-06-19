@@ -1,0 +1,100 @@
+{
+  "setu": {
+    "dayaBeli": 2500000,
+    "biayaSewa": 180000,
+    "demografiUmur": {
+      "youth_pct": 0.28,
+      "productive_pct": 0.60,
+      "elderly_pct": 0.12,
+      "youth_15_34_pct": 0.30,
+      "youth_15_34_count": 25410
+    },
+    "trenHistoris": 0.045,
+    "anchorPoiCount": 3,
+    "cafe_competitor_count": 25
+  },
+  "serpong": {
+    "dayaBeli": 3800000,
+    "biayaSewa": 450000,
+    "demografiUmur": {
+      "youth_pct": 0.32,
+      "productive_pct": 0.62,
+      "elderly_pct": 0.06,
+      "youth_15_34_pct": 0.34,
+      "youth_15_34_count": 55114
+    },
+    "trenHistoris": 0.075,
+    "anchorPoiCount": 11,
+    "cafe_competitor_count": 195
+  },
+  "pamulang": {
+    "dayaBeli": 2900000,
+    "biayaSewa": 250000,
+    "demografiUmur": {
+      "youth_pct": 0.30,
+      "productive_pct": 0.61,
+      "elderly_pct": 0.09,
+      "youth_15_34_pct": 0.32,
+      "youth_15_34_count": 100000
+    },
+    "trenHistoris": 0.058,
+    "anchorPoiCount": 7,
+    "cafe_competitor_count": 125
+  },
+  "ciputat": {
+    "dayaBeli": 2700000,
+    "biayaSewa": 220000,
+    "demografiUmur": {
+      "youth_pct": 0.29,
+      "productive_pct": 0.61,
+      "elderly_pct": 0.10,
+      "youth_15_34_pct": 0.31,
+      "youth_15_34_count": 64728
+    },
+    "trenHistoris": 0.052,
+    "anchorPoiCount": 5,
+    "cafe_competitor_count": 80
+  },
+  "ciputat_timur": {
+    "dayaBeli": 3100000,
+    "biayaSewa": 280000,
+    "demografiUmur": {
+      "youth_pct": 0.31,
+      "productive_pct": 0.61,
+      "elderly_pct": 0.08,
+      "youth_15_34_pct": 0.33,
+      "youth_15_34_count": 57024
+    },
+    "trenHistoris": 0.061,
+    "anchorPoiCount": 6,
+    "cafe_competitor_count": 95
+  },
+  "pondok_aren": {
+    "dayaBeli": 3600000,
+    "biayaSewa": 400000,
+    "demografiUmur": {
+      "youth_pct": 0.33,
+      "productive_pct": 0.61,
+      "elderly_pct": 0.06,
+      "youth_15_34_pct": 0.35,
+      "youth_15_34_count": 106505
+    },
+    "trenHistoris": 0.071,
+    "anchorPoiCount": 10,
+    "cafe_competitor_count": 175
+  },
+  "serpong_utara": {
+    "dayaBeli": 3400000,
+    "biayaSewa": 350000,
+    "demografiUmur": {
+      "youth_pct": 0.30,
+      "productive_pct": 0.62,
+      "elderly_pct": 0.08,
+      "youth_15_34_pct": 0.32,
+      "youth_15_34_count": 43904
+    },
+    "trenHistoris": 0.068,
+    "anchorPoiCount": 8,
+    "cafe_competitor_count": 110
+  }
+}

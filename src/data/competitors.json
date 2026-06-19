@@ -1,0 +1,21 @@
+{
+  "sectors": {
+    "fnb": { "id": "fnb", "name": "FnB", "label": "FnB (Kafe/Restoran/Warteg/Bakery)" },
+    "fashion": { "id": "fashion", "name": "Fashion", "label": "Fashion & Clothing" },
+    "beauty": { "id": "beauty", "name": "Kecantikan", "label": "Salon & Kecantikan" },
+    "education": { "id": "education", "name": "Pendidikan", "label": "Pendidikan (Bimbel/Kursus)" },
+    "health": { "id": "health", "name": "Kesehatan", "label": "Kesehatan (Apotek/Klinik)" },
+    "retail": { "id": "retail", "name": "Retail", "label": "Retail & Minimarket" },
+    "automotive": { "id": "automotive", "name": "Otomotif", "label": "Otomotif (Bengkel/Cuci Motor-Mobil)" },
+    "services": { "id": "services", "name": "Jasa", "label": "Jasa (Laundry/Percetakan/dll)" }
+  },
+  "competitors": {
+    "setu": { "fnb": 45, "fashion": 15, "beauty": 12, "education": 10, "health": 18, "retail": 65, "automotive": 25, "services": 30 },
+    "serpong": { "fnb": 320, "fashion": 120, "beauty": 90, "education": 75, "health": 65, "retail": 210, "automotive": 85, "services": 110 },
+    "pamulang": { "fnb": 210, "fashion": 85, "beauty": 60, "education": 55, "health": 70, "retail": 250, "automotive": 95, "services": 140 },
+    "ciputat": { "fnb": 130, "fashion": 70, "beauty": 45, "education": 40, "health": 55, "retail": 180, "automotive": 80, "services": 115 },
+    "ciputat_timur": { "fnb": 150, "fashion": 60, "beauty": 50, "education": 45, "health": 48, "retail": 140, "automotive": 55, "services": 105 },
+    "pondok_aren": { "fnb": 290, "fashion": 140, "beauty": 95, "education": 80, "health": 75, "retail": 230, "automotive": 90, "services": 120 },
+    "serpong_utara": { "fnb": 180, "fashion": 95, "beauty": 70, "education": 50, "health": 45, "retail": 150, "automotive": 60, "services": 75 }
+  }
+}
