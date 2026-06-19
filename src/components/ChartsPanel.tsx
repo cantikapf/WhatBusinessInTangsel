@@ -135,7 +135,7 @@ export const RadarComparisonChart: React.FC<RadarComparisonChartProps> = ({
               font: {
                 family: 'Plus Jakarta Sans',
                 size: 9,
-                weight: '600',
+                weight: 'bold',
               },
             },
           },
