@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
         <div>
           <p className="font-bold text-slate-700 text-sm">Tertarik berkolaborasi?</p>
           <p className="text-slate-500 text-xs mt-0.5">
-            Proyek ini dibuat oleh <strong className="text-slate-700">Cantika Putri Febrianti</strong> sebagai portofolio Business Analyst
+            Proyek ini dibuat oleh <strong className="text-slate-700">Cantikaputri Febrianti</strong> sebagai portofolio Business Analyst
             — menggunakan data nyata BPS &amp; OSM untuk analisis bisnis berbasis lokasi.
           </p>
         </div>
@@ -114,7 +114,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <p className="pt-2 font-medium">
-        WhatBusinessInTangsel &copy; 2026 · Cantika Putri Febrianti · Made with Lucide, Leaflet, and Chart.js.
+        WhatBusinessInTangsel &copy; 2026 · Cantikaputri Febrianti · Made with Lucide, Leaflet, and Chart.js.
       </p>
     </footer>
   );

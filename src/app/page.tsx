@@ -161,10 +161,10 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-[#0A66C2] text-white hover:bg-[#004182] transition-colors shadow-sm"
-              aria-label="Cantika Putri Febrianti LinkedIn"
+              aria-label="Cantikaputri Febrianti LinkedIn"
             >
               <Linkedin className="w-3.5 h-3.5" />
-              Cantika Putri Febrianti
+              Cantikaputri Febrianti
             </a>
             <a
               href="https://github.com/cantikapf/tangsel-bisnis-v2"
