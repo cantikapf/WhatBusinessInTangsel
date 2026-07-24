@@ -11,6 +11,9 @@ import {
   ArcElement,
   Legend,
   Tooltip,
+  BarController,
+  RadarController,
+  DoughnutController
 } from 'chart.js';
 
 // Register necessary Chart.js components
@@ -24,7 +27,10 @@ Chart.register(
   BarElement,
   ArcElement,
   Legend,
-  Tooltip
+  Tooltip,
+  BarController,
+  RadarController,
+  DoughnutController
 );
 
 import demographics from '../data/demographics.json';
