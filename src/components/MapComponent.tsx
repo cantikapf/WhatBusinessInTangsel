@@ -5,7 +5,8 @@ import 'leaflet/dist/leaflet.css';
 // Import data directly for static performance and robust bundling
 import geojsonData from '../data/geojson/tangsel_subdistricts.json';
 import demographics from '../data/demographics.json';
-import { competitors } from '../data/competitors.json';
+import competitorsData from '../data/competitors.json';
+const competitors = competitorsData.competitors;
 import traffic from '../data/traffic.json';
 import biMetrics from '../data/biMetrics.json';
 

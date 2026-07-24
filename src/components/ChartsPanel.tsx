@@ -28,7 +28,8 @@ Chart.register(
 );
 
 import demographics from '../data/demographics.json';
-import { competitors } from '../data/competitors.json';
+import competitorsData from '../data/competitors.json';
+const competitors = competitorsData.competitors;
 import { calculateScore } from '../lib/engine/scoring';
 
 interface RadarComparisonChartProps {
