@@ -4,7 +4,7 @@
 
 ![Dashboard Preview](docs/dashboard-preview.jpg)
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-whatbusinessintangsel.netlify.app-indigo?style=for-the-badge)](https://petabisnistangsel.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-whatbusinessintangsel.netlify.app-indigo?style=for-the-badge)](https://whatbusinessintangsel.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cantikaputri_Febrianti-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/cantikaputri-febrianti/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
 
