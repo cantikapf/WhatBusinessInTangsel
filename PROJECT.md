@@ -124,6 +124,8 @@ Re-ran all 56 (kecamatan × sector) combinations: composite range **5.7–6.8**,
 - [x] Gate 5 — README pass: tabel fitur menyebut figure metode + direct link, tabel tautan sumber, baris perintah browser QA 43/43, `docs/dashboard-preview.jpg` diganti screenshot build terbaru.
 - [x] Gate 5 — dark mode dirapikan: callout amber, pill header, link sumber, tile OSM (invert), kontrol Leaflet zoom/attribution. Ditemukan lewat `vision_analyze` pada `docs/screenshots/05-dark-mode.png`.
 - [x] Gate 5 — fokus keyboard terlihat di semua permukaan: satu token `--focus-ring` (indigo `#4f46e5` di light, `#a5b4fc` di dark) dipakai `:focus-visible` untuk `select`, `button`, `a`, `[tabindex]`, dan `path` peta. `focus:outline-none focus:ring-1` dibuang dari `FilterForm`/`MapComponent` karena membuat fokus tak terlihat. Diverifikasi dengan menekan Tab: 24/24 stop benar di dua tema (sekarang cek permanen di `tests/browser/qa.js`).
+- [x] Gate 5 — **deploy 2026-10-21**: `master` di-push (`72254b0`), Netlify rebuild dari push itu. Live: `root 200`, `dataset_penduduk_tangsel.csv` 200, teks "Badan Pusat" 0×, "Dukcapil" 6×, tanpa kebocoran `docs/gate*`/`source_manifest`/`SHA-256`. Smoke test browser QA di URL live: **43/43**.
+- [x] Gate 5 — repo bisa membangun dirinya sendiri: clone bersih tanpa PDF (gitignored) lulus tsc, lint, engine 15/15, UI 8/8, `data:qc` LULUS, `npm run build` static. Sebelum ini 76 file kode+docs belum pernah di-commit sejak 24 Juli.
 - [x] Gate 5 — `tests/ui.test.js` tidak lagi memaku tanggal `2026-10-20`: assert memakai `dataset.generated_at.slice(0,10)` supaya `npm run data:build` ulang tidak memerahkan suite.
 
 ## Gotchas (Gate 5 — dark mode)
@@ -169,6 +171,9 @@ Re-ran all 56 (kecamatan × sector) combinations: composite range **5.7–6.8**,
 - `docs/gate2/verified_dataset.json` adalah artefak hasil build. Jangan edit manual; jalankan `npm run data:build`. Kalau normalizer berubah, `density_max` dan `S1..S6` ikut bergeser dan skor seluruh kecamatan berubah.
 - `src/data/*.json` konsep sudah dipindah ke `docs/gate1/concept_data_archive/`. Probe Gate 1 membaca dari sana; jangan hapus selama ledger masih menjadi bukti.
 
+- PDF mentah Dukcapil di `docs/gate1/raw/` di-gitignore; `.txt` hasil `pdftotext` tetap di-commit karena itu yang dibaca pipeline. `derive_population.js` menurunkan daftar dari `.txt` dan mencari PDF-nya kalau ada — hash jadi `null` saat PDF absen, **jangan** hash `.txt` sebagai pengganti (itu hash palsu untuk manifest).
+- QC-9 wajib membedakan "hash salah" dari "file tidak ada". Menganggap file absen sebagai kegagalan membuat `data:qc` merah di setiap clone bersih. Sekarang sumber yang absen dilewati dan dilaporkan (`n/3 cocok (… tidak ada di disk)`), dan `qc_selftest.js` menandai kasus QC-9 `SKIP` alih-alih `FAIL`.
+
 ## Gotchas (Gate 2)
 
 - Tabel `KEPADATAN PENDUDUK` di DKB 2025 S1 memuat kepadatan yang tidak cocok dengan populasi/luas-nya sendiri. Jangan pernah mengutip `density_published` sebagai angka utama; hitung dari populasi/luas dan simpan angka terbitan hanya sebagai jejak audit.
@@ -182,8 +187,8 @@ Candidates, not committed work — pick one per turn only after user ACC.
 
 1. **Gate 5 — paket portofolio** (`docs/PUBLICATION_PLAN.md` Gate 5): ~~studi kasus BA~~ **ditulis 2026-10-21 di `docs/CASE_STUDY.md`** (masalah, pengguna, scope, sumber, cleaning, metode, 3 temuan terhitung, trade-off, keterbatasan, tindak lanjut). Sisa: ACC pengguna, deploy, smoke test URL live + unduhan.
 2. ~~**Weight sensitivity analysis**~~ — **dijalankan 2026-10-20** (`docs/gate3/SENSITIVITY.md`). Hasil: juara tahan terhadap revisi bobot ≤~10 poin persen, label rapuh (37,5–43,9 % berubah), W6 anchor satu-satunya yang mengganti juara, arah S5 terbukti asumsi. Bobot tetap tidak bisa dikalibrasi tanpa data hasil usaha.
-3. **Verify live site serves the CSV** — re-check `https://whatbusinessintangsel.netlify.app/dataset_penduduk_tangsel.csv` after the next deploy; requires an actual Netlify build, not just a local one.
-4. **Netlify deploy reproducibility** — `@netlify/plugin-nextjs` is not in `package.json`; either add it or document that Netlify supplies the runtime. Confirm with the user before touching deploy config.
+3. ~~**Verify live site serves the CSV**~~ — **selesai 2026-10-21**. Akarnya bukan Netlify: `public/` seluruhnya untracked, jadi tak pernah ikut build. Setelah commit + push, CSV 200 di live. Sekalian diperbaiki: kolom `Status` CSV membocorkan path internal `docs/gate1/source_manifest.json` ke file yang diunduh pengunjung → sekarang `terverifikasi ke DKB Disdukcapil`.
+4. **Netlify deploy reproducibility** — `@netlify/plugin-nextjs` tidak ada di `package.json`, tetapi deploy 2026-10-21 dari `master` berhasil tanpa itu (Netlify menyediakan runtime-nya di sisi mereka). Tidak perlu diubah; catat saja bahwa pipeline tak bisa direproduksi dari repo sendiri.
 5. ~~**Overlay `<select>` + map focus styling**~~ — **selesai 2026-10-21**: fokus sebelumnya *tak terlihat* (Tailwind `focus:outline-none`), bukan cuma "belum custom". Satu token `--focus-ring` + aturan `:focus-visible`; 24/24 stop Tab benar di dua tema, dikunci di `tests/browser/qa.js` (43/43).
 6. **Sector expansion** — requires extending `docs/gate2/build.js` and rerunning `data:build`; never hand-edit the dataset or add a sector with placeholder counts.
 
