@@ -9,6 +9,8 @@ import { AnalyticsPanel, MetricsPanel } from '../components/AnalyticsPanel';
 import { RadarComparisonChart, CompetitorsBarChart, SectorPieChart } from '../components/ChartsPanel';
 import ComparisonPanel from '../components/ComparisonPanel';
 import Footer from '../components/Footer';
+import DataNotice from '../components/DataNotice';
+import { MethodPanel } from '../components/MethodPanel';
 
 import { calculateScore, ScoreResult } from '../lib/engine/scoring';
 import { generateRecommendation, RecommendationResult } from '../lib/engine/recommender';
@@ -25,6 +27,7 @@ export default function Home() {
 
   const [scoreData, setScoreData] = useState<ScoreResult | null>(null);
   const [recommendationData, setRecommendationData] = useState<RecommendationResult | null>(null);
+  const [analysisError, setAnalysisError] = useState<string | null>(null);
 
   // Sync state on load
   useEffect(() => {
@@ -53,6 +56,7 @@ export default function Home() {
 
   const handleSectorChange = (sector: string) => {
     setSelectedSector(sector);
+    setAnalysisError(null);
     setScoreData(null);
     setRecommendationData(null);
     // Clearing comparison when sector changes to maintain comparison integrity of same sector
@@ -62,6 +66,7 @@ export default function Home() {
 
   const handleSubdistrictChange = (subdistrict: string) => {
     setSelectedSubdistrict(subdistrict);
+    setAnalysisError(null);
     setScoreData(null);
     setRecommendationData(null);
   };
@@ -70,6 +75,7 @@ export default function Home() {
   const handleFormSubmit = (sector: string, subdistrict: string) => {
     setSelectedSector(sector);
     setSelectedSubdistrict(subdistrict);
+    setAnalysisError(null);
     
     try {
       const score = calculateScore(subdistrict, sector);
@@ -78,6 +84,7 @@ export default function Home() {
       setRecommendationData(rec);
     } catch (err) {
       console.error('Scoring calculation failed', err);
+      setAnalysisError('Analisis gagal: ' + (err instanceof Error ? err.message : 'kesalahan tidak dikenal'));
       setScoreData(null);
       setRecommendationData(null);
     }
@@ -88,6 +95,7 @@ export default function Home() {
     setSelectedSubdistrict(subdistrictId);
     
     if (selectedSector) {
+      setAnalysisError(null);
       try {
         const score = calculateScore(subdistrictId, selectedSector);
         const rec = generateRecommendation(subdistrictId, selectedSector, score);
@@ -95,6 +103,7 @@ export default function Home() {
         setRecommendationData(rec);
       } catch (err) {
         console.error('Scoring calculation failed from map selection', err);
+        setAnalysisError('Analisis gagal: ' + (err instanceof Error ? err.message : 'kesalahan tidak dikenal'));
         setScoreData(null);
         setRecommendationData(null);
       }
@@ -151,7 +160,9 @@ export default function Home() {
             </div>
           </div>
           <p className="text-sm text-slate-500 mt-2 max-w-lg">
-            Membantu calon pengusaha mengidentifikasi lokasi terbaik di 7 kecamatan Tangsel — meminimalisir risiko berbasis data BPS & OpenStreetMap.
+            Buat yang berencana buka usaha di Tangsel: pilih sektor dan kecamatan, lalu lihat
+            seberapa ramai sektor itu di sana dibanding kecamatan lain. Dirancang supaya kamu
+            tidak membuka usaha di pasar yang sudah penuh.
           </p>
           {/* Author CTA */}
           <div className="flex items-center gap-3 mt-3">
@@ -167,7 +178,7 @@ export default function Home() {
               Cantikaputri Febrianti
             </a>
             <a
-              href="https://github.com/cantikapf/tangsel-bisnis-v2"
+              href="https://github.com/cantikapf/WhatBusinessInTangsel"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-white hover:bg-slate-700 transition-colors shadow-sm"
@@ -188,19 +199,17 @@ export default function Home() {
           >
             {darkMode ? <Sun className="w-4 h-4 light-icon" /> : <Moon className="w-4 h-4 dark-icon" />}
           </button>
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-            Data BPS 2023
-          </span>
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600">
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-200">
             <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
-            OSM POI Counts
+            Indeks relatif antar kecamatan
           </span>
         </div>
       </header>
 
       {/* Section Divider */}
       <div className="section-divider"></div>
+
+      <DataNotice />
 
       {/* Main Content Layout Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
@@ -213,6 +222,15 @@ export default function Home() {
             onSubdistrictChange={handleSubdistrictChange}
             onSubmit={handleFormSubmit}
           />
+          {analysisError && (
+            <div
+              id="analysis-error"
+              role="alert"
+              className="text-xs text-rose-600 bg-rose-50 border border-rose-100 rounded-lg p-3 font-medium block animate-fade-in"
+            >
+              {analysisError}
+            </div>
+          )}
           <MetricsPanel scoreData={scoreData} />
         </section>
 
@@ -258,6 +276,12 @@ export default function Home() {
         <CompetitorsBarChart selectedSector={selectedSector} />
         <SectorPieChart selectedSubdistrict={selectedSubdistrict} />
       </div>
+
+      {/* Section Divider */}
+      <div className="section-divider"></div>
+
+      {/* Methodology & Data Provenance Panel */}
+      <MethodPanel />
 
       {/* Footer Credit */}
       <Footer />

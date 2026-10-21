@@ -1,0 +1,844 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T11:45:48Z",
+    "timestamp_areas_base": "2026-10-19T07:02:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2989497106,
+  "tags": {
+    "addr:city": "Kota Tangerang Selatan",
+    "addr:postcode": "15235",
+    "addr:street": "Jalan Alam Sutera Boulevard",
+    "contact:facebook": "https://www.facebook.com/rumbutama/",
+    "contact:instagram": "https://www.instagram.com/rumahbuahofficial",
+    "contact:website": "http://rumahbuah.com/",
+    "name": "Rumah Buah",
+    "name:de": "Hause der Frucht",
+    "name:en": "House of Fruits",
+    "name:es": "Casa de Frutas",
+    "name:fr": "Chambre de Fruit",
+    "name:id": "Rumah Buah",
+    "name:it": "Camera di Frutta",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3625599648,
+  "tags": {
+    "addr:street": "Jalan Alam Sutera Blvd",
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4240892885,
+  "tags": {
+    "addr:city": "Lengkong Wetan, Serpong, Tangerang, Banten",
+    "addr:postcode": "15322",
+    "addr:street": "Jl. Pahlawan Seribu",
+    "name": "BSD Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 6444527402,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Klinik Selaras"
+  }
+},
+{
+  "type": "node",
+  "id": 7007916891,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "opening_hours": "24/7",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 7543951485,
+  "tags": {
+    "name": "Bright",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 10725861087,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Jalur Sutra 27A",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11205604526,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11205604527,
+  "tags": {
+    "amenity": "fuel",
+    "brand": "BP",
+    "compressed_air": "yes",
+    "name": "BP",
+    "operator": "AKR",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 11542561486,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11542561490,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Century"
+  }
+},
+{
+  "type": "node",
+  "id": 11683935041,
+  "tags": {
+    "name": "Alfamidi Golden Boulevard",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 11683962081,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11764526736,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 12578837477,
+  "tags": {
+    "amenity": "school",
+    "denomination": "catholic",
+    "grades": "1-12",
+    "name": "Sekolah Abdi Siswa Bintaro",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 13919942002,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Apotek Berkat"
+  }
+},
+{
+  "type": "node",
+  "id": 13919942201,
+  "tags": {
+    "name": "Alfamart",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14026270291,
+  "tags": {
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "name": "Alfamidi",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 225090839,
+  "tags": {
+    "addr:city": "Serpong, Banten",
+    "addr:housenumber": "Kav. 21",
+    "addr:postcode": "15325",
+    "addr:street": "Jalan Alam Sutera Boulevard",
+    "building": "retail",
+    "check_date": "2026-07-05",
+    "check_date:opening_hours": "2026-07-05",
+    "name": "Living World Alam Sutera",
+    "opening_hours": "Mo-Su,PH 10:00-22:00",
+    "shop": "mall",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 230078479,
+  "tags": {
+    "amenity": "university",
+    "name": "Binus ASO School of Engineering"
+  }
+},
+{
+  "type": "way",
+  "id": 236942170,
+  "tags": {
+    "addr:city": "Tangerang",
+    "addr:housename": "BINUS SCHOOL Serpong",
+    "addr:postcode": "15322",
+    "addr:province": "Banten",
+    "addr:street": "Jl. Jelupang Raya No.58, Lengkong Karya, Kec. Serpong",
+    "amenity": "school",
+    "name": "BINUS SCHOOL Serpong",
+    "operator": "Bina Nusantara",
+    "operator:type": "school",
+    "website": "https://serpong.binus.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 295041346,
+  "tags": {
+    "brand": "Lotte Mart",
+    "brand:wikidata": "Q326715",
+    "brand:wikipedia": "en:Lotte Mart",
+    "building": "yes",
+    "name": "Lotte Mart Wholesale",
+    "operator": "Lotte Mart",
+    "shop": "supermarket",
+    "website": "https://www.lottemart.co.id/lotte/index.php?link=about&type=about-lottemart-wholesale",
+    "wheelchair": "limited",
+    "wikipedia": "id:Lotte Mart"
+  }
+},
+{
+  "type": "way",
+  "id": 356971490,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Serpong Utara",
+    "addr:housenumber": "1",
+    "addr:neighbourhood": "Alam Sutera",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Sutera Utama",
+    "addr:subdistrict": "Pakulonan",
+    "amenity": "school",
+    "denomination": "catholic",
+    "grades": "0-12",
+    "name": "Sekolah Santa Laurensia Alam Sutera",
+    "operator": "Yayasan Tunas Manunggal",
+    "operator:type": "school",
+    "religion": "christian",
+    "website": "https://www.santa-laurensia.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 372016342,
+  "tags": {
+    "addr:city": "Tangerang",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 372016822,
+  "tags": {
+    "addr:city": "Tangerang",
+    "building": "yes",
+    "name": "Hypermart",
+    "opening_hours": "08:00-22:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 373152515,
+  "tags": {
+    "addr:city": "South Tangerang, Banten",
+    "addr:housenumber": "No.39",
+    "addr:postcode": "15310",
+    "addr:street": "Jalan Raya Serpong",
+    "building": "commercial",
+    "building:levels": "5",
+    "name": "Mall WTC Matahari",
+    "operator": "PT. Lippo Karawaci Tbk",
+    "shop": "mall",
+    "smoking": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 398152444,
+  "tags": {
+    "branch": "Pahlawan Seribu BSD City",
+    "building": "commercial",
+    "building:levels": "1",
+    "name": "Indomaret Fresh",
+    "opening_hours": "24/7",
+    "shop": "convenience",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 398152445,
+  "tags": {
+    "building": "yes",
+    "building:height": "20",
+    "building:levels": "5",
+    "name": "BSD Junction",
+    "operator": "Bumi Serpong Damai",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 398152446,
+  "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "height": "16",
+    "name": "ITC BSD",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 478699787,
+  "tags": {
+    "amenity": "clinic",
+    "building": "shophouse",
+    "building:levels": "3",
+    "contact:instagram": "https://www.instagram.com/clindermaclinic/",
+    "healthcare": "clinic",
+    "name": "Clinderma Aesthetic Clinic",
+    "phone": "+62 811-9001-464",
+    "website": "https://linktr.ee/clindermaclinic"
+  }
+},
+{
+  "type": "way",
+  "id": 478699890,
+  "tags": {
+    "amenity": "university",
+    "building": "university",
+    "building:levels": "2",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Institut Teknologi Tangerang Selatan",
+    "name:en": "South Tangerang Technology Institute",
+    "website": "https://itts.ac.id"
+  }
+},
+{
+  "type": "way",
+  "id": 478700165,
+  "tags": {
+    "amenity": "dentist",
+    "building": "shophouse",
+    "building:levels": "3",
+    "contact:instagram": "https://www.instagram.com/ocean_dental/",
+    "healthcare": "dentist",
+    "name": "Ocean Dental",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "website": "https://oceandental.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 478700170,
+  "tags": {
+    "amenity": "clinic",
+    "branch": "BSD City",
+    "building": "shophouse",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "name": "Liz Skin & Slimming"
+  }
+},
+{
+  "type": "way",
+  "id": 478829712,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "3",
+    "healthcare": "clinic",
+    "height": "9",
+    "name": "Smiling",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 571065205,
+  "tags": {
+    "building": "yes",
+    "name": "Farmers Market",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 571065207,
+  "tags": {
+    "landuse": "commercial",
+    "name": "Transmart Graha Raya Bintaro Jaya",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 632371546,
+  "tags": {
+    "amenity": "school",
+    "name": "Yayasan Pendidikan Islam Tangerang"
+  }
+},
+{
+  "type": "way",
+  "id": 761917904,
+  "tags": {
+    "building": "yes",
+    "height": "15",
+    "layer": "2",
+    "min_height": "5",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 764145261,
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "pharmacy",
+    "building:height": "9",
+    "building:levels": "3",
+    "name": "Kimia Farma",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 765684358,
+  "tags": {
+    "building": "yes",
+    "building:levels": "3",
+    "height": "11",
+    "name": "BSD Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 794227806,
+  "tags": {
+    "addr:full": "Komplek Graha Bintaro, Jalan Graha Raya Blok G-10 No. 2A, Tangerang Selatan",
+    "amenity": "pharmacy",
+    "building": "pharmacy",
+    "name": "K-24 Graha Raya Bintaro",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1044421656,
+  "tags": {
+    "air_conditioning": "yes",
+    "backup_generator": "yes",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "building": "retail",
+    "diet:halal": "yes",
+    "name": "Super Indo",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 1044423369,
+  "tags": {
+    "alt_name": "SDN Paku Jaya 01",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Paku Jaya 01",
+    "official_name": "Sekolah Dasar Negeri Paku Jaya 01"
+  }
+},
+{
+  "type": "way",
+  "id": 1210323259,
+  "tags": {
+    "brand": "Indomaret Fresh",
+    "brand:wikidata": "Q138347581",
+    "building": "commercial",
+    "building:levels": "2",
+    "name": "Indomaret Fresh",
+    "opening_hours": "24/7",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 1210332159,
+  "tags": {
+    "amenity": "school",
+    "name": "SMK-SMP Pustek Serpong"
+  }
+},
+{
+  "type": "way",
+  "id": 1210332168,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Puskesmas Pondok Jagung"
+  }
+},
+{
+  "type": "way",
+  "id": 1239520191,
+  "tags": {
+    "building": "supermarket",
+    "building:levels": "2",
+    "name": "Duta Buah Segar",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "way",
+  "id": 1239520193,
+  "tags": {
+    "building": "commercial",
+    "building:levels": "2",
+    "name": "Indomaret Fresh",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 1242166093,
+  "tags": {
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 1242166094,
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1260524097,
+  "tags": {
+    "amenity": "school",
+    "name": "Technosa School"
+  }
+},
+{
+  "type": "way",
+  "id": 1266592951,
+  "tags": {
+    "amenity": "school",
+    "name": "Amazing School"
+  }
+},
+{
+  "type": "way",
+  "id": 1266592974,
+  "tags": {
+    "amenity": "school",
+    "name": "SMAN 7 Tangerang Selatan",
+    "operator": "Dinas Pendidikan Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1266592975,
+  "tags": {
+    "alt_name": "SDN Pondok Jagung 02",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Pondok Jagung 02"
+  }
+},
+{
+  "type": "way",
+  "id": 1298326199,
+  "tags": {
+    "addr:district": "Kota Tangerang Selatan",
+    "addr:housename": "SMP Negeri 15",
+    "addr:neighbourhood": "Pakualam",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Griya Hijau Raya",
+    "addr:subdistrict": "Serpong Utara",
+    "amenity": "school",
+    "name": "SMP Negeri 15 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1469334516,
+  "tags": {
+    "amenity": "school",
+    "denomination": "anglican",
+    "education": "school",
+    "grades": "0-6",
+    "name": "Wellington College Jakarta",
+    "official_name": "Wellington College Independent School Jakarta",
+    "operator": "Wellington College",
+    "operator:wikidata": "Q114306",
+    "religion": "christian",
+    "short_name": "WCIJ",
+    "website": "https://wellingtoncollege.sch.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 1469337852,
+  "tags": {
+    "branch": "Exit Toll Jelupang",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "commercial",
+    "building:levels": "2",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1469337854,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Entry Toll Jelupang",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "commercial",
+    "building:levels": "1",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1469466874,
+  "tags": {
+    "amenity": "school",
+    "grades": "1-6",
+    "name": "SDN Jelupang 03",
+    "official_name": "Sekolah Dasar Negeri Jelupang 03"
+  }
+},
+{
+  "type": "way",
+  "id": 1469466882,
+  "tags": {
+    "amenity": "school",
+    "grades": "0-12",
+    "name": "Efata School"
+  }
+},
+{
+  "type": "way",
+  "id": 1469466883,
+  "tags": {
+    "amenity": "school",
+    "grades": "1-6",
+    "name": "SDN Jelupang 02",
+    "official_name": "Sekolah Dasar Negeri Jelupang 02"
+  }
+},
+{
+  "type": "way",
+  "id": 1540714309,
+  "tags": {
+    "addr:city": "Kota Tangerang Selatan",
+    "addr:district": "Serpong Utara",
+    "addr:housename": "SMK Negeri 6 Kota Tangerang Selatan",
+    "addr:housenumber": "6",
+    "addr:neighbourhood": "Villa Melati Mas",
+    "addr:postcode": "15343",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Magnolia VI",
+    "addr:subdistrict": "Jelupang",
+    "alt_name": "SMKN 6 Tangerang Selatan",
+    "amenity": "school",
+    "building:floor": "ceramics",
+    "education": "school",
+    "email": "smkn6tangsel@gmail.com",
+    "grades": "10-12",
+    "internet_access": "yes",
+    "name": "SMK Negeri 6 Kota Tangerang Selatan",
+    "operator": "Dinas Pendidikan Kota Tangerang Selatan",
+    "operator:type": "public",
+    "phone": "+6285900100806",
+    "school:type_idn": "sma",
+    "short_name": "SMKN 6 Tangsel",
+    "start_date": "2024-02-07",
+    "website": "https://smkn6-tangsel.sch.id/",
+    "wheelchair": "no",
+    "wikidata": "Q123395764",
+    "wikimedia_commons": "File:Mobil SPPG MBG di SMKN 6 Kota Tangerang Selatan.jpg",
+    "wikipedia": "id:SMK Negeri 6 Kota Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1540738360,
+  "tags": {
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "building": "yes",
+    "name": "Indomaret",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "relation",
+  "id": 5933844,
+  "tags": {
+    "amenity": "school",
+    "name": "SD Pakujaya",
+    "opening_hours": "07:00-12:00",
+    "operator": "Pemerintah",
+    "type": "multipolygon",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "relation",
+  "id": 21040893,
+  "tags": {
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "building": "shophouse",
+    "building:levels": "3",
+    "name": "Indomaret",
+    "shop": "convenience",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

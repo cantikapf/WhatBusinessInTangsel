@@ -1,7 +1,6 @@
 import React from 'react';
 import { ScoreResult } from '../lib/engine/scoring';
 import { RecommendationResult } from '../lib/engine/recommender';
-import traffic from '../data/traffic.json';
 
 interface AnalyticsPanelProps {
   scoreData: ScoreResult | null;
@@ -35,7 +34,7 @@ export const AnalyticsPanel: React.FC<AnalyticsPanelProps> = ({
           </h3>
         </div>
         <div className="border-t border-indigo-800/40 pt-4 mt-6">
-          <span className="text-xs text-indigo-300 block">Interpretasi Kelayakan</span>
+          <span className="text-xs text-indigo-300 block">Interpretasi Indeks Relatif</span>
           <span
             id="score-label"
             className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-indigo-500/30 text-indigo-200 border border-indigo-500/20 mt-1.5"
@@ -69,7 +68,7 @@ export const AnalyticsPanel: React.FC<AnalyticsPanelProps> = ({
 
         <div className="space-y-3.5 text-sm">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-slate-500">Status Kelayakan:</span>
+            <span className="font-semibold text-slate-500">Interpretasi Indeks:</span>
             <span
               id="recommendation-suitability"
               className="font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded text-xs"
@@ -116,23 +115,22 @@ interface MetricsPanelProps {
 }
 
 export const MetricsPanel: React.FC<MetricsPanelProps> = ({ scoreData }) => {
-  const competitorCount = scoreData ? scoreData.metrics.competitorCount : '-';
+  const competitorPoiRate = scoreData ? `${scoreData.metrics.sector_poi_per_10k} / 10k` : '-';
+  const rawPoiCount = scoreData ? `${scoreData.metrics.sector_poi} POI` : '';
   const population = scoreData ? scoreData.metrics.population.toLocaleString('id-ID') : '-';
   const density = scoreData ? scoreData.metrics.density.toLocaleString('id-ID') : '-';
-  const trafficLevel = scoreData ? scoreData.metrics.trafficLevel : '-';
-  const accessibilityScore = scoreData ? scoreData.metrics.accessibilityScore.toFixed(2) : '-';
-  const trafficDetails = scoreData ? (traffic as any)[scoreData.metrics.trafficLevel.toLowerCase()]?.details || '-' : '-';
-
-  // 5 new BI metrics
-  const dayaBeli = scoreData ? `Rp ${scoreData.metrics.dayaBeli.toLocaleString('id-ID')}` : '-';
-  const biayaSewa = scoreData ? `Rp ${scoreData.metrics.biayaSewa.toLocaleString('id-ID')}/m²` : '-';
+  const area = scoreData ? `${scoreData.metrics.area_km2.toLocaleString('id-ID')} km²` : '-';
   const youthPct = scoreData
-    ? `${(scoreData.metrics.youth_15_34_pct * 100).toFixed(0)}% (${(
+    ? `${(scoreData.metrics.youth_15_34_pct * 100).toFixed(1)}% (${(
         scoreData.metrics.youth_15_34_pct * scoreData.metrics.population
       ).toLocaleString('id-ID', { maximumFractionDigits: 0 })} jiwa)`
     : '-';
-  const growthRate = scoreData ? `${(scoreData.metrics.trenHistoris * 100).toFixed(1)}%` : '-';
-  const anchorPoi = scoreData ? `${scoreData.metrics.anchorPoiCount} node` : '-';
+  const productivePct = scoreData
+    ? `${(scoreData.metrics.productive_15_64_pct * 100).toFixed(1)}% (${(
+        scoreData.metrics.productive_15_64_pct * scoreData.metrics.population
+      ).toLocaleString('id-ID', { maximumFractionDigits: 0 })} jiwa)`
+    : '-';
+  const anchorPoi = scoreData ? `${scoreData.metrics.anchor_poi} simpul` : '-';
 
   return (
     <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm space-y-6 dashboard-card card-entry-animate">
@@ -153,19 +151,21 @@ export const MetricsPanel: React.FC<MetricsPanelProps> = ({ scoreData }) => {
           <line x1="12" x2="12" y1="20" y2="4" />
           <line x1="6" x2="6" y1="20" y2="14" />
         </svg>
-        <h2 className="font-bold text-slate-800 text-base">Detail Metrik Wilayah</h2>
+        <h2 className="font-bold text-slate-800 text-base">Kondisi Wilayah</h2>
       </div>
 
-      {/* Grid of basic metrics */}
+      {/* Grid of 6 core verified metrics */}
       <div className="grid grid-cols-2 gap-4">
         <div className="bg-slate-50/60 p-4 rounded-xl border border-slate-100 metric-card">
           <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider">
-            Kompetitor
+            Kepadatan POI Terpetakan
           </span>
           <span id="competitor-count" className="text-lg font-bold text-slate-800 mt-1 block">
-            {competitorCount}
+            {competitorPoiRate}
           </span>
-          <span className="text-[10px] text-slate-400">bisnis sejenis</span>
+          <span className="text-[11px] text-slate-400">
+            {rawPoiCount ? `${rawPoiCount} terpetakan (OSM)` : 'rasio per 10k jiwa'}
+          </span>
         </div>
 
         <div className="bg-slate-50/60 p-4 rounded-xl border border-slate-100 metric-card">
@@ -175,7 +175,7 @@ export const MetricsPanel: React.FC<MetricsPanelProps> = ({ scoreData }) => {
           <span id="population-count" className="text-lg font-bold text-slate-800 mt-1 block">
             {population}
           </span>
-          <span className="text-[10px] text-slate-400">jiwa (BPS)</span>
+          <span className="text-[11px] text-slate-400">jiwa (Dukcapil 2025 S1)</span>
         </div>
 
         <div className="bg-slate-50/60 p-4 rounded-xl border border-slate-100 metric-card">
@@ -185,63 +185,44 @@ export const MetricsPanel: React.FC<MetricsPanelProps> = ({ scoreData }) => {
           <span id="population-density" className="text-lg font-bold text-slate-800 mt-1 block">
             {density}
           </span>
-          <span className="text-[10px] text-slate-400">jiwa/km²</span>
+          <span className="text-[11px] text-slate-400">jiwa/km² (turunan)</span>
         </div>
 
         <div className="bg-slate-50/60 p-4 rounded-xl border border-slate-100 metric-card">
           <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider">
-            Traffic
+            Luas Wilayah
           </span>
-          <span id="traffic-level" className="text-lg font-bold text-slate-800 mt-1 block">
-            {trafficLevel}
+          <span id="area-size" className="text-lg font-bold text-slate-800 mt-1 block">
+            {area}
           </span>
-          <span className="text-[10px] text-slate-400">volume jalan</span>
+          <span className="text-[11px] text-slate-400">DKB 2023 S2</span>
         </div>
       </div>
 
-      {/* 5 New BI Metrics Section */}
+      {/* Demographic & Infrastructure section */}
       <div className="border-t border-slate-100 pt-4 space-y-3">
         <h4 className="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-          Metrik Bisnis Intelijen Baru (v2.0)
+          Struktur Usia &amp; Simpul Wilayah
         </h4>
         <div className="grid grid-cols-2 gap-3 text-xs">
           <div className="bg-slate-50/40 p-2.5 rounded-lg border border-slate-100">
-            <span className="text-slate-400 font-medium block">Daya Beli</span>
-            <span className="font-bold text-slate-800">{dayaBeli}</span>
-          </div>
-          <div className="bg-slate-50/40 p-2.5 rounded-lg border border-slate-100">
-            <span className="text-slate-400 font-medium block">Biaya Sewa</span>
-            <span className="font-bold text-slate-800">{biayaSewa}</span>
-          </div>
-          <div className="bg-slate-50/40 p-2.5 rounded-lg border border-slate-100">
-            <span className="text-slate-400 font-medium block">Persentase Pemuda</span>
+            <span className="text-slate-400 font-medium block">Pemuda (15–34 tahun)</span>
             <span className="font-bold text-slate-800">{youthPct}</span>
           </div>
           <div className="bg-slate-50/40 p-2.5 rounded-lg border border-slate-100">
-            <span className="text-slate-400 font-medium block">Tren Pertumbuhan</span>
-            <span className="font-bold text-slate-800">{growthRate}</span>
+            <span className="text-slate-400 font-medium block">Usia Produktif (15–64 tahun)</span>
+            <span className="font-bold text-slate-800">{productivePct}</span>
           </div>
         </div>
         <div className="bg-slate-50/40 p-2.5 rounded-lg border border-slate-100 text-xs">
-          <span className="text-slate-400 font-medium block">Anchor POI (Transit Nodes)</span>
+          <span className="text-slate-400 font-medium block">Anchor POI (Stasiun / Terminal / Mall)</span>
           <span className="font-bold text-slate-800">{anchorPoi}</span>
         </div>
       </div>
 
-      {/* Traffic accessibility score details */}
-      <div className="bg-slate-50/40 p-4 rounded-xl border border-slate-100 space-y-2 text-xs">
-        <div className="flex justify-between items-center">
-          <span className="font-semibold text-slate-500">Skor Aksesibilitas:</span>
-          <span
-            id="accessibility-score"
-            className="font-bold text-slate-800 bg-slate-200/80 px-2 py-0.5 rounded"
-          >
-            {accessibilityScore}
-          </span>
-        </div>
-        <p id="traffic-details" className="text-slate-500 leading-relaxed text-[11px] mt-1 border-t border-slate-100/60 pt-1.5">
-          {scoreData ? scoreData.metrics.trafficLevel === 'Tinggi' ? 'Lalu lintas sangat padat terutama pada jam kerja. Aksesibilitas luar biasa dengan jalan boulevard lebar, interkoneksi tol Jakarta-Serpong, serta stasiun KRL commuter line.' : scoreData.metrics.trafficLevel === 'Sedang' ? 'Tingkat kepadatan lalu lintas sedang hingga tinggi di koridor utama. Aksesibilitas memadai dengan jalan utama penghubung kawasan mandiri.' : 'Tingkat kepadatan lalu lintas relatif rendah. Akses jalan arteri utama terbatas dan jauh dari pintu tol utama.' : '-'}
-        </p>
+      {/* Caveat Notice */}
+      <div className="bg-amber-50/50 p-3 rounded-xl border border-amber-100 text-[11px] text-amber-800 leading-relaxed">
+        <strong>Catatan Metrik:</strong> Kepadatan POI terpetakan dihitung dari data sukarela OpenStreetMap (OSM) berlisensi ODbL. Indikator ini mencerminkan kelengkapan pemetaan, bukan sensus resmi seluruh pelaku usaha.
       </div>
     </div>
   );

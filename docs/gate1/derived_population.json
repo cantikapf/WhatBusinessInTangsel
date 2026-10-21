@@ -1,0 +1,101 @@
+{
+  "generated_by": "docs/gate1/derive_population.js",
+  "population_source": {
+    "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+    "dataset": "Data Konsolidasi Bersih (DKB) Semester I Tahun 2025",
+    "file": "docs/gate1/raw/KESELURUHAN1764555784678.pdf",
+    "sha256": "3f664727dc7fd748b53d0e48a96adf86f31534d749b0a7d8fda85526946f1289",
+    "table": "JUMLAH PENDUDUK KECAMATAN, halaman 1",
+    "retrieved": "2026-10-19"
+  },
+  "area_source": {
+    "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+    "dataset": "Data Konsolidasi Bersih (DKB) Semester II Tahun 2023",
+    "file": "docs/gate1/raw/KESELURUHAN1706581708476.pdf",
+    "sha256": "3a6cf1b817b7ebea25f1f7e402784f9e31fa6e22d5f9fd458ef9a41a83be9741",
+    "table": "KEPADATAN PENDUDUK (memuat LUAS WILAYAH KM2), halaman 2",
+    "note": "Dukcapil hanya mempublikasikan tabel luas pada DKB Sem II 2023 (164,86 km²); angka luas untuk DKB Sem I 2025 tidak dipublikasikan dalam rilis tersebut sehingga dipinjam lintas periode dengan batasan belum terverifikasi untuk periode terbaru.",
+    "retrieved": "2026-10-19"
+  },
+  "age_source": {
+    "file": "docs/gate1/raw/KESELURUHAN1764555784678.pdf",
+    "table": "JUMLAH PENDUDUK PER KECAMATAN BERDASARKAN USIA (usia 0-76)",
+    "definition": {
+      "youth_15_34_pct": "penduduk usia 15-34 / total penduduk kecamatan",
+      "productive_15_64_pct": "penduduk usia 15-64 / total penduduk kecamatan"
+    }
+  },
+  "by_kecamatan": {
+    "serpong": {
+      "population": 172931,
+      "population_prev_semester": 171116,
+      "area_km2": 28.27,
+      "density": 6117,
+      "density_published": 5837,
+      "youth_15_34_pct": 0.3292,
+      "productive_15_64_pct": 0.7301
+    },
+    "serpong_utara": {
+      "population": 145190,
+      "population_prev_semester": 144320,
+      "area_km2": 22.36,
+      "density": 6493,
+      "density_published": 6226,
+      "youth_15_34_pct": 0.3297,
+      "productive_15_64_pct": 0.7433
+    },
+    "pondok_aren": {
+      "population": 310955,
+      "population_prev_semester": 308853,
+      "area_km2": 29.8,
+      "density": 10435,
+      "density_published": 9980,
+      "youth_15_34_pct": 0.3192,
+      "productive_15_64_pct": 0.7228
+    },
+    "ciputat": {
+      "population": 233528,
+      "population_prev_semester": 231773,
+      "area_km2": 21.11,
+      "density": 11062,
+      "density_published": 10613,
+      "youth_15_34_pct": 0.3192,
+      "productive_15_64_pct": 0.7146
+    },
+    "ciputat_timur": {
+      "population": 175673,
+      "population_prev_semester": 174798,
+      "area_km2": 17.82,
+      "density": 9858,
+      "density_published": 9540,
+      "youth_15_34_pct": 0.3035,
+      "productive_15_64_pct": 0.7154
+    },
+    "pamulang": {
+      "population": 339054,
+      "population_prev_semester": 336745,
+      "area_km2": 28.74,
+      "density": 11797,
+      "density_published": 11353,
+      "youth_15_34_pct": 0.322,
+      "productive_15_64_pct": 0.7201
+    },
+    "setu": {
+      "population": 96980,
+      "population_prev_semester": 96002,
+      "area_km2": 16.76,
+      "density": 5786,
+      "density_published": 5529,
+      "youth_15_34_pct": 0.3236,
+      "productive_15_64_pct": 0.7103
+    }
+  },
+  "totals": {
+    "population": 1474311,
+    "population_published": 1474311,
+    "area_km2": 164.86,
+    "density": 8943,
+    "kota_youth_15_34_pct": 0.3205,
+    "kota_productive_15_64_pct": 0.722
+  }
+}

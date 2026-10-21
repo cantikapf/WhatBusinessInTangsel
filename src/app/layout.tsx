@@ -9,8 +9,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Tangsel Business Dashboard v2",
-  description: "Tangerang Selatan Business Prospect Analytics Dashboard",
+  title: "WhatBusinessInTangsel — Studi Kasus Analisis Lokasi Usaha",
+  description:
+    "Bantu calon pengusaha melihat seberapa ramai sebuah sektor usaha di tiap kecamatan Kota Tangerang Selatan, supaya tidak membuka usaha di pasar yang sudah penuh. Indeks relatif, bukan penilaian kelayakan usaha.",
 };
 
 export default function RootLayout({

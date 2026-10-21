@@ -1,0 +1,2458 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T11:44:44Z",
+    "timestamp_areas_base": "2026-10-19T07:02:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4152468605,
+  "tags": {
+    "addr:city": "Banten, West Java",
+    "addr:housenumber": "Nomor 1",
+    "addr:postcode": "15310",
+    "addr:street": "Jalan Serpong Raya",
+    "air_conditioning": "no",
+    "alt_name": "Stasiun Serpong",
+    "ele": "46",
+    "name": "Serpong",
+    "network": "KAI Commuter",
+    "network:wikidata": "Q12501611",
+    "operator": "PT Kereta Api Indonesia",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:ref": "SRP",
+    "train": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q12516340",
+    "wikipedia": "id:Stasiun Serpong"
+  }
+},
+{
+  "type": "node",
+  "id": 5209888207,
+  "tags": {
+    "branch": "BSD Timur",
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "brand:wikipedia": "id:Alfamidi",
+    "capacity": "20",
+    "name": "Alfamidi",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5209906789,
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "pharmacy",
+    "capacity": "20",
+    "healthcare": "pharmacy",
+    "name": "Apotek K-24",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 5209906791,
+  "tags": {
+    "access:roof": "yes",
+    "amenity": "doctors",
+    "building": "doctors",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity": "80",
+    "healthcare": "doctor",
+    "name": "Biomedika BSD",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 5459945761,
+  "tags": {
+    "addr:city": "Banten, West Java",
+    "addr:postcode": "15318",
+    "addr:street": "Jl. Raya Rawabuntu Serpong",
+    "alt_name": "Stasiun Rawa Buntu",
+    "name": "Rawa Buntu",
+    "network": "KAI Commuter",
+    "network:wikidata": "Q12501611",
+    "operator": "PT Kereta Api Indonesia",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:ref": "RU",
+    "train": "yes",
+    "wikidata": "Q19741217",
+    "wikipedia": "id:Stasiun Rawa Buntu"
+  }
+},
+{
+  "type": "node",
+  "id": 6444526717,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "dr Charlis"
+  }
+},
+{
+  "type": "node",
+  "id": 7357929385,
+  "tags": {
+    "branch": "Kencana Loka 2",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 7358319585,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 7757051651,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 7757051659,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 7757051667,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 7757051670,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 7801310005,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 7843347563,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 8164895248,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 9888845617,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:street": "Jalan Rawabuntu No.19 Ciater Barat , Ciater, Kec. Serpong, Kota Tangerang Selatan Prov. Banten",
+    "amenity": "school",
+    "name": "SD IT Arrasyd Rawabuntu BSD"
+  }
+},
+{
+  "type": "node",
+  "id": 9986425916,
+  "tags": {
+    "air_conditioning": "yes",
+    "backup_generator": "yes",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "diet:halal": "yes",
+    "name": "Super Indo",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 10573759424,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10573759426,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10576551179,
+  "tags": {
+    "name": "TokoKita",
+    "payment:coins": "yes",
+    "payment:gpn_debit": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "shop": "convenience",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10591611894,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "dr. Zista Pertiwi",
+    "opening_hours": "Mo-Fr 16:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10591611901,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "drg. Jane Mariana Indriani",
+    "opening_hours": "Mo-Fr 09:00-12:00,16:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10635300904,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10635420103,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Klinik Gigi Sehati"
+  }
+},
+{
+  "type": "node",
+  "id": 10656518843,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10656518846,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10656518847,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10739043966,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10753808526,
+  "tags": {
+    "branch": "Rawabuntu 3",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10753808539,
+  "tags": {
+    "branch": "Stasiun Rawabuntu",
+    "brand": "Alfa Express",
+    "brand:wikidata": "Q12471463",
+    "name": "Alfa Express",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 10753808540,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Stasiun Rawabuntu 2",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10757148768,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Bumi Serpong Damai IV",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10775350257,
+  "tags": {
+    "addr:city": "Tangerang Selatan, Serpong, Bumi Serpong Damai",
+    "addr:street": "Jalan Lengkong Gudang Timur Raya",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Ahli Gigi"
+  }
+},
+{
+  "type": "node",
+  "id": 10775350267,
+  "tags": {
+    "addr:city": "Tangerang Selatan, Serpong, Bumi Serpong Damai",
+    "addr:street": "Jalan Lengkong Gudang Timur Raya",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apotek Rahmat Sehat"
+  }
+},
+{
+  "type": "node",
+  "id": 10821215267,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10821215269,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11383680552,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "door": "hinged",
+    "entrance": "main",
+    "level": "0",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11383680558,
+  "tags": {
+    "access": "yes",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "door": "hinged",
+    "entrance": "main",
+    "level": "0",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11463106417,
+  "tags": {
+    "brand": "Shell Select",
+    "brand:wikidata": "Q124359752",
+    "name": "Shell Select",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 11552608069,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "name:hi": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11566355469,
+  "tags": {
+    "addr:street": "Jalan Suplir",
+    "amenity": "kindergarten",
+    "name": "TK Bumi Nusantara Montessori",
+    "phone": "+62 878 0543 8440",
+    "website": "https://buminusantaramontessori.sch.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11575491148,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11591489170,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11622312811,
+  "tags": {
+    "name": "Kembar Mutiara",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 11622312812,
+  "tags": {
+    "name": "Toko Spora",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 11622312819,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "TKK Mitra BSD"
+  }
+},
+{
+  "type": "node",
+  "id": 11622312820,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "RedDoorz",
+    "healthcare": "pharmacy",
+    "name": "Apotik Novo"
+  }
+},
+{
+  "type": "node",
+  "id": 11622312823,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "KB-TK Islam Raudhah"
+  }
+},
+{
+  "type": "node",
+  "id": 11623693436,
+  "tags": {
+    "brand": "Lawson",
+    "brand:wikidata": "Q1557223",
+    "name": "Lawson",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 11623693443,
+  "tags": {
+    "brand": "Bright Store",
+    "brand:wikidata": "Q130389269",
+    "name": "Bright Store",
+    "operator": "Alfamart",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 11623693447,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "dermatology",
+    "name": "Jasper"
+  }
+},
+{
+  "type": "node",
+  "id": 11623693451,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11765130149,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12104274944,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 12261110889,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Batam Nusa Loka",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "opening_hours": "24/7",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12877427268,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apotek Anugrah"
+  }
+},
+{
+  "type": "node",
+  "id": 12894084949,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Savia BSD",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13311026462,
+  "tags": {
+    "name": "Bright",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13311026476,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Century"
+  }
+},
+{
+  "type": "node",
+  "id": 13311026521,
+  "tags": {
+    "amenity": "pharmacy",
+    "name": "Watsons Apotek"
+  }
+},
+{
+  "type": "node",
+  "id": 13635257478,
+  "tags": {
+    "branch": "Intermark Business",
+    "name": "Indomaret Point",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13759135276,
+  "tags": {
+    "name": "Warung Sayur Pak Man",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 13806638897,
+  "tags": {
+    "branch": "Golden Park",
+    "name": "Alfamart",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13816470456,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apotek Eternal"
+  }
+},
+{
+  "type": "node",
+  "id": 13926226602,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14053555801,
+  "tags": {
+    "amenity": "school",
+    "name": "Ganesha Operation BSD 20",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "website": "https://ganeshaoperation.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14293542601,
+  "tags": {
+    "brand": "FamilyMart",
+    "brand:wikidata": "Q1191685",
+    "name": "Family Mart",
+    "name:en": "Family Mart",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 225081499,
+  "tags": {
+    "addr:housenumber": "7B",
+    "addr:postcode": "15322",
+    "addr:street": "Jalan Pahlawan Seribu",
+    "building": "commercial",
+    "building:levels": "4",
+    "contact:facebook": "TeraskotaMall",
+    "contact:instagram": "teraskotabsd",
+    "email": "merry@teraskota.com",
+    "height": "20",
+    "name": "Teraskota",
+    "opening_hours": "10:00-22:00",
+    "phone": "+622155695758",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 297152825,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 297152828,
+  "tags": {
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "building": "yes",
+    "name": "Indomaret Point",
+    "shop": "convenience",
+    "source": "Mapped by FajrAl using Citra Udara ATR 2024"
+  }
+},
+{
+  "type": "way",
+  "id": 297152850,
+  "tags": {
+    "alt_name": "SDN Cilenggang 02",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Cilenggang 02"
+  }
+},
+{
+  "type": "way",
+  "id": 373345903,
+  "tags": {
+    "alt_name": "SMPN 11 Tangerang Selatan",
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 11 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 398056468,
+  "tags": {
+    "amenity": "school",
+    "denomination": "catholic",
+    "fax": "+62 21 537 4416",
+    "grades": "0-12",
+    "name": "Santa Ursula BSD",
+    "operator": "Yayasan Sancta Ursula",
+    "operator:type": "religious",
+    "phone": "+62 21 537 26412",
+    "religion": "christian",
+    "start_date": "1990-07",
+    "website": "https://www.sanurbsd-tng.sch.id/",
+    "wikidata": "Q132176225"
+  }
+},
+{
+  "type": "way",
+  "id": 398057802,
+  "tags": {
+    "amenity": "school",
+    "name": "SMP & SMA Santa Ursula"
+  }
+},
+{
+  "type": "way",
+  "id": 398057805,
+  "tags": {
+    "amenity": "school",
+    "name": "SD Santa Ursula"
+  }
+},
+{
+  "type": "way",
+  "id": 398057808,
+  "tags": {
+    "amenity": "university",
+    "name": "Bina Sarana Informatika"
+  }
+},
+{
+  "type": "way",
+  "id": 398057809,
+  "tags": {
+    "amenity": "school",
+    "name": "Ehipassiko School"
+  }
+},
+{
+  "type": "way",
+  "id": 398057816,
+  "tags": {
+    "amenity": "school",
+    "email": "info@antoniuspaduabsd.sch.id",
+    "name": "Sekolah Santo Antonius dari Padua",
+    "website": "https://antoniuspaduabsd.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 398058105,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "name": "TK Santa Ursula"
+  }
+},
+{
+  "type": "way",
+  "id": 398068991,
+  "tags": {
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "en:Indomaret",
+    "building": "yes",
+    "name": "Indomaret Fresh",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 398068992,
+  "tags": {
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "building": "yes",
+    "name": "Alfamidi Super",
+    "not:brand:wikidata": "Q12471462",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 398161628,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "building:levels": "3",
+    "height": "10",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 398181513,
+  "tags": {
+    "addr:street": "Jalan Kapten Soebianto Djojohadikusumo",
+    "building": "yes",
+    "building:height": "6",
+    "building:levels": "2",
+    "name": "BSD Square",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 398181517,
+  "tags": {
+    "amenity": "school",
+    "name": "Sinarmas World Academy",
+    "website": "https://www.swa-jkt.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 398189902,
+  "tags": {
+    "addr:city": "Banten",
+    "addr:postcode": "15332",
+    "addr:street": "Jl. Puspa Widya No.8,",
+    "amenity": "school",
+    "name": "Deutsche Schule Jakarta",
+    "short_name": "DSJ",
+    "website": "https://germanschooljakarta.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 482213939,
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "name": "Apotek Berkat Ruko Versailles"
+  }
+},
+{
+  "type": "way",
+  "id": 507459549,
+  "tags": {
+    "amenity": "school",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 507459691,
+  "tags": {
+    "branch": "Cilenggang",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 507459694,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Cilenggang",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 507459751,
+  "tags": {
+    "branch": "Raya Cilenggang",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 511944636,
+  "tags": {
+    "amenity": "school",
+    "grades": "0-12",
+    "name": "Sekolah Insan Cendekia Madani",
+    "operator": "Yayasan Edukasi Sejahtera",
+    "operator:type": "private",
+    "religion": "muslim",
+    "short_name": "ICM",
+    "website": "https://icm.sch.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 530723887,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:place": "Blok NB",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "retail",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 538165950,
+  "tags": {
+    "access:roof": "no",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:walls": "brick",
+    "capacity": "20",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 538168241,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Klinik Qonita"
+  }
+},
+{
+  "type": "way",
+  "id": 538168242,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 538170431,
+  "tags": {
+    "amenity": "dentist",
+    "building": "yes",
+    "healthcare": "dentist",
+    "name": "Smiling Dental"
+  }
+},
+{
+  "type": "way",
+  "id": 538170624,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 538185222,
+  "tags": {
+    "access:roof": "no",
+    "building": "yes",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "bamboo",
+    "capacity": "25",
+    "name": "UD. Buah Segar Anto Wijaya",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "way",
+  "id": 538186991,
+  "tags": {
+    "access:roof": "no",
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity": "30",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 557554096,
+  "tags": {
+    "alt_name": "Gedung Asih Binti Djaya Senjaya",
+    "amenity": "school",
+    "building": "school",
+    "building:levels": "3",
+    "name": "Baitul Yatim"
+  }
+},
+{
+  "type": "way",
+  "id": 563570304,
+  "tags": {
+    "amenity": "school",
+    "name": "Al-Azhar BSD"
+  }
+},
+{
+  "type": "way",
+  "id": 564196321,
+  "tags": {
+    "air_conditioning": "yes",
+    "backup_generator": "yes",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "building": "yes",
+    "check_date:opening_hours": "2025-10-16",
+    "diet:halal": "yes",
+    "name": "Super Indo",
+    "opening_hours": "08:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 579126948,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Islam Aulady"
+  }
+},
+{
+  "type": "way",
+  "id": 579126950,
+  "tags": {
+    "amenity": "school",
+    "building": "yes",
+    "name": "Sekolah Aulady"
+  }
+},
+{
+  "type": "way",
+  "id": 630351307,
+  "tags": {
+    "amenity": "school",
+    "name": "SMA PGRI 22 Serpong"
+  }
+},
+{
+  "type": "way",
+  "id": 630351309,
+  "tags": {
+    "amenity": "school",
+    "name": "SMK Pariwisata Serpong"
+  }
+},
+{
+  "type": "way",
+  "id": 630351311,
+  "tags": {
+    "amenity": "school",
+    "name": "SMK-TI PGRI 11 Serpong"
+  }
+},
+{
+  "type": "way",
+  "id": 630351334,
+  "tags": {
+    "alt_name": "SDN Cilenggang 04",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Cilenggang 04"
+  }
+},
+{
+  "type": "way",
+  "id": 630371906,
+  "tags": {
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 630371910,
+  "tags": {
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 630371914,
+  "tags": {
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 630384766,
+  "tags": {
+    "amenity": "school",
+    "grades": "0-12",
+    "name": "Sophos School Indonesia",
+    "website": "https://sophos.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 685171454,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Puskesmas Rawabuntu"
+  }
+},
+{
+  "type": "way",
+  "id": 685337238,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Klinik Amira"
+  }
+},
+{
+  "type": "way",
+  "id": 685337285,
+  "tags": {
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 685344995,
+  "tags": {
+    "amenity": "college",
+    "name": "Stikes Banten"
+  }
+},
+{
+  "type": "way",
+  "id": 685346152,
+  "tags": {
+    "alt_name": "SDN Rawabuntu 03",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Rawabuntu 03"
+  }
+},
+{
+  "type": "way",
+  "id": 685354700,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-12",
+    "operator": "Yayasan Musik Jakarta",
+    "operator:type": "private",
+    "religion": "none",
+    "website": "yayasanmusikjakarta.orgb"
+  }
+},
+{
+  "type": "way",
+  "id": 686019259,
+  "tags": {
+    "building": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 687400645,
+  "tags": {
+    "addr:street": "Jl. Puspiptek",
+    "amenity": "university",
+    "internet_access": "wlan",
+    "name": "Universitas Pamulang Viktor"
+  }
+},
+{
+  "type": "way",
+  "id": 687400646,
+  "tags": {
+    "addr:street": "Jl. Puspiptek",
+    "amenity": "school",
+    "name": "Global Islamic School",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 762767415,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "building:height": "6",
+    "building:levels": "2",
+    "name": "Nurul Falah",
+    "operator:type": "private",
+    "roof:shape": "gabled",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 762786588,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "convenience",
+    "building:levels": "3",
+    "height": "9",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 762786589,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "building:levels": "2",
+    "height": "5",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "roof:direction": "176.96",
+    "roof:shape": "skillion",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 762786594,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "building:levels": "3",
+    "height": "9",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "roof:shape": "gabled",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 769799722,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Erha Clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 877546072,
+  "tags": {
+    "brand": "Shell Select",
+    "brand:wikidata": "Q154950",
+    "brand:wikipedia": "en:Royal Dutch Shell",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Shell Select",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 877546094,
+  "tags": {
+    "amenity": "school",
+    "name": "Al-Wildan Islamic School",
+    "website": "https://web.alwildan.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 925489676,
+  "tags": {
+    "alt_name": "Sekolah Kristen SoliDEO",
+    "amenity": "school",
+    "name": "Sekolah SoliDEO"
+  }
+},
+{
+  "type": "way",
+  "id": 925489677,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 925489678,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 937035713,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:street": "Jalan Cendekia",
+    "amenity": "school",
+    "denomination": "sunni",
+    "grades": "10-12",
+    "name": "MAN Insan Cendekia Serpong",
+    "operator": "Kementerian Agama Republik Indonesia",
+    "operator:type": "government",
+    "phone": "+62 21 7563578",
+    "religion": "muslim",
+    "website": "https://ic.sch.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 969447547,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1049535078,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Puskesmas Rawa Mekar Jaya",
+    "operator": "Ministry of Health",
+    "operator:en": "Ministry of Health",
+    "operator:id": "Kementerian Kesehatan",
+    "operator:wikidata": "Q12490745",
+    "operator:wikipedia": "id:Kementerian Kesehatan Republik Indonesia"
+  }
+},
+{
+  "type": "way",
+  "id": 1085498170,
+  "tags": {
+    "addr:city": "Tangerang Selatan, Serpong, Bumi Serpong Damai",
+    "addr:postcode": "15310",
+    "addr:street": "Jalan Lengkong Gudang Timur Raya",
+    "alt_name": "Al-Fath School Indonesia BSD;Al-Fath School Indonesia Bumi Serpong Damai;SD-SMP Al-Fath BSD;Al-Fath Primary School-Junior Highschool BSD;Al-Fath Primary School-Junior Highschool Bumi Serpong Damai",
+    "amenity": "school",
+    "grades": "1-9",
+    "image": "https://alfathschoolindonesia.sch.id/wp-content/uploads/2016/11/ProfilSekolah72-01.png",
+    "layer": "-1",
+    "name": "SD-SMP Al-Fath Bumi Serpong Damai",
+    "operator": "Yayasan Al-Fath Bina Insan Sakinah",
+    "operator:type": "private",
+    "religion": "muslim",
+    "school:type_idn": "sd;smp",
+    "short_name": "SD-SMP AF BSD",
+    "start_date": "2001-02-03",
+    "website": "https://alfathschoolindonesia.sch.id/",
+    "wikidata": "Q118119273"
+  }
+},
+{
+  "type": "way",
+  "id": 1096477744,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:postcode": "15315",
+    "addr:street": "Jalan Paradise Serpong City",
+    "building": "commercial",
+    "building:levels": "2",
+    "name": "Paradise Walk Serpong",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "operator": "Progress Group",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+62 81250001300",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1113298006,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1113298007,
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Apotek K-24",
+    "phone": "+622175677606"
+  }
+},
+{
+  "type": "way",
+  "id": 1119338751,
+  "tags": {
+    "amenity": "school",
+    "name": "MI Tarbiyatul Athfal - SMP Falatehan - SMK Falatehan",
+    "operator": "Yayasan Miftahul Ulum",
+    "operator:type": "private",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1119338756,
+  "tags": {
+    "addr:city": "Tangerang Selatan, Serpong, Bumi Serpong Damai",
+    "addr:street": "Jalan Lengkong Gudang Timur Raya",
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "building": "commercial",
+    "name": "Alfamidi",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 1132297546,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Serpong",
+    "addr:province": "Banten",
+    "addr:street": "Jalan H. Jamat, Gang Rais",
+    "addr:subdistrict": "Buaran",
+    "addr:suburb": "RT 002/RW 05",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "long_name": "Klinik Pelayanan Kesehatan Masyarakat Buaran FK UIN Syarif Hidayatullah Jakarta",
+    "name": "KPKM Buaran FK UIN Syarif Hidayatullah Jakarta",
+    "phone": "+62 21 75875460"
+  }
+},
+{
+  "type": "way",
+  "id": 1136170033,
+  "tags": {
+    "amenity": "school",
+    "isced:level": "0;1",
+    "name": "TKIT / SDIT Nur Fatahillah",
+    "operator:type": "religious",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1136170034,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Serpong",
+    "addr:housenumber": "9",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Haji Jamat Gang Rais",
+    "addr:subdistrict": "Buaran",
+    "amenity": "school",
+    "email": "info@cahayaislamschool.sch.id",
+    "isced:level": "2",
+    "name": "SMP IT Cahaya Islam",
+    "operator:type": "religious",
+    "phone": "+62 21 37894325",
+    "religion": "muslim",
+    "website": "http://cahayaislamschool.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1138638811,
+  "tags": {
+    "amenity": "school",
+    "name": "SMP Era Informatika"
+  }
+},
+{
+  "type": "way",
+  "id": 1141845936,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1141845937,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1149033990,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Serpong",
+    "addr:neighbourhood": "Ciater",
+    "addr:postcode": "15310",
+    "addr:street": "Jalan Waru",
+    "amenity": "school",
+    "contact:instagram": "https://www.instagram.com/sdit.insancemerlang/",
+    "name": "SDIT Insan Cemerlang"
+  }
+},
+{
+  "type": "way",
+  "id": 1152738247,
+  "tags": {
+    "alt_name": "SDN Cilenggang 01",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Cilenggang 01"
+  }
+},
+{
+  "type": "way",
+  "id": 1152738248,
+  "tags": {
+    "alt_name": "SMPN 1 Tangerang Selatan",
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 1 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 1152738250,
+  "tags": {
+    "alt_name": "SDN Cilenggang 03",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Cilenggang 03"
+  }
+},
+{
+  "type": "way",
+  "id": 1152738251,
+  "tags": {
+    "amenity": "school",
+    "name": "SMAN 12 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1156360386,
+  "tags": {
+    "alt_name": "SDN Rawabuntu 01",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Rawabuntu 01"
+  }
+},
+{
+  "type": "way",
+  "id": 1156360390,
+  "tags": {
+    "alt_name": "SDN Rawabuntu 02",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Rawabuntu 02"
+  }
+},
+{
+  "type": "way",
+  "id": 1156360391,
+  "tags": {
+    "amenity": "school",
+    "name": "TK Negeri Pembina III"
+  }
+},
+{
+  "type": "way",
+  "id": 1156360392,
+  "tags": {
+    "alt_name": "SMPN 7 Tangerang Selatan",
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 7 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758526,
+  "tags": {
+    "branch": "Ciater Raya",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758527,
+  "tags": {
+    "air_conditioning": "yes",
+    "branch": "Ciater Raya",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758528,
+  "tags": {
+    "branch": "Ciater Raya",
+    "building": "yes",
+    "name": "Alfamidi",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758532,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Permata Gemilang"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758538,
+  "tags": {
+    "amenity": "college",
+    "name": "Kampus Bisnis Umar Usman"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758547,
+  "tags": {
+    "amenity": "school",
+    "name": "Cikal Serpong"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758551,
+  "tags": {
+    "amenity": "school",
+    "name": "Beacon Light Community School"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758575,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Islam Cikal Harapan"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758576,
+  "tags": {
+    "amenity": "school",
+    "name": "Saint John's School"
+  }
+},
+{
+  "type": "way",
+  "id": 1156758579,
+  "tags": {
+    "amenity": "school",
+    "name": "Stella Maris BSD"
+  }
+},
+{
+  "type": "way",
+  "id": 1158891220,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:street": "Jalan Lengkong Gudang Timur Raya",
+    "amenity": "school",
+    "name": "Sinar Cendekia",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1174223269,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:street": "Jalan Rawa Buntu Utara",
+    "building": "commercial",
+    "name": "Prima Freshmart",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "way",
+  "id": 1175006613,
+  "tags": {
+    "amenity": "school",
+    "name": "MI Raudhatul Athfal"
+  }
+},
+{
+  "type": "way",
+  "id": 1185521471,
+  "tags": {
+    "addr:housenumber": "7;6",
+    "addr:place": "Blok MA",
+    "building": "retail",
+    "contact:whatsapp": "+628982050212",
+    "name": "Aqshamart",
+    "shop": "convenience",
+    "website": "aqshamart.co"
+  }
+},
+{
+  "type": "way",
+  "id": 1185521472,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:place": "Blok MA",
+    "amenity": "pharmacy",
+    "building": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apotek Nurnajunia"
+  }
+},
+{
+  "type": "way",
+  "id": 1185521475,
+  "tags": {
+    "addr:place": "Blok MA",
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "retail",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1232955913,
+  "tags": {
+    "amenity": "school",
+    "name": "MI Nurul Falah"
+  }
+},
+{
+  "type": "way",
+  "id": 1232955914,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Sinar Cendekia"
+  }
+},
+{
+  "type": "way",
+  "id": 1232955934,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Masterpiece School"
+  }
+},
+{
+  "type": "way",
+  "id": 1232955939,
+  "tags": {
+    "amenity": "school",
+    "name": "Pesantren Jagat 'Arsy",
+    "website": "https://m.jagatarsy.sch.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 1234942524,
+  "tags": {
+    "alt_name": "SDN Buaran 01",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Buaran 01"
+  }
+},
+{
+  "type": "way",
+  "id": 1243085006,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "grades": "1-12",
+    "name": "Yayasan Raudlatul Makfufin (Taman Tunanetra)"
+  }
+},
+{
+  "type": "way",
+  "id": 1249643804,
+  "tags": {
+    "amenity": "school",
+    "name": "SMP-SMA Insan Rabbany"
+  }
+},
+{
+  "type": "way",
+  "id": 1249643822,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Terminal BSD",
+    "operator": "Dinas Perhubungan Kota Tangerang Selatan",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "way",
+  "id": 1260769610,
+  "tags": {
+    "amenity": "school",
+    "name": "SD Islam Madani"
+  }
+},
+{
+  "type": "way",
+  "id": 1266663436,
+  "tags": {
+    "amenity": "school",
+    "name": "Mori School"
+  }
+},
+{
+  "type": "way",
+  "id": 1266663437,
+  "tags": {
+    "alt_name": "SDN Lengkong Wetan 01",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Lengkong Wetan 01"
+  }
+},
+{
+  "type": "way",
+  "id": 1307042647,
+  "tags": {
+    "amenity": "school",
+    "name": "Anderson School"
+  }
+},
+{
+  "type": "way",
+  "id": 1339096487,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Khusus Assalam 02"
+  }
+},
+{
+  "type": "way",
+  "id": 1354859519,
+  "tags": {
+    "alt_name": "SMPN 22 Kota Tangerang Selatan",
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 22 Kota Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 1388698237,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "retail",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1388698238,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "retail",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1451357617,
+  "tags": {
+    "amenity": "school",
+    "grades": "1-6",
+    "name": "SDN Lengkong Gudang",
+    "official_name": "Sekolah Dasar Negeri Lengkong Gudang"
+  }
+},
+{
+  "type": "way",
+  "id": 1532526819,
+  "tags": {
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "building": "retail",
+    "name": "Indomaret",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "relation",
+  "id": 11543754,
+  "tags": {
+    "amenity": "school",
+    "name": "YPK Ora et Labora",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

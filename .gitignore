@@ -3,3 +3,9 @@ node_modules
 .env
 .env.local
 .DS_Store
+*.tsbuildinfo
+
+# Raw Dukcapil DKB PDFs: re-downloadable from the pinned URLs in
+# docs/gate1/source_manifest.json, and the extracted .txt next to them is
+# what the pipeline actually reads. Keeping the repo light.
+docs/gate1/raw/*.pdf

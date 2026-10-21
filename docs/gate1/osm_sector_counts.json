@@ -1,0 +1,65 @@
+{
+  "ciputat": {
+    "osm_relation": 10989408,
+    "snapshot": "2026-10-19T11:38:36Z",
+    "elements_scanned": 98,
+    "retail": 22,
+    "health": 11,
+    "education": 60,
+    "anchor": 5
+  },
+  "ciputat_timur": {
+    "osm_relation": 10989407,
+    "snapshot": "2026-10-19T11:41:36Z",
+    "elements_scanned": 171,
+    "retail": 18,
+    "health": 19,
+    "education": 132,
+    "anchor": 2
+  },
+  "pamulang": {
+    "osm_relation": 10989409,
+    "snapshot": "2026-10-19T11:42:39Z",
+    "elements_scanned": 151,
+    "retail": 55,
+    "health": 23,
+    "education": 70,
+    "anchor": 3
+  },
+  "pondok_aren": {
+    "osm_relation": 4448807,
+    "snapshot": "2026-10-19T11:42:39Z",
+    "elements_scanned": 132,
+    "retail": 53,
+    "health": 15,
+    "education": 56,
+    "anchor": 8
+  },
+  "serpong": {
+    "osm_relation": 10989422,
+    "snapshot": "2026-10-19T11:44:44Z",
+    "elements_scanned": 190,
+    "retail": 86,
+    "health": 24,
+    "education": 74,
+    "anchor": 6
+  },
+  "serpong_utara": {
+    "osm_relation": 10989417,
+    "snapshot": "2026-10-19T11:45:48Z",
+    "elements_scanned": 65,
+    "retail": 28,
+    "health": 11,
+    "education": 19,
+    "anchor": 7
+  },
+  "setu": {
+    "osm_relation": 10989433,
+    "snapshot": "2026-10-19T11:47:51Z",
+    "elements_scanned": 34,
+    "retail": 12,
+    "health": 5,
+    "education": 16,
+    "anchor": 1
+  }
+}

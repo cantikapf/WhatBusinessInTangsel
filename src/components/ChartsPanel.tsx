@@ -33,9 +33,7 @@ Chart.register(
   DoughnutController
 );
 
-import demographics from '../data/demographics.json';
-import competitorsData from '../data/competitors.json';
-const competitors = competitorsData.competitors;
+import verifiedDataset from '../data/verifiedDataset';
 import { calculateScore } from '../lib/engine/scoring';
 
 interface RadarComparisonChartProps {
@@ -71,22 +69,20 @@ export const RadarComparisonChart: React.FC<RadarComparisonChartProps> = ({
     ];
 
     const datasets = comparedSubdistricts.map((sub, index) => {
-      const demo = (demographics as Record<string, any>)[sub];
+      const subRow = verifiedDataset.by_kecamatan[sub];
       const colorScheme = colors[index % colors.length];
 
       try {
         const scoreData = calculateScore(sub, selectedSector);
         return {
-          label: demo?.name || sub,
+          label: subRow?.name || sub,
           data: [
             scoreData.scores.S1, // Population Density
-            scoreData.scores.S2, // Accessibility
-            scoreData.scores.S3, // Low Competition
-            scoreData.scores.S4, // Purchasing Power
-            scoreData.scores.S5, // Rent Affordability
-            scoreData.scores.S6, // Demographics Match
-            scoreData.scores.S7, // Historical Growth
-            scoreData.scores.S8, // Anchor POI
+            scoreData.scores.S2, // Total Population
+            scoreData.scores.S3, // Youth 15-34
+            scoreData.scores.S4, // Productive 15-64
+            scoreData.scores.S5, // Low Competition Gap
+            scoreData.scores.S6, // Anchor POI
           ],
           backgroundColor: colorScheme.fill,
           borderColor: colorScheme.border,
@@ -96,8 +92,8 @@ export const RadarComparisonChart: React.FC<RadarComparisonChartProps> = ({
       } catch (e) {
         console.error('Error calculating score for radar chart:', e);
         return {
-          label: demo?.name || sub,
-          data: [0, 0, 0, 0, 0, 0, 0, 0],
+          label: subRow?.name || sub,
+          data: [0, 0, 0, 0, 0, 0],
           backgroundColor: colorScheme.fill,
           borderColor: colorScheme.border,
           borderWidth: 2,
@@ -111,12 +107,10 @@ export const RadarComparisonChart: React.FC<RadarComparisonChartProps> = ({
       data: {
         labels: [
           'Kepadatan Penduduk',
-          'Aksesibilitas',
-          'Hambatan Kompetitor',
-          'Daya Beli',
-          'Keterjangkauan Sewa',
-          'Kesesuaian Umur',
-          'Tren Historis',
+          'Total Populasi',
+          'Usia Muda (15–34)',
+          'Usia Produktif (15–64)',
+          'Peluang Pasar (Rasio POI Rendah)',
           'Anchor POI',
         ],
         datasets: datasets,
@@ -220,9 +214,13 @@ export const CompetitorsBarChart: React.FC<CompetitorsBarChartProps> = ({ select
 
     if (!selectedSector) return;
 
-    const subdistrictKeys = Object.keys(demographics);
-    const labels = subdistrictKeys.map((k) => (demographics as Record<string, any>)[k].name);
-    const data = subdistrictKeys.map((k) => (competitors as Record<string, any>)[k]?.[selectedSector] || 0);
+    const subdistrictKeys = Object.keys(verifiedDataset.by_kecamatan);
+    const labels = subdistrictKeys.map((k) => verifiedDataset.by_kecamatan[k].name);
+    const secKey = selectedSector.toLowerCase() as 'retail' | 'health' | 'education';
+    const data = subdistrictKeys.map((k) => {
+      const row = verifiedDataset.by_kecamatan[k];
+      return row?.sector_poi_per_10k?.[secKey] ?? 0;
+    });
 
     chartInstanceRef.current = new Chart(ctx, {
       type: 'bar',
@@ -230,9 +228,9 @@ export const CompetitorsBarChart: React.FC<CompetitorsBarChartProps> = ({ select
         labels: labels,
         datasets: [
           {
-            label: `Jumlah Kompetitor (${selectedSector.toUpperCase()})`,
+            label: `Kepadatan POI Terpetakan per 10k (${selectedSector.toUpperCase()})`,
             data: data,
-            backgroundColor: 'rgba(79, 70, 22, 0.7)', // match style.css fallback
+            backgroundColor: 'rgba(79, 70, 229, 0.7)',
             borderColor: 'rgb(79, 70, 229)',
             borderWidth: 1,
             borderRadius: 4,
@@ -296,7 +294,7 @@ export const CompetitorsBarChart: React.FC<CompetitorsBarChartProps> = ({ select
             <path d="M12 17V5" />
             <path d="M6 17v-4" />
           </svg>
-          <h2 className="font-bold text-slate-800 text-base">Perbandingan Kompetitor per Kecamatan</h2>
+          <h2 className="font-bold text-slate-800 text-base">Perbandingan Kepadatan POI Terpetakan per Kecamatan</h2>
         </div>
       </div>
       <div className="h-[260px] w-full relative">
@@ -325,23 +323,21 @@ export const SectorPieChart: React.FC<SectorPieChartProps> = ({ selectedSubdistr
 
     if (!selectedSubdistrict) return;
 
-    const subComp = (competitors as Record<string, any>)[selectedSubdistrict];
-    if (!subComp) return;
+  const subData = verifiedDataset.by_kecamatan[selectedSubdistrict];
+  if (!subData) return;
 
-    const labels = ['FnB', 'Fashion', 'Beauty', 'Education', 'Health', 'Retail', 'Automotive', 'Services'];
-    const keys = ['fnb', 'fashion', 'beauty', 'education', 'health', 'retail', 'automotive', 'services'];
-    const data = keys.map((k) => subComp[k] || 0);
+  const labels = ['Retail & Minimarket', 'Kesehatan (Apotek/Klinik)', 'Pendidikan'];
+  const data = [
+    subData.sector_poi.retail || 0,
+    subData.sector_poi.health || 0,
+    subData.sector_poi.education || 0,
+  ];
 
-    const colors = [
-      '#4f46e5', // fnb
-      '#ec4899', // fashion
-      '#f43f5e', // beauty
-      '#f59e0b', // education
-      '#10b981', // health
-      '#3b82f6', // retail
-      '#6b7280', // automotive
-      '#8b5cf6', // services
-    ];
+  const colors = [
+    '#3b82f6', // retail
+    '#10b981', // health
+    '#f59e0b', // education
+  ];
 
     chartInstanceRef.current = new Chart(ctx, {
       type: 'doughnut',
@@ -407,7 +403,7 @@ export const SectorPieChart: React.FC<SectorPieChartProps> = ({ selectedSubdistr
             <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
             <path d="M22 12A10 10 0 0 0 12 2v10z" />
           </svg>
-          <h2 className="font-bold text-slate-800 text-base">Distribusi Sektor di Kecamatan Terpilih</h2>
+          <h2 className="font-bold text-slate-800 text-base">Distribusi Sektor Terpetakan di Kecamatan Terpilih</h2>
         </div>
       </div>
       <div className="h-[260px] w-full relative">

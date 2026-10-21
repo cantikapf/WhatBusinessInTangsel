@@ -1,0 +1,52 @@
+{
+  "source": "OpenStreetMap, Overpass API",
+  "license": "ODbL 1.0 (Open Database License) — © OpenStreetMap contributors",
+  "admin_level": 6,
+  "retrieved": "2026-10-21",
+  "query_endpoint": "https://overpass-api.de/api/interpreter",
+  "by_kecamatan": {
+    "ciputat": {
+      "osm_relation": 10989408,
+      "snapshot": "2026-10-19T23:55:51Z",
+      "area_km2": 21.16,
+      "rings": 1
+    },
+    "ciputat_timur": {
+      "osm_relation": 10989407,
+      "snapshot": "2026-10-19T23:55:51Z",
+      "area_km2": 18.06,
+      "rings": 1
+    },
+    "pamulang": {
+      "osm_relation": 10989409,
+      "snapshot": "2026-10-19T23:56:51Z",
+      "area_km2": 28.75,
+      "rings": 1
+    },
+    "pondok_aren": {
+      "osm_relation": 4448807,
+      "snapshot": "2026-10-19T23:56:51Z",
+      "area_km2": 29.89,
+      "rings": 1
+    },
+    "serpong": {
+      "osm_relation": 10989422,
+      "snapshot": "2026-10-19T23:56:51Z",
+      "area_km2": 28.49,
+      "rings": 1
+    },
+    "serpong_utara": {
+      "osm_relation": 10989417,
+      "snapshot": "2026-10-19T23:57:50Z",
+      "area_km2": 22.71,
+      "rings": 1
+    },
+    "setu": {
+      "osm_relation": 10989433,
+      "snapshot": "2026-10-19T23:57:50Z",
+      "area_km2": 16.8,
+      "rings": 1
+    }
+  },
+  "area_km2_total": 165.86
+}

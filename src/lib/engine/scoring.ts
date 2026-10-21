@@ -1,39 +1,23 @@
-import demographics from '../../data/demographics.json';
-import competitorsData from '../../data/competitors.json';
-import traffic from '../../data/traffic.json';
-import biMetrics from '../../data/biMetrics.json';
+import verifiedDataset, { SubdistrictRow } from '../../data/verifiedDataset';
 
-// Max competitors per sector (used for normalization)
-export const maxCompetitors: Record<string, number> = {
-  fnb: 320,
-  fashion: 140,
-  beauty: 95,
-  education: 80,
-  health: 75,
-  retail: 250,
-  automotive: 95,
-  services: 140
-};
+export type VerifiedSector = 'retail' | 'health' | 'education';
+
+export const VERIFIED_SECTORS: readonly VerifiedSector[] = ['retail', 'health', 'education'] as const;
 
 export interface ScoreMetrics {
-  competitorCount: number;
   population: number;
-  trafficLevel: string;
+  area_km2: number;
   density: number;
-  area: number;
-  accessibilityScore: number;
-  dayaBeli: number;
-  biayaSewa: number;
   youth_15_34_pct: number;
-  productive_pct: number;
-  trenHistoris: number;
-  anchorPoiCount: number;
+  productive_15_64_pct: number;
+  anchor_poi: number;
+  sector_poi: number;
+  sector_poi_per_10k: number;
 }
 
 export interface ScoreResult {
   competitorDensity: number;
   populationDensity: number;
-  accessibilityScore: number;
   compositeScore: number;
   label: string;
   scores: {
@@ -43,98 +27,116 @@ export interface ScoreResult {
     S4: number;
     S5: number;
     S6: number;
-    S7: number;
-    S8: number;
   };
   metrics: ScoreMetrics;
 }
 
+// Weights documented and sum to 1.00:
+// W1: 0.20 - Kepadatan Penduduk (konsentrasi pasar & potensi lalu lintas pejalan kaki)
+// W2: 0.20 - Total Populasi (skala pasar absolut kecamatan)
+// W3: 0.15 - Demografi Usia Muda 15-34 (adopsi tren & dinamika konsumsi)
+// W4: 0.15 - Demografi Usia Produktif 15-64 (populasi berpenghasilan aktif)
+// W5: 0.15 - Peluang Pasar / Kepadatan POI Rendah (1 - rasio POI/10k thdp max, celah pasar belum jenuh)
+// W6: 0.15 - Anchor POI (magnet keramaian & simpul transit/mall)
+// Sum: 0.20 + 0.20 + 0.15 + 0.15 + 0.15 + 0.15 = 1.00
+export const SCORE_WEIGHTS = {
+  W1: 0.20,
+  W2: 0.20,
+  W3: 0.15,
+  W4: 0.15,
+  W5: 0.15,
+  W6: 0.15,
+} as const;
+
+// Data-derived normalizers from verified_dataset.json:
+const datasetRows = Object.values(verifiedDataset.by_kecamatan);
+export const normalizers = {
+  density_max: verifiedDataset.normalizers.density_max,
+  population_max: Math.max(...datasetRows.map((r) => r.population)),
+  youth_max: Math.max(...datasetRows.map((r) => r.youth_15_34_pct)),
+  productive_max: Math.max(...datasetRows.map((r) => r.productive_15_64_pct)),
+  sector_per_10k_max: verifiedDataset.normalizers.sector_per_10k_max,
+  anchor_max: verifiedDataset.normalizers.anchor_max,
+};
+
 /**
- * Calculates competitive score (1-10) and status interpretation with 8-metric formula.
- * @param subdistrict Subdistrict name
- * @param sector Business sector key
+ * Single source of truth for score labels. `recommender.ts` reuses this so the
+ * two never drift in the 5.0–5.4 band (the old Gate 0 defect).
+ */
+export function labelForScore(score: number): string {
+  if (score < 3.0) return 'Sangat Rendah';
+  if (score < 5.0) return 'Rendah';
+  if (score < 6.5) return 'Cukup';
+  if (score < 8.0) return 'Baik';
+  return 'Sangat Baik';
+}
+
+/**
+ * Calculates competitive prospect score (1-10) and status interpretation with Gate 3 6-metric formula.
+ * @param subdistrict Subdistrict name or slug
+ * @param sector Business sector key ('retail' | 'health' | 'education')
  * @returns Detailed score data
  */
 export function calculateScore(subdistrict: string, sector: string): ScoreResult {
   const subKey = subdistrict.toLowerCase().trim().replace(/\s+/g, '_');
-  const sectKey = sector.toLowerCase().trim();
+  const sectKey = sector.toLowerCase().trim() as VerifiedSector;
 
-  const demo = (demographics as Record<string, any>)[subKey];
-  const compObj = (competitorsData.competitors as Record<string, any>)[subKey];
-  const comp = compObj ? compObj[sectKey] : undefined;
-  const tr = (traffic as Record<string, any>)[subKey];
-  const bi = (biMetrics as Record<string, any>)[subKey];
-
-  if (!demo || comp === undefined || !tr || !bi) {
-    throw new Error(`Invalid arguments or data missing: subdistrict=${subdistrict} (${subKey}), sector=${sector} (${sectKey})`);
+  if (!VERIFIED_SECTORS.includes(sectKey)) {
+    throw new Error(`Sektor tidak valid atau belum terverifikasi: "${sector}". Sektor yang didukung: ${VERIFIED_SECTORS.join(', ')}`);
   }
 
-  // S1 (Population Density): demo.density / 12725
-  const S1 = Math.max(0, Math.min(1.0, demo.density / 12725));
-
-  // S2 (Accessibility): tr.accessibilityScore
-  const S2 = Math.max(0, Math.min(1.0, tr.accessibilityScore));
-
-  // S3 (Low Competition): 1 - (comp / maxCompetitors[sector])
-  const maxComp = maxCompetitors[sectKey] || 100;
-  const S3 = Math.max(0, Math.min(1.0, 1 - (comp / maxComp)));
-
-  // S4 (Purchasing Power): bi.dayaBeli / 4000000
-  const S4 = Math.max(0, Math.min(1.0, bi.dayaBeli / 4000000));
-
-  // S5 (Rental Affordability): 1 - (bi.biayaSewa / 500000)
-  const S5 = Math.max(0, Math.min(1.0, 1 - (bi.biayaSewa / 500000)));
-
-  // S6 (Age Demographics Match): Sector-specific match score based on biMetrics.json demographic groups.
-  // - For fnb and fashion: use bi.demografiUmur.youth_15_34_pct / 0.40.
-  // - For other sectors: use bi.demografiUmur.productive_pct / 0.70.
-  // - Ensure normalized value is capped at 1.0.
-  let S6_raw = 0;
-  if (sectKey === 'fnb' || sectKey === 'fashion') {
-    S6_raw = bi.demografiUmur.youth_15_34_pct / 0.40;
-  } else {
-    S6_raw = bi.demografiUmur.productive_pct / 0.70;
+  const row = verifiedDataset.by_kecamatan[subKey];
+  if (!row) {
+    throw new Error(`Kecamatan tidak ditemukan di dataset terverifikasi: "${subdistrict}" (${subKey})`);
   }
-  const S6 = Math.max(0, Math.min(1.0, S6_raw));
 
-  // S7 (Historical Growth): bi.trenHistoris / 0.10
-  const S7 = Math.max(0, Math.min(1.0, bi.trenHistoris / 0.10));
+  // S1 (Kepadatan Penduduk): row.density / density_max
+  const S1 = Math.max(0, Math.min(1.0, row.density / normalizers.density_max));
 
-  // S8 (Anchor POI Count): bi.anchorPoiCount / 12
-  const S8 = Math.max(0, Math.min(1.0, bi.anchorPoiCount / 12));
+  // S2 (Total Populasi): row.population / population_max
+  const S2 = Math.max(0, Math.min(1.0, row.population / normalizers.population_max));
 
-  // Formula:
-  // compositeScore = (0.15 * S1 + 0.15 * S2 + 0.15 * S3 + 0.15 * S4 + 0.10 * S5 + 0.10 * S6 + 0.10 * S7 + 0.10 * S8) * 10
+  // S3 (Usia Muda 15-34 %): row.youth_15_34_pct / youth_max
+  const S3 = Math.max(0, Math.min(1.0, row.youth_15_34_pct / normalizers.youth_max));
+
+  // S4 (Usia Produktif 15-64 %): row.productive_15_64_pct / productive_max
+  const S4 = Math.max(0, Math.min(1.0, row.productive_15_64_pct / normalizers.productive_max));
+
+  // S5 (Peluang Pasar / Kepadatan POI Rendah): 1 - (sector_poi_per_10k / sector_per_10k_max)
+  // Missing data must throw, never silently become 0 — a zero would read as "no competition"
+  // and hand the kecamatan a false top rank (docs/PUBLICATION_PLAN.md Gate 2: missing != nol).
+  const rawPoi = row.sector_poi?.[sectKey];
+  const poiPer10k = row.sector_poi_per_10k?.[sectKey];
+  const maxPoiPer10k = normalizers.sector_per_10k_max?.[sectKey];
+  if (typeof rawPoi !== 'number' || typeof poiPer10k !== 'number') {
+    throw new Error(`Data POI sektor "${sectKey}" tidak tersedia untuk ${subKey} — nilai hilang tidak boleh diperlakukan sebagai nol. Jalankan npm run data:build.`);
+  }
+  if (typeof maxPoiPer10k !== 'number' || maxPoiPer10k <= 0) {
+    throw new Error(`Normalizer POI sektor "${sectKey}" tidak valid (${maxPoiPer10k}). Jalankan npm run data:build.`);
+  }
+  const S5 = Math.max(0, Math.min(1.0, 1 - (poiPer10k / maxPoiPer10k)));
+
+  // S6 (Anchor POI): row.anchor_poi / anchor_max
+  const S6 = Math.max(0, Math.min(1.0, row.anchor_poi / normalizers.anchor_max));
+
+  // Composite calculation
   const composite = (
-    0.15 * S1 +
-    0.15 * S2 +
-    0.15 * S3 +
-    0.15 * S4 +
-    0.10 * S5 +
-    0.10 * S6 +
-    0.10 * S7 +
-    0.10 * S8
+    SCORE_WEIGHTS.W1 * S1 +
+    SCORE_WEIGHTS.W2 * S2 +
+    SCORE_WEIGHTS.W3 * S3 +
+    SCORE_WEIGHTS.W4 * S4 +
+    SCORE_WEIGHTS.W5 * S5 +
+    SCORE_WEIGHTS.W6 * S6
   ) * 10;
 
-  // Round composite score to 1 decimal place, constrained between 1.0 and 10.0.
+  // Round composite score to 1 decimal place, constrained between 1.0 and 10.0
   const finalScore = Math.max(1.0, Math.min(10.0, Math.round(composite * 10) / 10));
 
-  // Output labels: Sangat Rendah (< 3.0), Rendah (< 5.0), Cukup (< 6.5), Baik (< 8.0), Sangat Baik (else).
-  let label = 'Sangat Baik';
-  if (finalScore < 3.0) {
-    label = 'Sangat Rendah';
-  } else if (finalScore < 5.0) {
-    label = 'Rendah';
-  } else if (finalScore < 6.5) {
-    label = 'Cukup';
-  } else if (finalScore < 8.0) {
-    label = 'Baik';
-  }
+  const label = labelForScore(finalScore);
 
   return {
-    competitorDensity: comp / maxComp,
+    competitorDensity: poiPer10k / maxPoiPer10k,
     populationDensity: S1,
-    accessibilityScore: S2,
     compositeScore: finalScore,
     label,
     scores: {
@@ -144,23 +146,17 @@ export function calculateScore(subdistrict: string, sector: string): ScoreResult
       S4,
       S5,
       S6,
-      S7,
-      S8
     },
     metrics: {
-      competitorCount: comp,
-      population: demo.population,
-      trafficLevel: tr.trafficLevel,
-      density: demo.density,
-      area: demo.area,
-      accessibilityScore: tr.accessibilityScore,
-      dayaBeli: bi.dayaBeli,
-      biayaSewa: bi.biayaSewa,
-      youth_15_34_pct: bi.demografiUmur.youth_15_34_pct,
-      productive_pct: bi.demografiUmur.productive_pct,
-      trenHistoris: bi.trenHistoris,
-      anchorPoiCount: bi.anchorPoiCount
-    }
+      population: row.population,
+      area_km2: row.area_km2,
+      density: row.density,
+      youth_15_34_pct: row.youth_15_34_pct,
+      productive_15_64_pct: row.productive_15_64_pct,
+      anchor_poi: row.anchor_poi,
+      sector_poi: rawPoi,
+      sector_poi_per_10k: poiPer10k,
+    },
   };
 }
 

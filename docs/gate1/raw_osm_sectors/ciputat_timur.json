@@ -1,0 +1,3344 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T11:41:36Z",
+    "timestamp_areas_base": "2026-10-19T08:00:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 318718577,
+  "tags": {
+    "alt_name": "Stasiun Pondok Ranji",
+    "ele": "24",
+    "name": "Pondok Ranji",
+    "network": "KAI Commuter",
+    "network:wikidata": "Q12501611",
+    "operator": "PT Kereta Api Indonesia",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:ref": "PDJ",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q12516320",
+    "wikipedia": "id:Stasiun Pondok Ranji"
+  }
+},
+{
+  "type": "node",
+  "id": 352682207,
+  "tags": {
+    "name": "Lotte Wholesale Ciputat",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4248093447,
+  "tags": {
+    "addr:city": "South Tangerang",
+    "addr:postcode": "15419",
+    "addr:street": "Ir H Juanda",
+    "amenity": "university",
+    "name": "AkPar Nusantara"
+  }
+},
+{
+  "type": "node",
+  "id": 4248104604,
+  "tags": {
+    "addr:city": "Ciputat Timur, Banten",
+    "addr:postcode": "15411",
+    "addr:street": "Ir H Juanda",
+    "amenity": "university",
+    "name": "AMIK BSI CIPUTAT"
+  }
+},
+{
+  "type": "node",
+  "id": 5225836078,
+  "tags": {
+    "addr:full": "Jalan Kertamukthi",
+    "amenity": "clinic",
+    "name": "Klinik Pratama Berkah Salamah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 5225836079,
+  "tags": {
+    "addr:full": "Jalan Cireundeu Raya",
+    "amenity": "kindergarten",
+    "name": "PAUD Raudhatul Islam",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 5226452211,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Legoso Raya No 31",
+    "amenity": "college",
+    "name": "Sekolah Tinggi Ilmu Ekonomi Ganesha",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 7150361125,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:country": "ID",
+    "addr:housenumber": "9",
+    "addr:postcode": "15412",
+    "addr:street": "Jalan Rempoa Raya, Rempoa, Ciputat Timur",
+    "name": "Superindo Express",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8182497203,
+  "tags": {
+    "addr:city": "ciputat timur tangerang selatan",
+    "addr:housenumber": "12",
+    "addr:postcode": "15412",
+    "addr:street": "jl menjangan 1 no 12",
+    "name": "JualEmastanpasurat.com",
+    "operator": "082240976864",
+    "shop": "supermarket",
+    "website": "https://jualemastanpasurat.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9201422041,
+  "tags": {
+    "brand": "Alfa express",
+    "brand:wikidata": "Q12471463",
+    "brand:wikipedia": "id:Alfa Express",
+    "name": "Alfa express",
+    "shop": "convenience",
+    "wikidata": "Q12471463",
+    "wikipedia": "id:Alfa Express"
+  }
+},
+{
+  "type": "node",
+  "id": 9201439521,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 9829636917,
+  "tags": {
+    "name": "Bright",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 9991786268,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12068473127,
+  "tags": {
+    "name": "Makaroni Kongz",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 13091014589,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 13769211001,
+  "tags": {
+    "addr:street": "Jalan Ibnu Sina IV",
+    "amenity": "university",
+    "check_date": "2026-04-28",
+    "check_date:opening_hours": "2026-04-28",
+    "education": "university",
+    "internet_access": "wlan",
+    "level": "0",
+    "name": "Faculty Economics and Business, UIN Syarif Hidayatullah",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "phone": "+62 21 7496006",
+    "website": "https://feb.uinjkt.ac.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 158817348,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "name": "SMP Negeri 10 Kota Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 158817403,
+  "tags": {
+    "amenity": "school",
+    "grades": "10-12",
+    "name": "SMAN 4 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Atas Negeri 4 Kota Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 159946530,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Garuda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "250-500",
+    "name": "SMP Negeri 2 Tanggerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 165617539,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. H Juanda",
+    "backup_generator": "yes",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": ">500",
+    "name": "Lotte Mart Grosir",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 194718891,
+  "tags": {
+    "building": "yes",
+    "name": "Segari - Cirendeu",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "way",
+  "id": 300515659,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "DKI Jakarta",
+    "addr:full": "Jalan Cireundeu Raya",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "50-100",
+    "name": "MI Raudhatul Islam",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 300515676,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Cireundeu Raya",
+    "amenity": "clinic",
+    "backup_generator": "yes",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "50-100",
+    "name": "Klinik Medikatama",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 304792251,
+  "tags": {
+    "building": "yes",
+    "name": "Pasar Swalayan Aneka Buana Cireundeu",
+    "shop": "supermarket",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 447356392,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. Juanda",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tin",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "KB-TK Tunas Mentari",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 511041133,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Mawar II",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "evacuation_center": "no",
+    "name": "PAUD dan TK Lebah Kecil",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 511622565,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Raya Bintaro Tengah U4 Nomor 7",
+    "amenity": "kindergarten",
+    "building": "yes",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "KB-TK Tadika Puri",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 519262447,
+  "tags": {
+    "access:roof": "yes",
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Ciputat Timur",
+    "addr:full": "Jalan Taman Bintaro",
+    "addr:postcode": "15412",
+    "addr:province": "Banten",
+    "addr:subdistrict": "Rengas",
+    "backup_generator": "yes",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "250-500",
+    "name": "Farmers Market/Farmers Family",
+    "shop": "supermarket",
+    "source": "HOT_InAWARESurvey_2017"
+  }
+},
+{
+  "type": "way",
+  "id": 519262449,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "DKI Jakarta",
+    "addr:full": "Jalan Rengas Raya No. 19B",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "TK Kartini",
+    "name:etymology:wikidata": "Q1373764",
+    "name:etymology:wikipedia": "id:Kartini",
+    "operator:type": "private",
+    "source": "HOT_InAWARESurvey_2017"
+  }
+},
+{
+  "type": "way",
+  "id": 527414712,
+  "tags": {
+    "access:roof": "yes",
+    "addr:full": "Jalan Rempoa Raya",
+    "backup_generator": "yes",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tin",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "Giant Expresa",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534414910,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir H. Juanda no. 211",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "evacuation_center": "no",
+    "name": "MI Muhamadiyah 01 dan SMP Muhamadiyah 17 Ciputat",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534417030,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Gunung Raya",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "MIS Al-Hidayah",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534419432,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Gunung Raya",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "Bjnayya Islamic Labschool (KB/TK/SD)",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534420887,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Kuningan No 107",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "TK/TP Al Quran Al-Muhajirin",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421197,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan WR Supratman",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "TK Islam As Salaman Pagi",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421696,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "SD Negeri 03 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421747,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMP Negeri 3 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421749,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMP Negeri 3 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421751,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMP Negeri 3 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421755,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMP Negeri 3 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421900,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H. Abdul Gani",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Yayasan Pendidikan Dua Mei",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421901,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H. Abdul Gani",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Yayasan Pendidikan Dua Mei",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421919,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Bulak Raya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "TL Melati",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534421928,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Kampung Bukan RT 01/02",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "Posyandu Melati",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534422160,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Mahoni",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "MIN Cempaka Putih",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534422163,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Mahoni",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "MIN Cempaka Putih",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534422191,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Mahoni",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "MIN Cempaka Putih",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534422198,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Mahoni",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "PAUD Sabiqul Khairat",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534422233,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda No 38",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "TK Aisyiyah 56",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534422234,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda No 38",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "TK Aisyiyah 56",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534424261,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Poncol Indah V",
+    "amenity": "university",
+    "backup_generator": "no",
+    "building": "university",
+    "building:condition": "good",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "UMJ Fakultas Ilmu Pendidikan",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534426800,
+  "tags": {
+    "addr:full": "Jalan WR Supratman",
+    "air_conditioning": "yes",
+    "backup_generator": "yes",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "diet:halal": "yes",
+    "name": "Super Indo",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534426832,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Anggur I",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "public",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "UPT Puskesmas Ciputat Timur",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534426860,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Anggur VIII",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "SMP Cita Mulia",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534426872,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Anggur VIII",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "wood_frame",
+    "building:walls": "wood",
+    "capacity:persons": "<50",
+    "name": "Posyandu Cempaka I",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534427688,
+  "tags": {
+    "access:roof": "yes",
+    "addr:full": "Jalan KH. Ahmad Dahlan",
+    "amenity": "university",
+    "backup_generator": "no",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "4",
+    "building:roof": "tile",
+    "building:structure": "steel_frame",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "UMJ Fakultas Agama Islam",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429533,
+  "tags": {
+    "access:roof": "no",
+    "amenity": "university",
+    "backup_generator": "no",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "UMJ Fakultas Hukum",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429784,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "SD Negeri 01 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429785,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "SD Negeri 01 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429786,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "SD Negeri 01 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429787,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "SD Negeri 01 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429788,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "SD Negeri 01 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429789,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "SD Negeri 01 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534429795,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Jambu",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "SD Negeri Cempaka Putih 02",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534432028,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. Juanda",
+    "amenity": "university",
+    "backup_generator": "yes",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "5",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "250-500",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534432029,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. Juanda",
+    "amenity": "university",
+    "backup_generator": "yes",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "5",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "250-500",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534433396,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. Juanda",
+    "backup_generator": "yes",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tin",
+    "building:structure": "steel_frame",
+    "building:walls": "concrete",
+    "capacity:persons": "250-500",
+    "name": "Informa",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534434406,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan jambu No 12 B",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "TK El Muzzammil",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534435471,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Pahlawan Raya",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:levels": "3",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "Klinik Gigi dan Apotek Tumbur",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534435921,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan WR Supratman",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "MI, MTs Jam'iyyatul Khair",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534435941,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan WR Supratman",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "MI, MTs Jam'iyyatul Khair",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534437018,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Wr Supratman",
+    "backup_generator": "no",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:levels": "1",
+    "building:roof": "tin",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "Alfamidi",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534437019,
+  "tags": {
+    "access:roof": "yes",
+    "addr:full": "Jalan WR Supratman",
+    "amenity": "school",
+    "backup_generator": "yes",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "SMK Via Medika",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534437137,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan WR Supratman",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "capacity:persons": "50-100",
+    "name": "TK Al Istiqomah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534440959,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Delima Jaya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "evacuation_center": "no",
+    "name": "RA Mutiara Hikmah",
+    "operator:type": "private",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534441521,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Pahlawan",
+    "backup_generator": "yes",
+    "building": "supermarket",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "Alfamidi",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534441967,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Cempaka Raya",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "Posbindu Delima Merah I",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534442705,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Wijaya Kusuma I",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "TK Kartika VIII-4",
+    "operator:type": "private",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534444303,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Dahlia",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "TK 17 Agustus",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534446731,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Delima Jaya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "TK Islam Al Ansari",
+    "operator:type": "private",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534448073,
+  "tags": {
+    "access:roof": "yes",
+    "addr:full": "Jalan Pahlawan Raya No 50",
+    "amenity": "school",
+    "backup_generator": "yes",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMK Kesehatan Paramedik Satu-Satu Delapan",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534448530,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Rempoa Raya No. 10",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "Klinik Panti Nugraha",
+    "operator:type": "private",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534460193,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Cherry",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "KB TK Al Muttaqien",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534462125,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nuri No. 44",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "TK SD Al Azhar Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534462524,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H. Abdul Gani",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "TK Bakti Nusa Indah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534463557,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan WR Supratman No 7",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "SMK As Su'udiyyah",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465064,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan SMP Mabad Rempoa",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "SMP Mabad Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465065,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan SMP Mabad Rempoa",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "SMP Mabad Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465066,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan SMP Mabad Rempoa",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "SMP Mabad Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465104,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan SMP Mabad Rempoa",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "SMP Mabad Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465108,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan SMP Mabad Rempoa",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "SMP Mabad Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465109,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan SMP Mabad Rempoa",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "SMP Mabad Rempoa",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534465247,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Delima Jaya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "TK Islam As Sakinah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534468612,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. H Juanda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Yayasan Perguruan Islam Triguna Utama",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534468615,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. H Juanda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Yayasan Perguruan Islam Triguna Utama",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534469686,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Wijaya Kusuma I",
+    "amenity": "clinic",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "healthcare": "clinic",
+    "name": "Posyandu Apel 2",
+    "operator": "Posyandu",
+    "operator:type": "private",
+    "operator:wikidata": "Q12506263",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534470722,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Cireundeu Raya",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "<50",
+    "name": "Klinik Dharma Bhakti Medika",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534473992,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Gunung Raya No. 5",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "PAUD Nusa Indah",
+    "operator:type": "community",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534476793,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Pondok Anggrek",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "evacuation_center": "no",
+    "name": "TK Islam Ar Rahmah",
+    "operator:type": "private",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534481316,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Garuda N9. 1",
+    "amenity": "school",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": ">500",
+    "name": "SD Negeri Cirendeu I",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534481321,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jl. Garuda No. 01",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "Dahlia",
+    "operator:type": "community",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534482903,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Semanggi II",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "TK Babussalam Centre",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534493156,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Nurul Huda",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "evacuation_center": "no",
+    "name": "SD Negeri 03 Cempaka Putih",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534499158,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan H Ir Juanda",
+    "amenity": "university",
+    "backup_generator": "no",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Institut Ilmu Al-Quran Jakarta",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534501112,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. H Juanda",
+    "backup_generator": "yes",
+    "building": "bank",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "<50",
+    "name": "Mega Mall Ciputat",
+    "shop": "mall",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534502943,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Legoso Raya",
+    "amenity": "university",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "UIN",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534502949,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Legoso Raya",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SD Negeri Pisangan 03",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534502979,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Legoso Raya No 31",
+    "amenity": "college",
+    "backup_generator": "no",
+    "building": "college",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "5",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Akademi Pariwisata Akpar Nusantara",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534508473,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Semanggi I",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "PAUD -TK Cipta Gemilang",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534512119,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Kertamukti",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "50-100",
+    "name": "Rumah 71",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534516837,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Wr Supratman",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "Klinik Makmur Jaya",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534517861,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Ir. H Juanda No 107",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "Klinik Saraswati",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 534540025,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H. Usman",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "evacuation_center": "no",
+    "name": "PAUD Melati 2",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 536225606,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H Muri Salim",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SD Negeri Pisangan 01",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 536239209,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Legoso Raya Gang Kubur",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "MI Bait Qurany",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537063803,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "DKI Jakarta",
+    "addr:full": "Jalan H Kipin",
+    "amenity": "school",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMK Madinatul İlmi",
+    "operator:type": "government",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537063829,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H Kipin",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "capacity:persons": ">500",
+    "name": "SD SMP Madinatul Ilmi",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537068812,
+  "tags": {
+    "amenity": "school",
+    "building": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 537071165,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan H. Isa Nomor 19",
+    "amenity": "clinic",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "Posyandu Tomat II RT 05/RW 11",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537071357,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan H. Kipin",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "poor",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tin",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "SD Suhakdita",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537079675,
+  "tags": {
+    "addr:full": "Jalan Peruri V",
+    "amenity": "clinic",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "Posyandu Peruri",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537079978,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Lurah Disah Pisangan",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "TK Aisyiyah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537081690,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan legoso raya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "TK Al Iklhlas",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537097154,
+  "tags": {
+    "addr:city": "DKI Jakarta",
+    "addr:full": "Jalan Legoso Raya",
+    "amenity": "clinic",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "Posyandu RW 01",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537108550,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Cempaka Raya",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "KB-TK Hom Pim Pa",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537123294,
+  "tags": {
+    "addr:full": "Jalan Talas I Pondok Cabe Ilir",
+    "amenity": "school",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "5",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "Yayasan Khazanah Kebajikan",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537147941,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Bukit Raya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "RA Mumtaza Islamic School",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537162345,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Ibnu Taimia IV",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "TK Ketilang",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537307419,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan H Limun",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "SMP-SMK YMJ Gedung C",
+    "operator:type": "private",
+    "school:type_idn": "smp,sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 537307466,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan H Limun",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "SMP-SMK YMJ",
+    "operator:type": "private",
+    "school:type_idn": "smp,sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539133196,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Tarunanegara No.67",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "50-100",
+    "name": "KB-TK Islam Ruhama",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539133200,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Tarumanegara",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "SD Islam Ruhama",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539147575,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Gunung Raya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "50-100",
+    "name": "TK Daarul Mu'minah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539339081,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Inpres No. 60",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "SD Negeri Cirendeu 02",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539355543,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Flamboyan No. 64 A",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "evacuation_center": "no",
+    "name": "TK Quran",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539516121,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Kenari I Sektor 2 Bintaro",
+    "amenity": "clinic",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "50-100",
+    "name": "Puskesmas Kelurahan Rengas",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 539541253,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Duta Permai",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "name": "TK Pondok Hijau",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540031928,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Pahlawan No.18",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "evacuation_center": "no",
+    "name": "Yayasan Pendidikan Islam An Nur As Syafiiyah (TK,MI,MTs)",
+    "operator:type": "private",
+    "school:type_idn": "sd",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540031939,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Wijaya Kusuma I",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "evacuation_center": "no",
+    "name": "SD Negeri Rempoa 01",
+    "school:type_idn": "sd",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540031948,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Mabad Bawah III",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "evacuation_center": "no",
+    "name": "SD Negeri Rempoa 03",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540031972,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Anggur I",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "evacuation_center": "no",
+    "name": "SD Negeri Rempoa 02",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540031973,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Anggur I No. 1",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "evacuation_center": "no",
+    "name": "TK Mutiara Bunda",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540032047,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Pendidikan No.4",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "evacuation_center": "no",
+    "name": "SD Negeri Rempoa 04",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "Survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540100041,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Teratasi Putih RT 06/ RW 09",
+    "amenity": "school",
+    "name": "SD Negeri Rengas",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540100043,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Wijaya Kusuma I",
+    "amenity": "clinic",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "<50",
+    "name": "Posyandu Apel I",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540114499,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Ciputat Molek Selatan",
+    "amenity": "college",
+    "backup_generator": "no",
+    "building": "college",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "3",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "Akademi Refraksi Optisi Leprindo",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540118072,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Tarumanegara",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "SMK Islam Ruhama",
+    "operator:type": "private",
+    "school:type_idn": "sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540151398,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Pisangan Barat Raya",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "asbestos",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "<50",
+    "name": "TK Islam Al-Mughirah",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540151432,
+  "tags": {
+    "amenity": "university",
+    "name": "STIE Ahmad Dahlan Jakarta",
+    "name:etymology:wikidata": "Q4695300",
+    "name:etymology:wikipedia": "id:Ahmad Dahlan"
+  }
+},
+{
+  "type": "way",
+  "id": 540151434,
+  "tags": {
+    "addr:full": "Jalan Cirendeu Raya",
+    "amenity": "school",
+    "name": "SMA Negeri 8 Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "sma"
+  }
+},
+{
+  "type": "way",
+  "id": 540151440,
+  "tags": {
+    "access:roof": "no",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "SD Negeri 3",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190007,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Ibnu Taimia",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "MA UIN",
+    "operator:type": "government",
+    "school:type_idn": "sd",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190011,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Ibnu Taimia IV",
+    "amenity": "school",
+    "capacity:persons": ">500",
+    "name": "Madrasah Pembangunan UIN",
+    "operator:type": "government",
+    "school:type_idn": "sd,smp",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190013,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Ciputat Molek",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "100-250",
+    "healthcare": "clinic",
+    "name": "Posyandu Kenanga",
+    "operator": "Posyandu",
+    "operator:type": "government",
+    "operator:wikidata": "Q12506263",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190014,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Ibnu Taimia IV",
+    "amenity": "kindergarten",
+    "backup_generator": "no",
+    "building": "kindergarten",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "TK Ketilang",
+    "operator:type": "private",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190015,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Tarumanegara",
+    "amenity": "university",
+    "building": "university",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "4",
+    "building:roof": "concrete",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "UIN Fakultas Adab dan Humaniora",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190016,
+  "tags": {
+    "access:roof": "no",
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Puskesmas",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": ">500",
+    "name": "UPT Puskesmas Kelurahan Pisangan",
+    "operator:type": "government",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 540190017,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:full": "Jalan Legoso Raya No 30",
+    "amenity": "school",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "capacity:persons": "250-500",
+    "name": "Yayasan Ibnu Umar",
+    "operator:type": "private",
+    "school:type_idn": "sd,smp,sma",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 1034380547,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "TK Patra"
+  }
+},
+{
+  "type": "way",
+  "id": 1162403434,
+  "tags": {
+    "amenity": "school",
+    "name": "Tara Salvia"
+  }
+},
+{
+  "type": "way",
+  "id": 1292088357,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-12",
+    "name": "SMP-SMA Al-Fath Cirendeu",
+    "operator": "Yayasan Al-Fath Bina Insan Sakinah",
+    "operator:type": "private",
+    "religion": "muslim",
+    "school:type_idn": "smp;sma",
+    "website": "https://alfathschoolindonesia.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1292088369,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-12",
+    "name": "SMP-SMA Labschool Cirendeu"
+  }
+},
+{
+  "type": "way",
+  "id": 1364411228,
+  "tags": {
+    "amenity": "school",
+    "name": "Pondok Pesantren Ihya Qalbun Salim"
+  }
+},
+{
+  "type": "way",
+  "id": 1387202453,
+  "tags": {
+    "addr:full": "Jalan Masjid Al Istiqomah No 30, Cempaka Putih",
+    "amenity": "school",
+    "building": "school",
+    "name": "SKH Mentari Savika",
+    "operator": "private",
+    "school:type": "special_needs",
+    "school:type_idn": "sd smp sma"
+  }
+},
+{
+  "type": "way",
+  "id": 1387206445,
+  "tags": {
+    "addr:full": "Jalan WR. Supratman No.51 Kampung Utan",
+    "amenity": "school",
+    "name": "SKH Nurasih",
+    "operator": "private",
+    "school:type": "special_needs",
+    "school:type_idn": "sd smp sma"
+  }
+},
+{
+  "type": "way",
+  "id": 1451731211,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-9",
+    "name": "SMPN 13 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Pertama Negeri 13 Kota Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1451731233,
+  "tags": {
+    "amenity": "school",
+    "grades": "1-6",
+    "name": "SDN Pondok Ranji 01",
+    "official_name": "Sekolah Dasar Negeri Pondok Ranji 01"
+  }
+},
+{
+  "type": "way",
+  "id": 1451731249,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-9",
+    "name": "SMPN 10 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Pertama Negeri 10 Kota Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1488741943,
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "Jakarta Multicultural School",
+    "website": "https://jms.sch.id"
+  }
+},
+{
+  "type": "relation",
+  "id": 7729297,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Jalan Tarunanegara No.67",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "school",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "concrete",
+    "capacity:persons": "100-250",
+    "name": "SMP Islam Ruhama",
+    "operator:type": "private",
+    "school:type_idn": "smp",
+    "source": "survey",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 14372716,
+  "tags": {
+    "addr:full": "Jalan Ir. H Juanda",
+    "amenity": "university",
+    "name": "UIN Syarif Hidayatullah",
+    "official_name": "Universitas Islam Negeri Syarif Hidayatullah Jakarta",
+    "operator:type": "government",
+    "type": "multipolygon",
+    "website": "https://www.uinjkt.ac.id/",
+    "wikidata": "Q12523349",
+    "wikipedia": "id:Universitas Islam Negeri Syarif Hidayatullah Jakarta"
+  }
+}
+
+  ]
+}

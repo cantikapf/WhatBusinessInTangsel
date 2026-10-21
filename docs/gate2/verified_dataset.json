@@ -1,0 +1,226 @@
+{
+  "generated_by": "docs/gate2/build.js",
+  "generated_at": "2026-10-21T12:11:29.878Z",
+  "note": "Satu-satunya sumber angka untuk UI. Jangan edit manual — jalankan ulang build.js.",
+  "normalizers": {
+    "density_max": 11797,
+    "anchor_max": 8,
+    "sector_per_10k_max": {
+      "retail": 4.97,
+      "health": 1.39,
+      "education": 7.51
+    },
+    "basis": "max nilai nyata antar kecamatan (bukan angka yang diasumsikan)"
+  },
+  "sources": {
+    "population": {
+      "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+      "dataset": "Data Konsolidasi Bersih (DKB) Semester I Tahun 2025",
+      "file": "docs/gate1/raw/KESELURUHAN1764555784678.pdf",
+      "sha256": "3f664727dc7fd748b53d0e48a96adf86f31534d749b0a7d8fda85526946f1289",
+      "table": "JUMLAH PENDUDUK KECAMATAN, halaman 1",
+      "retrieved": "2026-10-19"
+    },
+    "area": {
+      "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+      "dataset": "Data Konsolidasi Bersih (DKB) Semester II Tahun 2023",
+      "file": "docs/gate1/raw/KESELURUHAN1706581708476.pdf",
+      "sha256": "3a6cf1b817b7ebea25f1f7e402784f9e31fa6e22d5f9fd458ef9a41a83be9741",
+      "table": "KEPADATAN PENDUDUK (memuat LUAS WILAYAH KM2), halaman 2",
+      "note": "Dukcapil hanya mempublikasikan tabel luas pada DKB Sem II 2023 (164,86 km²); angka luas untuk DKB Sem I 2025 tidak dipublikasikan dalam rilis tersebut sehingga dipinjam lintas periode dengan batasan belum terverifikasi untuk periode terbaru.",
+      "retrieved": "2026-10-19"
+    },
+    "age": {
+      "file": "docs/gate1/raw/KESELURUHAN1764555784678.pdf",
+      "table": "JUMLAH PENDUDUK PER KECAMATAN BERDASARKAN USIA (usia 0-76)"
+    },
+    "poi": {
+      "source": "OpenStreetMap via Overpass API",
+      "license": "ODbL 1.0",
+      "snapshot_range": "2026-10-19T11:38:36Z .. 2026-10-19T11:47:51Z"
+    },
+    "boundaries": {
+      "source": "OpenStreetMap, Overpass API",
+      "license": "ODbL 1.0 (Open Database License) — © OpenStreetMap contributors",
+      "admin_level": 6
+    }
+  },
+  "caveats": [
+    "POI OSM = kepadatan POI terpetakan, BUKAN jumlah usaha sebenarnya (bias terukur 1,25x-5,75x vs ground truth Google Maps).",
+    "Luas per kecamatan berasal dari DKB 2023 S2; kepadatan 2025 adalah turunan, bukan angka terbitan.",
+    "Lisensi publikasi Dukcapil belum dikonfirmasi memiliki klausul terbuka."
+  ],
+  "by_kecamatan": {
+    "serpong": {
+      "id": "serpong",
+      "name": "Serpong",
+      "osm_relation": 10989422,
+      "population": 172931,
+      "area_km2": 28.27,
+      "area_geom_km2": 28.49,
+      "density": 6117,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.3292,
+      "productive_15_64_pct": 0.7301,
+      "anchor_poi": 6,
+      "sector_poi": {
+        "retail": 86,
+        "health": 24,
+        "education": 74
+      },
+      "sector_poi_per_10k": {
+        "retail": 4.97,
+        "health": 1.39,
+        "education": 4.28
+      }
+    },
+    "serpong_utara": {
+      "id": "serpong_utara",
+      "name": "Serpong Utara",
+      "osm_relation": 10989417,
+      "population": 145190,
+      "area_km2": 22.36,
+      "area_geom_km2": 22.71,
+      "density": 6493,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.3297,
+      "productive_15_64_pct": 0.7433,
+      "anchor_poi": 7,
+      "sector_poi": {
+        "retail": 28,
+        "health": 11,
+        "education": 19
+      },
+      "sector_poi_per_10k": {
+        "retail": 1.93,
+        "health": 0.76,
+        "education": 1.31
+      }
+    },
+    "pondok_aren": {
+      "id": "pondok_aren",
+      "name": "Pondok Aren",
+      "osm_relation": 4448807,
+      "population": 310955,
+      "area_km2": 29.8,
+      "area_geom_km2": 29.89,
+      "density": 10435,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.3192,
+      "productive_15_64_pct": 0.7228,
+      "anchor_poi": 8,
+      "sector_poi": {
+        "retail": 53,
+        "health": 15,
+        "education": 56
+      },
+      "sector_poi_per_10k": {
+        "retail": 1.7,
+        "health": 0.48,
+        "education": 1.8
+      }
+    },
+    "ciputat": {
+      "id": "ciputat",
+      "name": "Ciputat",
+      "osm_relation": 10989408,
+      "population": 233528,
+      "area_km2": 21.11,
+      "area_geom_km2": 21.16,
+      "density": 11062,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.3192,
+      "productive_15_64_pct": 0.7146,
+      "anchor_poi": 5,
+      "sector_poi": {
+        "retail": 22,
+        "health": 11,
+        "education": 60
+      },
+      "sector_poi_per_10k": {
+        "retail": 0.94,
+        "health": 0.47,
+        "education": 2.57
+      }
+    },
+    "ciputat_timur": {
+      "id": "ciputat_timur",
+      "name": "Ciputat Timur",
+      "osm_relation": 10989407,
+      "population": 175673,
+      "area_km2": 17.82,
+      "area_geom_km2": 18.06,
+      "density": 9858,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.3035,
+      "productive_15_64_pct": 0.7154,
+      "anchor_poi": 2,
+      "sector_poi": {
+        "retail": 18,
+        "health": 19,
+        "education": 132
+      },
+      "sector_poi_per_10k": {
+        "retail": 1.02,
+        "health": 1.08,
+        "education": 7.51
+      }
+    },
+    "pamulang": {
+      "id": "pamulang",
+      "name": "Pamulang",
+      "osm_relation": 10989409,
+      "population": 339054,
+      "area_km2": 28.74,
+      "area_geom_km2": 28.75,
+      "density": 11797,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.322,
+      "productive_15_64_pct": 0.7201,
+      "anchor_poi": 3,
+      "sector_poi": {
+        "retail": 55,
+        "health": 23,
+        "education": 70
+      },
+      "sector_poi_per_10k": {
+        "retail": 1.62,
+        "health": 0.68,
+        "education": 2.06
+      }
+    },
+    "setu": {
+      "id": "setu",
+      "name": "Setu",
+      "osm_relation": 10989433,
+      "population": 96980,
+      "area_km2": 16.76,
+      "area_geom_km2": 16.8,
+      "density": 5786,
+      "density_basis": "population_2025s1 / area_2023s2",
+      "youth_15_34_pct": 0.3236,
+      "productive_15_64_pct": 0.7103,
+      "anchor_poi": 1,
+      "sector_poi": {
+        "retail": 12,
+        "health": 5,
+        "education": 16
+      },
+      "sector_poi_per_10k": {
+        "retail": 1.24,
+        "health": 0.52,
+        "education": 1.65
+      }
+    }
+  },
+  "totals": {
+    "population": 1474311,
+    "area_km2": 164.86,
+    "area_geom_km2": 165.86,
+    "sector_poi": {
+      "retail": 274,
+      "health": 108,
+      "education": 427
+    }
+  }
+}

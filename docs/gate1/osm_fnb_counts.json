@@ -1,0 +1,9 @@
+{
+  "pamulang": {"osm_relation": 10989409, "fnb_poi": 142, "snapshot": "2026-10-19T06:20:31Z"},
+  "ciputat": {"osm_relation": 10989408, "fnb_poi": 60, "snapshot": "2026-10-19T06:20:31Z"},
+  "pondok_aren": {"osm_relation": 4448807, "fnb_poi": 110, "snapshot": "2026-10-19T06:21:46Z"},
+  "serpong_utara": {"osm_relation": 10989417, "fnb_poi": 76, "snapshot": "2026-10-19T06:22:48Z"},
+  "serpong": {"osm_relation": 10989422, "fnb_poi": 142, "snapshot": "2026-10-19T06:22:48Z"},
+  "setu": {"osm_relation": 10989433, "fnb_poi": 16, "snapshot": "2026-10-19T06:23:46Z"},
+  "ciputat_timur": {"osm_relation": 10989407, "fnb_poi": 17, "snapshot": "2026-10-19T06:24:43Z"}
+}

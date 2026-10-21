@@ -1,0 +1,1853 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T11:42:39Z",
+    "timestamp_areas_base": "2026-10-19T08:00:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 429676726,
+  "tags": {
+    "branch": "Pamulang",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "name": "Super Indo",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2002249042,
+  "tags": {
+    "addr:housename": "TK Ananda",
+    "addr:postcode": "15418",
+    "addr:street": "Jalan Cabe Raya",
+    "amenity": "kindergarten",
+    "name": "TK Ananda"
+  }
+},
+{
+  "type": "node",
+  "id": 3563882197,
+  "tags": {
+    "alt_name": "SDN Pondok Cabe Udik II",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Pondok Cabe Udik II"
+  }
+},
+{
+  "type": "node",
+  "id": 4150378467,
+  "tags": {
+    "addr:city": "South Tangerang, Banten",
+    "addr:postcode": "151416",
+    "addr:street": "Jl. Raya Siliwangi",
+    "name": "Pamulang Square",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 4248117167,
+  "tags": {
+    "addr:city": "South Tangerang",
+    "addr:postcode": "15418",
+    "addr:street": "Jalan Cabe Raya",
+    "amenity": "university",
+    "name": "AMIK Wahana Mandiri"
+  }
+},
+{
+  "type": "node",
+  "id": 4516557410,
+  "tags": {
+    "addr:street": "Jalan Perintis",
+    "amenity": "school",
+    "contact:instagram": "https://www.instagram.com/miassalaamah/",
+    "contact:mobile": "+62 857 8277 8548;+62 812 3456 7890",
+    "contact:youtube": "https://www.youtube.com/@MIAsSalaamahPamulang",
+    "email": "info@assalaamahpamulang.sch.id",
+    "grades": "1-6",
+    "isced:level": "1",
+    "name": "MI As Salaamah",
+    "official_name": "Madrasah Ibtidaiyah As Salaamah",
+    "operator:type": "private",
+    "website": "https://assalaamah.sch.id"
+  }
+},
+{
+  "type": "node",
+  "id": 4516560571,
+  "tags": {
+    "alt_name": "SMPN 17 Tangsel",
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 17 Tangsel",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "node",
+  "id": 5282378728,
+  "tags": {
+    "amenity": "school",
+    "name": "SMPK Mater Dei Pamulang"
+  }
+},
+{
+  "type": "node",
+  "id": 5282404531,
+  "tags": {
+    "amenity": "school",
+    "name": "SDK Mater Dei Pamulang"
+  }
+},
+{
+  "type": "node",
+  "id": 5282412093,
+  "tags": {
+    "amenity": "school",
+    "name": "SMUK Mater Dei Pamulang"
+  }
+},
+{
+  "type": "node",
+  "id": 5282412094,
+  "tags": {
+    "amenity": "school",
+    "name": "TKK Mater Dei Pamulang"
+  }
+},
+{
+  "type": "node",
+  "id": 5587412661,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 8104069193,
+  "tags": {
+    "addr:city": "Tangerang selatan",
+    "addr:housenumber": "67",
+    "addr:postcode": "15434",
+    "addr:street": "Jalan Parakan",
+    "amenity": "dentist",
+    "description": "pasang gigi palsu, perwatan dan pembuatan gigi tiruan lepasan semua jenis dan type bahan wilayah jakarta, tangerang, depok, bogor",
+    "healthcare": "dentist",
+    "healthcare:speciality": "techniker_gigi;orthopaedics;dentist;denturist;multi_speciality;dental_oral_maxillo_facial_surgery;pasang_gigi_palsu",
+    "name": "Ahli Gigi Tangerang Selatan",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "A. zaenal Arifianto HS",
+    "phone": "+62 812 8461 9964",
+    "website": "https://ahligigitangerangselatan.business.site"
+  }
+},
+{
+  "type": "node",
+  "id": 8592400747,
+  "tags": {
+    "addr:block": "F1",
+    "addr:full": "Jalan Benda Raya, Blok F1 No. 23, Benda Baru, Pamulang",
+    "addr:housenumber": "23",
+    "addr:street": "Jalan Benda Raya",
+    "air_conditioning": "yes",
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "brand:wikipedia": "id:Alfamidi",
+    "name": "Alfamidi",
+    "shop": "convenience",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9061401531,
+  "tags": {
+    "branch": "Wellington Benda Baru",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10239994935,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10239994936,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10295110016,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10295110017,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 10295110018,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10563318688,
+  "tags": {
+    "name": "13 Fotocopy",
+    "opening_hours": "0",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "payment:qr_code": "yes",
+    "payment:visa": "yes",
+    "phone": "+62818216128",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 10607203025,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:postcode": "15417",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "check_date:opening_hours": "2025-09-27",
+    "diet:halal": "yes",
+    "name": "Alfamart",
+    "opening_hours:signed": "no",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 11813359269,
+  "tags": {
+    "amenity": "school",
+    "name": "Yayasan Pendidikan Islam Raudlatul Hikmah RA MI SMP Islam"
+  }
+},
+{
+  "type": "node",
+  "id": 12720808918,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13519336694,
+  "tags": {
+    "amenity": "language_school",
+    "name": "PEC Pamulang"
+  }
+},
+{
+  "type": "node",
+  "id": 13519336700,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13709949267,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13780229982,
+  "tags": {
+    "air_conditioning": "no",
+    "name": "Warung Madura",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13780229994,
+  "tags": {
+    "air_conditioning": "no",
+    "name": "Arsya",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13780230000,
+  "tags": {
+    "air_conditioning": "no",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13780420004,
+  "tags": {
+    "air_conditioning": "no",
+    "name": "Simpang 3",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13780420011,
+  "tags": {
+    "organic": "yes",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 13780420018,
+  "tags": {
+    "name": "Mutia Fresh",
+    "organic": "yes",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 13780420044,
+  "tags": {
+    "name": "Warung Madura",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13780420053,
+  "tags": {
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 13780420059,
+  "tags": {
+    "addr:street": "Jalan Inpres",
+    "air_conditioning": "no",
+    "name": "Warung Madura",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13823875387,
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "grades": "1-6",
+    "name": "SDN Pondok Benda 02"
+  }
+},
+{
+  "type": "node",
+  "id": 14064019801,
+  "tags": {
+    "addr:street": "Jalan Witana Harja",
+    "amenity": "university",
+    "name": "Universitas Pamulang Witana Harja"
+  }
+},
+{
+  "type": "node",
+  "id": 14064196901,
+  "tags": {
+    "addr:street": "Jalan Mujair 3",
+    "name": "Toko Thalitha",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14087773701,
+  "tags": {
+    "addr:city": "Kota Tangerang Selatan",
+    "addr:district": "Pamulang",
+    "addr:postcode": "15415",
+    "addr:province": "Banten",
+    "addr:street": "Gang Haji Mardi",
+    "addr:subdistrict": "Bambu Apus",
+    "amenity": "school",
+    "grades": "1-6",
+    "isced:level": "1",
+    "name": "SDN Ciledug Timur",
+    "official_name": "UPTD Sekolah Dasar Negeri Ciledug Timur",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 14087773702,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Pamulang",
+    "addr:postcode": "15415",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Haji Rean",
+    "addr:subdistrict": "Benda Baru",
+    "amenity": "school",
+    "grades": "1-6",
+    "isced:level": "1",
+    "name": "SDN Ciledug Barat",
+    "official_name": "UPTD Sekolah Dasar Negeri Ciledug Barat",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 14098462301,
+  "tags": {
+    "addr:street": "Jalan Pajajaran Raya",
+    "name": "Raja Susu Pamulang",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14226147500,
+  "tags": {
+    "addr:full": "Jalan Benda Permai 7, Blok F37 No. 10, Benda Baru, Pamulang",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Praktik Dokter Tuti Hartini",
+    "opening_hours": "Mo-Sat 17:00-21:00; PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 14226217201,
+  "tags": {
+    "addr:full": "Jalan Benda Permai 7, Blok F37 No. 10, Benda Baru, Pamulang",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Praktik Dokter Gigi Fadilla Firdaus",
+    "opening_hours": "Mo-Sat 17:00-20:00; PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 14226217202,
+  "tags": {
+    "addr:full": "Jalan Benda Permai 7, Blok F37 No. 10, Benda Baru, Pamulang",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Praktik Dokter Gigi Fitri R.",
+    "opening_hours": "Mo-Th 10:00-13:00,17:00-21:00; Fr,Sa 17:00-21:00; PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 14226422793,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Viva Apotek"
+  }
+},
+{
+  "type": "node",
+  "id": 14226422800,
+  "tags": {
+    "addr:street": "Jalan Parakan",
+    "name": "Toko Madura \"Rizki 5\"",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14226606268,
+  "tags": {
+    "name": "Berbuah",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14226639004,
+  "tags": {
+    "addr:street": "Jalan Parakan",
+    "description": "Toko buah",
+    "name": "Markas Buah",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14227486501,
+  "tags": {
+    "addr:full": "Jalan Benda Timur 12 RT. 02 RW. 12 Benda Baru, Pamulang, Tangerang Selatan.",
+    "amenity": "kindergarten",
+    "contact:instagram": "https://www.instagram.com/tkpembina5tangsel/",
+    "name": "TK Negeri Pembina V",
+    "official_name": "UPTD TK Negeri Pembina V",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 14227494001,
+  "tags": {
+    "addr:full": "Jalan Benda Timur 13, Blok E32 No. 5-6,",
+    "amenity": "kindergarten",
+    "isced:level": "0",
+    "name": "TK Tunas Harapan II"
+  }
+},
+{
+  "type": "node",
+  "id": 14229459582,
+  "tags": {
+    "amenity": "kindergarten",
+    "email": "seruniputih01@gmail.com",
+    "name": "TK Seruni Putih",
+    "operator": "Yayasan Seruni Putih",
+    "operator:type": "private",
+    "phone": "+62 859 2334 2894",
+    "start_date": "1998",
+    "website": "http://www.smpseruniputih.sch.id"
+  }
+},
+{
+  "type": "node",
+  "id": 14229494718,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Posyandu Pendawa",
+    "operator": "Posyandu",
+    "operator:type": "private",
+    "operator:wikidata": "Q12506263"
+  }
+},
+{
+  "type": "node",
+  "id": 14229510901,
+  "tags": {
+    "amenity": "school",
+    "email": "seruniputih01@gmail.com",
+    "grades": "1-6",
+    "isced:level": "1",
+    "name": "SD Seruni Putih",
+    "operator": "Yayasan Seruni Putih",
+    "operator:type": "private",
+    "phone": "+62 859 2334 2894",
+    "start_date": "1998",
+    "website": "http://www.smpseruniputih.sch.id"
+  }
+},
+{
+  "type": "node",
+  "id": 14229511301,
+  "tags": {
+    "amenity": "school",
+    "email": "seruniputih01@gmail.com",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Seruni Putih",
+    "operator": "Yayasan Seruni Putih",
+    "operator:type": "private",
+    "phone": "+62 859 2334 2894",
+    "start_date": "1998",
+    "website": "http://www.smpseruniputih.sch.id"
+  }
+},
+{
+  "type": "node",
+  "id": 14229541689,
+  "tags": {
+    "air_conditioning": "no",
+    "name": "Warung Madura",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14229541692,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Praktik drg. Anindya Prameswari",
+    "opening_hours": "Mo-Fr 10:00-17:00",
+    "phone": "+62 813-1827-4530"
+  }
+},
+{
+  "type": "node",
+  "id": 14229589475,
+  "tags": {
+    "addr:block": "F30",
+    "addr:full": "Jalan Benda Raya, Blok F30 No. 32, Benda Baru, Pamulang",
+    "addr:housenumber": "32",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Dokter Gigi Mulyana",
+    "opening_hours": "Mo-Sa 08:00-12:00,16:00-22:00; Su off \"by appointment\"",
+    "phone": "+62 812-9194-549;+62 899-8307-000"
+  }
+},
+{
+  "type": "node",
+  "id": 14229589476,
+  "tags": {
+    "addr:block": "F30",
+    "addr:full": "Jalan Benda Raya, Blok F30 No. 32, Benda Baru, Pamulang",
+    "addr:housenumber": "32",
+    "addr:street": "Jalan Benda Raya",
+    "air_conditioning": "no",
+    "name": "Warung Madura",
+    "opening_hours": "24/7",
+    "operator": "Faizal Fadhil",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14229589484,
+  "tags": {
+    "addr:block": "F30",
+    "addr:full": "Jalan Benda Raya, Blok F30 No. 25, Benda Baru, Pamulang",
+    "addr:housenumber": "25",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Dokter Agung",
+    "phone": "+62 21 7405811"
+  }
+},
+{
+  "type": "node",
+  "id": 14233847701,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "node",
+  "id": 14233863701,
+  "tags": {
+    "air_conditioning": "no",
+    "name": "Warung Madura",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14234266685,
+  "tags": {
+    "addr:block": "B4",
+    "addr:full": "Jalan Benda Raya, Blok B4 No. 14, Pondok Benda, Pamulang",
+    "addr:housenumber": "14",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apotek Gama"
+  }
+},
+{
+  "type": "node",
+  "id": 14234273402,
+  "tags": {
+    "addr:block": "F1",
+    "addr:full": "Jalan Benda Raya, Blok F1 No. 33, Benda Baru, Pamulang",
+    "addr:housenumber": "33",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "drg. Devi Permata Sari Hatta",
+    "opening_hours": "Mo-Sa 10:00-20:00 \"atau bisa dengan perjanjian\"; PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 14234273404,
+  "tags": {
+    "addr:block": "F1",
+    "addr:full": "Jalan Benda Raya, Blok F1 No. 34, Benda Baru, Pamulang",
+    "addr:housenumber": "34",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "drg. Safira",
+    "opening_hours": "Su 09:00-15:00",
+    "phone": "+62 857-1799-5843"
+  }
+},
+{
+  "type": "node",
+  "id": 14235030301,
+  "tags": {
+    "addr:block": "B4",
+    "addr:full": "Jalan Benda Permai 1, Blok B4 No. 9, Pondok Benda, Pamulang",
+    "addr:housenumber": "9",
+    "addr:street": "Jalan Benda Permai 1",
+    "amenity": "kindergarten",
+    "contact:instagram": "asy_syahidah1102",
+    "contact:phone": "+62 813-8131-6285;+62 815-1089-1273",
+    "isced:level": "0",
+    "name": "TK dan Daycare Asy Syahidah"
+  }
+},
+{
+  "type": "node",
+  "id": 14237785909,
+  "tags": {
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14237785914,
+  "tags": {
+    "name": "Buah Nusantara",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14237785943,
+  "tags": {
+    "name": "Toko buah",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14237788542,
+  "tags": {
+    "addr:block": "F8",
+    "addr:full": "Jalan Benda Raya, Blok F8 No. 23-24, Benda Baru, Pamulang",
+    "addr:housenumber": "23-24",
+    "addr:street": "Jalan Benda Raya",
+    "brand": "O!Save",
+    "brand:wikidata": "Q137685864",
+    "name": "O!Save",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14239530099,
+  "tags": {
+    "addr:block": "B5",
+    "addr:full": "Jalan Benda Raya, Blok B5 No. 10, Pondok Benda, Pamulang",
+    "addr:housenumber": "10",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Apotek Nurfa Farma Jaya"
+  }
+},
+{
+  "type": "node",
+  "id": 14239591669,
+  "tags": {
+    "addr:block": "F3",
+    "addr:full": "Jalan Benda Raya, Blok F3 No. 12, Benda Baru, Pamulang",
+    "addr:housenumber": "12",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "pharmacy",
+    "brand": "Apotek K-24",
+    "brand:wikidata": "Q56390232",
+    "healthcare": "pharmacy",
+    "name": "Apotek K-24"
+  }
+},
+{
+  "type": "node",
+  "id": 14239591682,
+  "tags": {
+    "addr:block": "B6",
+    "addr:full": "Jalan Benda Raya, Blok B6 No. 10, Pondok Benda, Pamulang",
+    "addr:housenumber": "10",
+    "addr:street": "Jalan Benda Raya",
+    "air_conditioning": "yes",
+    "contact:instagram": "https://www.instagram.com/poliso.official/",
+    "name": "POLISO",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14259082316,
+  "tags": {
+    "addr:block": "F4",
+    "addr:full": "Jalan Benda Raya, Blok F4 No. 9, Benda Baru, Pamulang",
+    "addr:housenumber": "9",
+    "addr:street": "Jalan Benda Raya",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "name": "Indomaret",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14259082317,
+  "tags": {
+    "addr:block": "F5",
+    "addr:full": "Jalan Benda Raya, Blok F5 No. 16, Benda Baru, Pamulang",
+    "addr:housenumber": "16",
+    "addr:street": "Jalan Benda Raya",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14263430967,
+  "tags": {
+    "addr:block": "B10",
+    "addr:full": "Jalan Benda Raya, Blok B10 No. 8, Pondok Benda, Pamulang",
+    "addr:housenumber": "8",
+    "addr:street": "Jalan Benda Raya",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "name": "Alfamart",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14263430973,
+  "tags": {
+    "addr:block": "B10",
+    "addr:full": "Jalan Benda Raya, Blok B10 No. 13, Pondok Benda, Pamulang",
+    "addr:housenumber": "13",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "clinic",
+    "branch": "Pondok Benda",
+    "healthcare": "clinic",
+    "healthcare:speciality": "community",
+    "name": "Klinik Kimia Farma",
+    "official_name": "Klinik Pratama Kimia Farma"
+  }
+},
+{
+  "type": "node",
+  "id": 14263430974,
+  "tags": {
+    "addr:block": "F7",
+    "addr:full": "Jalan Benda Raya, Blok F7 No. 22, Benda Baru, Pamulang",
+    "addr:housenumber": "22",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "community",
+    "name": "Klinik Sehati",
+    "official_name": "Klinik Pratama Sehati",
+    "opening_hours": "Mo-Su 08:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 14263430975,
+  "tags": {
+    "addr:block": "B10",
+    "addr:full": "Jalan Benda Raya, Blok B10 No. 13, Pondok Benda, Pamulang",
+    "addr:housenumber": "13",
+    "addr:street": "Jalan Benda Raya",
+    "amenity": "pharmacy",
+    "brand": "Kimia Farma",
+    "brand:wikidata": "Q11264892",
+    "healthcare": "pharmacy",
+    "name": "Kimia Farma"
+  }
+},
+{
+  "type": "node",
+  "id": 14263430984,
+  "tags": {
+    "addr:block": "F8",
+    "addr:full": "Jalan Benda Raya, Blok F8 No. 18, Benda Baru, Pamulang",
+    "addr:housenumber": "18",
+    "addr:street": "Jalan Benda Raya",
+    "name": "Tukang sayur",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14263430985,
+  "tags": {
+    "addr:block": "F8",
+    "addr:full": "Jalan Benda Raya, Blok F8 No. 19, Benda Baru, Pamulang",
+    "addr:housenumber": "19",
+    "addr:street": "Jalan Benda Raya",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "name": "Indomaret",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 14263433506,
+  "tags": {
+    "name": "Ucok Sayur",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14263433510,
+  "tags": {
+    "name": "Markas Buah",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 14263433513,
+  "tags": {
+    "amenity": "school",
+    "isced:level": "0",
+    "name": "PAUD Permata Bunda Sejati",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 14263445353,
+  "tags": {
+    "addr:block": "B13",
+    "addr:full": "Jalan Benda Permai 1, Blok B13 No. 11, Pondok Benda, Pamulang",
+    "addr:housenumber": "11",
+    "addr:street": "Jalan Benda Permai 1",
+    "amenity": "kindergarten",
+    "education": "kindergarten",
+    "name": "TK Citra Widya 2"
+  }
+},
+{
+  "type": "node",
+  "id": 14263445354,
+  "tags": {
+    "amenity": "language_school",
+    "contact:mobile": "+6287788558612",
+    "contact:phone": "+6274638739",
+    "education": "language_school",
+    "language:en": "yes",
+    "name": "Point English"
+  }
+},
+{
+  "type": "node",
+  "id": 14263445357,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Posyandu Arjuna",
+    "operator": "Posyandu",
+    "operator:type": "private",
+    "operator:wikidata": "Q12506263"
+  }
+},
+{
+  "type": "node",
+  "id": 14263448780,
+  "tags": {
+    "amenity": "kindergarten",
+    "isced:level": "0",
+    "name": "PAUD Ceria",
+    "official_name": "UPTD PAUD Negeri Ceria",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 155409000,
+  "tags": {
+    "access:roof": "yes",
+    "amenity": "school",
+    "building:levels": "7",
+    "building:part": "school",
+    "building:roof": "tile",
+    "building:structure": "reinforced_masonry",
+    "building:walls": "brick",
+    "name": "Kharisma Bangsa School of Global Education"
+  }
+},
+{
+  "type": "way",
+  "id": 155409009,
+  "tags": {
+    "access:roof": "no",
+    "alt_name": "SDN Pondok Cabe",
+    "amenity": "school",
+    "building": "school",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "plastered",
+    "building:walls": "brick",
+    "capacity:persons": "200 murid",
+    "isced:level": "1",
+    "name": "SD Negeri Pondok Cabe"
+  }
+},
+{
+  "type": "way",
+  "id": 162216830,
+  "tags": {
+    "addr:city": "South Tangerang, Banten",
+    "addr:housenumber": "Nomor 1",
+    "addr:postcode": "15417",
+    "addr:street": "Jalan Surya Kencana",
+    "amenity": "university",
+    "name": "Universitas Pamulang"
+  }
+},
+{
+  "type": "way",
+  "id": 172757211,
+  "tags": {
+    "addr:block": "E32",
+    "addr:full": "Jalan Benda Timur 13, Blok E32 No. 5-6, Benda Baru, Pamulang",
+    "addr:housenumber": "5-6",
+    "addr:street": "Jalan Benda Timur 13",
+    "amenity": "kindergarten",
+    "building": "kindergarten",
+    "building:levels": "1",
+    "building:roof": "tile",
+    "building:structure": "reinforced_masonry",
+    "building:walls": "brick",
+    "isced:level": "0",
+    "name": "TK Tunas Harapan II"
+  }
+},
+{
+  "type": "way",
+  "id": 174094685,
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Politeknik Swadharma"
+  }
+},
+{
+  "type": "way",
+  "id": 174094797,
+  "tags": {
+    "branch": "Gaplek",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "brand:wikipedia": "id:Super Indo",
+    "building": "yes",
+    "name": "Super Indo",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 187540603,
+  "tags": {
+    "addr:housename": "SDI",
+    "addr:street": "Jalan Benda Timur 15",
+    "amenity": "school",
+    "name": "Sekolah Dasar Islam"
+  }
+},
+{
+  "type": "way",
+  "id": 248297920,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:country": "ID",
+    "addr:full": "Jalan Cabe Raya, Pondok Cabe, Pamulang, Tangerang Selatan 15437, Banten – Indonesia",
+    "addr:housename": "Universitas Terbuka",
+    "addr:postcode": "15418",
+    "addr:street": "Jalan Cabe Raya",
+    "alt_name": "UT",
+    "amenity": "university",
+    "int_name": "Open University of Indonesia",
+    "internet_access": "yes",
+    "isced:level": "5;6;7;8",
+    "name": "Universitas Terbuka",
+    "nohousenumber": "yes",
+    "old_name": "UT",
+    "website": "https://ut.ac.id",
+    "wikidata": "Q7894421",
+    "wikipedia": "en:Indonesia Open University"
+  }
+},
+{
+  "type": "way",
+  "id": 290295521,
+  "tags": {
+    "addr:city": "Depok",
+    "addr:country": "ID",
+    "addr:county": "Bojongsari",
+    "addr:street": "Jalan Raya Cinangka KM 19",
+    "amenity": "college",
+    "name": "PPSDM Kementerian Pendidikan Dasar dan Menengah",
+    "official_name": "Pusat Pelatihan Sumber Daya Manusia Kementerian Pendidikan Dasar dan Menengah"
+  }
+},
+{
+  "type": "way",
+  "id": 301209322,
+  "tags": {
+    "alt_name": "SDN Pamulang Permai",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Pamulang Permai"
+  }
+},
+{
+  "type": "way",
+  "id": 304329917,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 501117758,
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 511972856,
+  "tags": {
+    "addr:street": "Jalan Parakan",
+    "brand": "Super Indo",
+    "brand:wikidata": "Q12518060",
+    "building": "commercial",
+    "building:levels": "1",
+    "height": "4",
+    "name": "Super Indo",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 549205431,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:housenumber": "RT.01/03",
+    "addr:postcode": "15418",
+    "addr:street": "Jalan H. Rean",
+    "amenity": "school",
+    "building": "school",
+    "name": "Humaira Islamic School Pamulang",
+    "phone": "+62 812 9572 8660",
+    "website": "https://humairaislamicschool.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 585901767,
+  "tags": {
+    "addr:street": "Jalan Siliwangi",
+    "building": "commercial",
+    "layer": "-1",
+    "level": "4",
+    "name": "Pamulang Square",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 687400638,
+  "tags": {
+    "addr:street": "Jalan Siliwangi",
+    "amenity": "school",
+    "name": "SMK Letris Indonesia 2"
+  }
+},
+{
+  "type": "way",
+  "id": 766843404,
+  "tags": {
+    "amenity": "school",
+    "name": "SMP/SMA Daarul Hikmah"
+  }
+},
+{
+  "type": "way",
+  "id": 766843436,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Tadika Puri"
+  }
+},
+{
+  "type": "way",
+  "id": 766843444,
+  "tags": {
+    "amenity": "school",
+    "name": "TK Kuntum Mawar"
+  }
+},
+{
+  "type": "way",
+  "id": 964191026,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:place": "Pamulang Permai 2",
+    "addr:postcode": "15415",
+    "addr:street": "Jalan Benda Timur 11A",
+    "amenity": "school",
+    "fax": "+62 21 7463 3772",
+    "grades": "10-12",
+    "name": "SMAN 3 Kota Tangerang Selatan",
+    "operator": "Provinsi Banten",
+    "operator:type": "government",
+    "website": "https://sman3tangsel.sch.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 964196744,
+  "tags": {
+    "amenity": "school",
+    "name": "Griya Pamulang 2 Early Childhood School"
+  }
+},
+{
+  "type": "way",
+  "id": 979447607,
+  "tags": {
+    "amenity": "clinic",
+    "barrier": "wall",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;dentist;clinic",
+    "name": "Puskesmas Benda Baru"
+  }
+},
+{
+  "type": "way",
+  "id": 979447609,
+  "tags": {
+    "addr:city": "Kota Tangerang Selatan",
+    "addr:district": "Pamulang",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Vila Dago",
+    "addr:subdistrict": "Benda Baru",
+    "amenity": "school",
+    "contact:instagram": "sekolahalzahraindonesia",
+    "contact:phone": "+62 21 74634488",
+    "contact:whatsapp": "+6281231118920;+6281282587157;+6281311145114",
+    "description": "KB, TK, SD, dan SMP Al-Zahra Indonesia",
+    "email": "info@alzahraindonesia.sch.id",
+    "grades": "0-9",
+    "isced:level": "0;1;2",
+    "name": "Sekolah Al-Zahra Indonesia",
+    "operator:type": "private",
+    "website": "https://alzahraindonesia.sch.id"
+  }
+},
+{
+  "type": "way",
+  "id": 979447636,
+  "tags": {
+    "amenity": "school",
+    "name": "Mts Al-Mursidiah"
+  }
+},
+{
+  "type": "way",
+  "id": 979447638,
+  "tags": {
+    "amenity": "school",
+    "name": "Ibt. Al-Mursidiah"
+  }
+},
+{
+  "type": "way",
+  "id": 979447639,
+  "tags": {
+    "amenity": "school",
+    "name": "RA Al-Mursidiah"
+  }
+},
+{
+  "type": "way",
+  "id": 979447641,
+  "tags": {
+    "addr:street": "Jalan Benda Barat 7",
+    "amenity": "school",
+    "name": "SMK Negeri 5 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1034350656,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1034350658,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Puskesmas Bambu Apus",
+    "operator": "Ministry of Health",
+    "operator:en": "Ministry of Health",
+    "operator:id": "Kementerian Kesehatan",
+    "operator:type": "government",
+    "operator:wikidata": "Q12490745"
+  }
+},
+{
+  "type": "way",
+  "id": 1049284631,
+  "tags": {
+    "amenity": "school",
+    "building": "yes",
+    "name": "SMP Negeri 21 Kota Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1085972450,
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "building:levels": "3",
+    "name": "Sekolah Telkom"
+  }
+},
+{
+  "type": "way",
+  "id": 1110938677,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:postcode": "15417",
+    "addr:street": "Jalan Pajajaran Raya",
+    "building": "yes",
+    "check_date:opening_hours": "2025-09-27",
+    "name": "Super Indo",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 1111265734,
+  "tags": {
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "building": "yes",
+    "name": "Alfamidi",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 1115921953,
+  "tags": {
+    "amenity": "university",
+    "name": "Stikes Widya Dharma Husada Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1121564511,
+  "tags": {
+    "alt_name": "SDN Benda Baru II",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri benda Baru II"
+  }
+},
+{
+  "type": "way",
+  "id": 1121564512,
+  "tags": {
+    "alt_name": "SDN Benda Baru III",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri benda Baru III"
+  }
+},
+{
+  "type": "way",
+  "id": 1123214925,
+  "tags": {
+    "branch": "H. Rean",
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "commercial",
+    "building:levels": "1",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1123881527,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1123881528,
+  "tags": {
+    "branch": "Mujair",
+    "building": "commercial",
+    "building:levels": "1",
+    "name": "Alfamidi",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 1123889395,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-9",
+    "name": "SMPN 17 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Pertama Negeri 17 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1123889396,
+  "tags": {
+    "amenity": "school",
+    "grades": "10-12",
+    "name": "SMAN 6 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Atas Negeri 6 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1123890326,
+  "tags": {
+    "amenity": "school",
+    "name": "Madrasah Tsanawiyah Negeri II Pamulang"
+  }
+},
+{
+  "type": "way",
+  "id": 1123890329,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-9",
+    "name": "SMPN 4 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Pertama 4 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1126467749,
+  "tags": {
+    "amenity": "school",
+    "name": "SMK Muhammadiyah Parakan Tanggerang"
+  }
+},
+{
+  "type": "way",
+  "id": 1299445898,
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 1313765855,
+  "tags": {
+    "amenity": "clinic",
+    "emergency": "yes",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 1313765856,
+  "tags": {
+    "amenity": "clinic",
+    "building": "clinic",
+    "name": "Klinik Mitra Sehat"
+  }
+},
+{
+  "type": "way",
+  "id": 1364387983,
+  "tags": {
+    "alt_name": "SMPN 21 Tangerang Selatan",
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 21 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Pertama Negeri 21 Kota Tangerang Selatan",
+    "operator:type": "government",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 1364387985,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Terminal Tipe A Pondok Cabe",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "way",
+  "id": 1364387987,
+  "tags": {
+    "amenity": "college",
+    "name": "Politeknik Sahid",
+    "website": "https://polteksahid.ac.id/"
+  }
+},
+{
+  "type": "way",
+  "id": 1387962823,
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 1435947358,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMPN 18 Tangerang Selatan",
+    "official_name": "Sekolah Menengah Pertama Negeri 18 Kota Tangerang Selatan",
+    "operator": "Dinas Pendidikan Kota Tangerang Selatan",
+    "operator:type": "public",
+    "school:type_idn": "smp"
+  }
+},
+{
+  "type": "way",
+  "id": 1447050505,
+  "tags": {
+    "amenity": "school",
+    "grades": "0-12",
+    "name": "Sekolah Katolik Bhakti Prima"
+  }
+},
+{
+  "type": "way",
+  "id": 1447050508,
+  "tags": {
+    "amenity": "school",
+    "grades": "7-9",
+    "name": "SMP Islam Djojoredjo Pamulang",
+    "official_name": "Sekolah Menengah Pertama Islam Djojoredjo Pamulang"
+  }
+},
+{
+  "type": "way",
+  "id": 1447050509,
+  "tags": {
+    "amenity": "school",
+    "grades": "1-6",
+    "name": "SDN Pamulang Barat",
+    "official_name": "Sekolah Dasar Negeri Pamulang Barat"
+  }
+},
+{
+  "type": "way",
+  "id": 1456871315,
+  "tags": {
+    "building": "yes",
+    "name": "Alfamidi",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 1489151625,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Mitra10",
+    "building": "yes",
+    "name": "Mitra10",
+    "organic": "no",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 1497225024,
+  "tags": {
+    "addr:housenumber": "30",
+    "addr:street": "Jalan Cabe VI",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Puskesmas Kelurahan Pondok Cabe Ilir",
+    "opening_hours": "Mo-Sa 08:00-14:00",
+    "operator": "Ministry of Health",
+    "operator:en": "Ministry of Health",
+    "operator:id": "Kementerian Kesehatan",
+    "operator:type": "government",
+    "operator:wikidata": "Q12490745",
+    "phone": "+622174632300"
+  }
+},
+{
+  "type": "way",
+  "id": 1562549601,
+  "tags": {
+    "amenity": "kindergarten"
+  }
+},
+{
+  "type": "way",
+  "id": 1563337722,
+  "tags": {
+    "addr:street": "Jalan Benda Permai 5",
+    "amenity": "school",
+    "education": "school",
+    "landuse": "education",
+    "name": "Yayasan Seruni Putih",
+    "operator": "Yayasan Seruni Putih",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1563337723,
+  "tags": {
+    "addr:street": "Jalan Perintis",
+    "amenity": "school",
+    "contact:instagram": "https://www.instagram.com/miassalaamah/",
+    "contact:mobile": "+62 857 8277 8548;+62 812 3456 7890",
+    "contact:youtube": "https://www.youtube.com/@MIAsSalaamahPamulang",
+    "education": "school",
+    "email": "info@assalaamahpamulang.sch.id",
+    "grades": "1-6",
+    "isced:level": "1",
+    "name": "MI As Salaamah",
+    "official_name": "Madrasah Ibtidaiyah As Salaamah",
+    "operator:type": "private",
+    "website": "https://assalaamah.sch.id"
+  }
+},
+{
+  "type": "relation",
+  "id": 16225327,
+  "tags": {
+    "alt_name": "SDN Benda Baru 1",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Benda Baru 1",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20411450,
+  "tags": {
+    "amenity": "school",
+    "name": "Sekolah Taruna Mandiri",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

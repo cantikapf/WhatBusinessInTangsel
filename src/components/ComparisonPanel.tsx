@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import demographics from '../data/demographics.json';
+import verifiedDataset from '../data/verifiedDataset';
 import { calculateScore } from '../lib/engine/scoring';
 
 interface ComparisonPanelProps {
@@ -127,6 +127,7 @@ export const ComparisonPanel: React.FC<ComparisonPanelProps> = ({
       {errorMsg && (
         <div
           id="comparison-error"
+          role="alert"
           className="text-xs text-rose-600 bg-rose-50 border border-rose-100 rounded-lg p-3 font-medium block"
         >
           {errorMsg}
@@ -153,7 +154,7 @@ export const ComparisonPanel: React.FC<ComparisonPanelProps> = ({
               </tr>
             ) : (
               comparedList.map((sub) => {
-                const demo = (demographics as Record<string, any>)[sub];
+                const demo = verifiedDataset.by_kecamatan[sub];
                 let scoreText = '-';
                 if (selectedSector) {
                   try {

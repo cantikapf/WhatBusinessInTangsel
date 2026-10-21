@@ -1,0 +1,1035 @@
+{
+  "generated_by": "docs/gate3/sensitivity.js",
+  "scenarios": {
+    "retail": [
+      {
+        "scenario": "Baseline (dipakai aplikasi)",
+        "note": "0,20/0,20/0,15/0,15/0,15/0,15",
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ],
+        "spearman": 1,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 0,
+        "range": 3.2
+      },
+      {
+        "scenario": "Bobot setara",
+        "note": "tidak ada indikator diistimewakan",
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "pamulang",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ],
+        "spearman": 0.964,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 1,
+        "range": 3
+      },
+      {
+        "scenario": "Sisi permintaan (demografi dominan)",
+        "note": "pasar = orang, bukan pesaing",
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong",
+          "serpong_utara",
+          "setu"
+        ],
+        "spearman": 0.857,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 3.7
+      },
+      {
+        "scenario": "Sisi hambatan (kompetisi dominan)",
+        "note": "kepadatan POI jadi penentu utama",
+        "order": [
+          "ciputat",
+          "pondok_aren",
+          "pamulang",
+          "ciputat_timur",
+          "serpong_utara",
+          "setu",
+          "serpong"
+        ],
+        "spearman": 0.821,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 5.3
+      },
+      {
+        "scenario": "Anchor / aksesibilitas dominan",
+        "note": "tarikan simpul transit",
+        "order": [
+          "pondok_aren",
+          "serpong_utara",
+          "ciputat",
+          "serpong",
+          "pamulang",
+          "ciputat_timur",
+          "setu"
+        ],
+        "spearman": 0.679,
+        "top1_same": true,
+        "top3_same": false,
+        "max_shift": 3,
+        "range": 5.3
+      },
+      {
+        "scenario": "Indikator tunggal: kepadatan",
+        "note": "batas ekstrem W1",
+        "order": [
+          "pamulang",
+          "ciputat",
+          "pondok_aren",
+          "ciputat_timur",
+          "serpong_utara",
+          "serpong",
+          "setu"
+        ],
+        "spearman": 0.857,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 5.1
+      },
+      {
+        "scenario": "Indikator tunggal: populasi",
+        "note": "batas ekstrem W2",
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong",
+          "serpong_utara",
+          "setu"
+        ],
+        "spearman": 0.857,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 7.1
+      },
+      {
+        "scenario": "Indikator tunggal: peluang pasar",
+        "note": "batas ekstrem W5",
+        "order": [
+          "ciputat",
+          "ciputat_timur",
+          "setu",
+          "pamulang",
+          "pondok_aren",
+          "serpong_utara",
+          "serpong"
+        ],
+        "spearman": 0.036,
+        "top1_same": false,
+        "top3_same": false,
+        "max_shift": 4,
+        "range": 7.1
+      }
+    ],
+    "health": [
+      {
+        "scenario": "Baseline (dipakai aplikasi)",
+        "note": "0,20/0,20/0,15/0,15/0,15/0,15",
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ],
+        "spearman": 1,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 0,
+        "range": 3.4
+      },
+      {
+        "scenario": "Bobot setara",
+        "note": "tidak ada indikator diistimewakan",
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "pamulang",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ],
+        "spearman": 0.964,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 1,
+        "range": 3.2
+      },
+      {
+        "scenario": "Sisi permintaan (demografi dominan)",
+        "note": "pasar = orang, bukan pesaing",
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong",
+          "serpong_utara",
+          "setu"
+        ],
+        "spearman": 0.821,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 3.7
+      },
+      {
+        "scenario": "Sisi hambatan (kompetisi dominan)",
+        "note": "kepadatan POI jadi penentu utama",
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "pamulang",
+          "serpong_utara",
+          "setu",
+          "ciputat_timur",
+          "serpong"
+        ],
+        "spearman": 0.821,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 4.9
+      },
+      {
+        "scenario": "Anchor / aksesibilitas dominan",
+        "note": "tarikan simpul transit",
+        "order": [
+          "pondok_aren",
+          "serpong_utara",
+          "ciputat",
+          "serpong",
+          "pamulang",
+          "ciputat_timur",
+          "setu"
+        ],
+        "spearman": 0.75,
+        "top1_same": true,
+        "top3_same": false,
+        "max_shift": 3,
+        "range": 5.4
+      },
+      {
+        "scenario": "Indikator tunggal: kepadatan",
+        "note": "batas ekstrem W1",
+        "order": [
+          "pamulang",
+          "ciputat",
+          "pondok_aren",
+          "ciputat_timur",
+          "serpong_utara",
+          "serpong",
+          "setu"
+        ],
+        "spearman": 0.786,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 5.1
+      },
+      {
+        "scenario": "Indikator tunggal: populasi",
+        "note": "batas ekstrem W2",
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong",
+          "serpong_utara",
+          "setu"
+        ],
+        "spearman": 0.821,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 7.1
+      },
+      {
+        "scenario": "Indikator tunggal: peluang pasar",
+        "note": "batas ekstrem W5",
+        "order": [
+          "ciputat",
+          "pondok_aren",
+          "setu",
+          "pamulang",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong"
+        ],
+        "spearman": 0.464,
+        "top1_same": false,
+        "top3_same": false,
+        "max_shift": 4,
+        "range": 5.6
+      }
+    ],
+    "education": [
+      {
+        "scenario": "Baseline (dipakai aplikasi)",
+        "note": "0,20/0,20/0,15/0,15/0,15/0,15",
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ],
+        "spearman": 1,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 0,
+        "range": 3.4
+      },
+      {
+        "scenario": "Bobot setara",
+        "note": "tidak ada indikator diistimewakan",
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "setu",
+          "ciputat_timur"
+        ],
+        "spearman": 0.964,
+        "top1_same": true,
+        "top3_same": true,
+        "max_shift": 1,
+        "range": 3.4
+      },
+      {
+        "scenario": "Sisi permintaan (demografi dominan)",
+        "note": "pasar = orang, bukan pesaing",
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong",
+          "serpong_utara",
+          "setu"
+        ],
+        "spearman": 0.821,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 3.7
+      },
+      {
+        "scenario": "Sisi hambatan (kompetisi dominan)",
+        "note": "kepadatan POI jadi penentu utama",
+        "order": [
+          "pondok_aren",
+          "serpong_utara",
+          "pamulang",
+          "ciputat",
+          "setu",
+          "serpong",
+          "ciputat_timur"
+        ],
+        "spearman": 0.786,
+        "top1_same": true,
+        "top3_same": false,
+        "max_shift": 2,
+        "range": 5.8
+      },
+      {
+        "scenario": "Anchor / aksesibilitas dominan",
+        "note": "tarikan simpul transit",
+        "order": [
+          "pondok_aren",
+          "serpong_utara",
+          "ciputat",
+          "serpong",
+          "pamulang",
+          "ciputat_timur",
+          "setu"
+        ],
+        "spearman": 0.75,
+        "top1_same": true,
+        "top3_same": false,
+        "max_shift": 3,
+        "range": 5.4
+      },
+      {
+        "scenario": "Indikator tunggal: kepadatan",
+        "note": "batas ekstrem W1",
+        "order": [
+          "pamulang",
+          "ciputat",
+          "pondok_aren",
+          "ciputat_timur",
+          "serpong_utara",
+          "serpong",
+          "setu"
+        ],
+        "spearman": 0.786,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 5.1
+      },
+      {
+        "scenario": "Indikator tunggal: populasi",
+        "note": "batas ekstrem W2",
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong",
+          "serpong_utara",
+          "setu"
+        ],
+        "spearman": 0.821,
+        "top1_same": false,
+        "top3_same": true,
+        "max_shift": 2,
+        "range": 7.1
+      },
+      {
+        "scenario": "Indikator tunggal: peluang pasar",
+        "note": "batas ekstrem W5",
+        "order": [
+          "serpong_utara",
+          "setu",
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong",
+          "ciputat_timur"
+        ],
+        "spearman": 0.143,
+        "top1_same": false,
+        "top3_same": false,
+        "max_shift": 5,
+        "range": 7.3
+      }
+    ]
+  },
+  "leaveOneOut": {
+    "retail": [
+      {
+        "dropped": "W1 kepadatan penduduk",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W2 total populasi",
+        "spearman": 0.929,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "pamulang",
+          "serpong_utara",
+          "ciputat_timur",
+          "setu",
+          "serpong"
+        ]
+      },
+      {
+        "dropped": "W3 usia 15-34",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W4 usia 15-64",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W5 peluang pasar (POI rendah)",
+        "spearman": 0.964,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W6 anchor POI",
+        "spearman": 0.893,
+        "top1_same": false,
+        "max_shift": 1,
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong_utara",
+          "setu",
+          "serpong"
+        ]
+      }
+    ],
+    "health": [
+      {
+        "dropped": "W1 kepadatan penduduk",
+        "spearman": 0.929,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "pamulang",
+          "serpong_utara",
+          "serpong",
+          "setu",
+          "ciputat_timur"
+        ]
+      },
+      {
+        "dropped": "W2 total populasi",
+        "spearman": 0.929,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "pamulang",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W3 usia 15-34",
+        "spearman": 0.964,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W4 usia 15-64",
+        "spearman": 0.964,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "ciputat_timur",
+          "serpong",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W5 peluang pasar (POI rendah)",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W6 anchor POI",
+        "spearman": 0.786,
+        "top1_same": false,
+        "max_shift": 2,
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "ciputat_timur",
+          "serpong_utara",
+          "setu",
+          "serpong"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "dropped": "W1 kepadatan penduduk",
+        "spearman": 0.929,
+        "top1_same": true,
+        "max_shift": 1,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "serpong_utara",
+          "ciputat",
+          "serpong",
+          "setu",
+          "ciputat_timur"
+        ]
+      },
+      {
+        "dropped": "W2 total populasi",
+        "spearman": 0.857,
+        "top1_same": true,
+        "max_shift": 2,
+        "order": [
+          "pondok_aren",
+          "ciputat",
+          "serpong_utara",
+          "pamulang",
+          "serpong",
+          "setu",
+          "ciputat_timur"
+        ]
+      },
+      {
+        "dropped": "W3 usia 15-34",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W4 usia 15-64",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W5 peluang pasar (POI rendah)",
+        "spearman": 1,
+        "top1_same": true,
+        "max_shift": 0,
+        "order": [
+          "pondok_aren",
+          "pamulang",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "ciputat_timur",
+          "setu"
+        ]
+      },
+      {
+        "dropped": "W6 anchor POI",
+        "spearman": 0.929,
+        "top1_same": false,
+        "max_shift": 1,
+        "order": [
+          "pamulang",
+          "pondok_aren",
+          "ciputat",
+          "serpong_utara",
+          "serpong",
+          "setu",
+          "ciputat_timur"
+        ]
+      }
+    ]
+  },
+  "monteCarlo": {
+    "retail": {
+      "draws": 20000,
+      "baseline_top1": "pondok_aren",
+      "p_top1_agrees_with_baseline": 0.693,
+      "p_top3_set_agrees_with_baseline": 0.716,
+      "mean_spearman": 0.873,
+      "min_spearman": -0.071,
+      "per_kecamatan": [
+        {
+          "kecamatan": "pondok_aren",
+          "p_top1": 0.693,
+          "p_top1_baseline_rank": 0.693,
+          "rank_min": 1,
+          "rank_max": 6,
+          "rank_median": 1
+        },
+        {
+          "kecamatan": "pamulang",
+          "p_top1": 0.206,
+          "p_top1_baseline_rank": 0.286,
+          "rank_min": 1,
+          "rank_max": 6,
+          "rank_median": 3
+        },
+        {
+          "kecamatan": "ciputat",
+          "p_top1": 0.099,
+          "p_top1_baseline_rank": 0.551,
+          "rank_min": 1,
+          "rank_max": 5,
+          "rank_median": 3
+        },
+        {
+          "kecamatan": "serpong_utara",
+          "p_top1": 0.002,
+          "p_top1_baseline_rank": 0.311,
+          "rank_min": 1,
+          "rank_max": 6,
+          "rank_median": 4
+        },
+        {
+          "kecamatan": "serpong",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.319,
+          "rank_min": 2,
+          "rank_max": 7,
+          "rank_median": 6
+        },
+        {
+          "kecamatan": "ciputat_timur",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.282,
+          "rank_min": 2,
+          "rank_max": 7,
+          "rank_median": 5
+        },
+        {
+          "kecamatan": "setu",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.63,
+          "rank_min": 2,
+          "rank_max": 7,
+          "rank_median": 7
+        }
+      ]
+    },
+    "health": {
+      "draws": 20000,
+      "baseline_top1": "pondok_aren",
+      "p_top1_agrees_with_baseline": 0.873,
+      "p_top3_set_agrees_with_baseline": 0.735,
+      "mean_spearman": 0.87,
+      "min_spearman": 0.393,
+      "per_kecamatan": [
+        {
+          "kecamatan": "pondok_aren",
+          "p_top1": 0.873,
+          "p_top1_baseline_rank": 0.873,
+          "rank_min": 1,
+          "rank_max": 4,
+          "rank_median": 1
+        },
+        {
+          "kecamatan": "pamulang",
+          "p_top1": 0.121,
+          "p_top1_baseline_rank": 0.323,
+          "rank_min": 1,
+          "rank_max": 5,
+          "rank_median": 3
+        },
+        {
+          "kecamatan": "ciputat",
+          "p_top1": 0.005,
+          "p_top1_baseline_rank": 0.553,
+          "rank_min": 1,
+          "rank_max": 5,
+          "rank_median": 3
+        },
+        {
+          "kecamatan": "serpong_utara",
+          "p_top1": 0.001,
+          "p_top1_baseline_rank": 0.519,
+          "rank_min": 1,
+          "rank_max": 6,
+          "rank_median": 4
+        },
+        {
+          "kecamatan": "serpong",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.368,
+          "rank_min": 2,
+          "rank_max": 7,
+          "rank_median": 6
+        },
+        {
+          "kecamatan": "ciputat_timur",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.573,
+          "rank_min": 4,
+          "rank_max": 7,
+          "rank_median": 6
+        },
+        {
+          "kecamatan": "setu",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.625,
+          "rank_min": 3,
+          "rank_max": 7,
+          "rank_median": 7
+        }
+      ]
+    },
+    "education": {
+      "draws": 20000,
+      "baseline_top1": "pondok_aren",
+      "p_top1_agrees_with_baseline": 0.784,
+      "p_top3_set_agrees_with_baseline": 0.56,
+      "mean_spearman": 0.881,
+      "min_spearman": 0.357,
+      "per_kecamatan": [
+        {
+          "kecamatan": "pondok_aren",
+          "p_top1": 0.784,
+          "p_top1_baseline_rank": 0.784,
+          "rank_min": 1,
+          "rank_max": 4,
+          "rank_median": 1
+        },
+        {
+          "kecamatan": "pamulang",
+          "p_top1": 0.193,
+          "p_top1_baseline_rank": 0.421,
+          "rank_min": 1,
+          "rank_max": 5,
+          "rank_median": 2
+        },
+        {
+          "kecamatan": "serpong_utara",
+          "p_top1": 0.023,
+          "p_top1_baseline_rank": 0.453,
+          "rank_min": 1,
+          "rank_max": 6,
+          "rank_median": 4
+        },
+        {
+          "kecamatan": "serpong",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.57,
+          "rank_min": 2,
+          "rank_max": 7,
+          "rank_median": 5
+        },
+        {
+          "kecamatan": "ciputat",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.682,
+          "rank_min": 2,
+          "rank_max": 6,
+          "rank_median": 3
+        },
+        {
+          "kecamatan": "ciputat_timur",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.408,
+          "rank_min": 4,
+          "rank_max": 7,
+          "rank_median": 6
+        },
+        {
+          "kecamatan": "setu",
+          "p_top1": 0,
+          "p_top1_baseline_rank": 0.523,
+          "rank_min": 3,
+          "rank_max": 7,
+          "rank_median": 7
+        }
+      ]
+    }
+  },
+  "labelFlipPercent": {
+    "retail": 37.5,
+    "health": 43.9,
+    "education": 40.5
+  },
+  "localPerturbation": {
+    "20": {
+      "mean_max_deviation_pct": 13.36,
+      "retail": {
+        "p_top1_agrees": 0.86,
+        "p_top3_agrees": 0.941,
+        "mean_spearman": 0.945
+      },
+      "health": {
+        "p_top1_agrees": 0.962,
+        "p_top3_agrees": 0.939,
+        "mean_spearman": 0.934
+      },
+      "education": {
+        "p_top1_agrees": 0.91,
+        "p_top3_agrees": 0.831,
+        "mean_spearman": 0.958
+      }
+    },
+    "50": {
+      "mean_max_deviation_pct": 8.52,
+      "retail": {
+        "p_top1_agrees": 0.967,
+        "p_top3_agrees": 0.993,
+        "mean_spearman": 0.964
+      },
+      "health": {
+        "p_top1_agrees": 0.998,
+        "p_top3_agrees": 0.994,
+        "mean_spearman": 0.957
+      },
+      "education": {
+        "p_top1_agrees": 0.986,
+        "p_top3_agrees": 0.944,
+        "mean_spearman": 0.981
+      }
+    },
+    "200": {
+      "mean_max_deviation_pct": 4.22,
+      "retail": {
+        "p_top1_agrees": 1,
+        "p_top3_agrees": 1,
+        "mean_spearman": 0.983
+      },
+      "health": {
+        "p_top1_agrees": 1,
+        "p_top3_agrees": 1,
+        "mean_spearman": 0.972
+      },
+      "education": {
+        "p_top1_agrees": 1,
+        "p_top3_agrees": 0.998,
+        "mean_spearman": 0.99
+      }
+    }
+  },
+  "baselineDistribution": {
+    "retail": {
+      "values": [
+        6.2,
+        7.2,
+        9,
+        8.3,
+        7.1,
+        8.5,
+        5.8
+      ],
+      "min": 5.8,
+      "max": 9,
+      "cells_within_0_3_of_a_threshold": 1
+    },
+    "health": {
+      "values": [
+        6.2,
+        6.9,
+        9,
+        8.1,
+        6.2,
+        8.2,
+        5.6
+      ],
+      "min": 5.6,
+      "max": 9,
+      "cells_within_0_3_of_a_threshold": 4
+    },
+    "education": {
+      "values": [
+        6.8,
+        7.5,
+        9.2,
+        8.1,
+        5.9,
+        8.6,
+        5.8
+      ],
+      "min": 5.8,
+      "max": 9.2,
+      "cells_within_0_3_of_a_threshold": 2
+    }
+  },
+  "baseline_weights": [
+    0.2,
+    0.2,
+    0.15,
+    0.15,
+    0.15,
+    0.15
+  ],
+  "scenarios_note": "Skenario adalah hipotesis pertanyaan bisnis, bukan bobot hasil kalibrasi. Semua memakai S1..S6 dari calculateScore()."
+}

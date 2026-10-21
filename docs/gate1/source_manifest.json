@@ -1,0 +1,49 @@
+{
+  "manifest_version": "1.0.0",
+  "created_at": "2026-10-19",
+  "sources": [
+    {
+      "id": "disdukcapil_dkb_2023_s2",
+      "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+      "period": "DKB Semester II Tahun 2023",
+      "file": "docs/gate1/raw/KESELURUHAN1706581708476.pdf",
+      "source_url": "https://disdukcapil.tangerangselatankota.go.id/uploads/demografi/KESELURUHAN1706581708476.pdf",
+      "sha256": "3a6cf1b817b7ebea25f1f7e402784f9e31fa6e22d5f9fd458ef9a41a83be9741",
+      "retrieved_at": "2026-10-19",
+      "license": "Belum diverifikasi (tidak ada klausul lisensi terbuka pada dokumen)",
+      "tables_used": [
+        "JUMLAH PENDUDUK KECAMATAN (halaman 1)",
+        "KEPADATAN PENDUDUK / LUAS WILAYAH KM2 (halaman 2)",
+        "JUMLAH PENDUDUK PER KECAMATAN BERDASARKAN USIA (halaman 10-18)"
+      ]
+    },
+    {
+      "id": "disdukcapil_dkb_2024_s1",
+      "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+      "period": "DKB Semester I Tahun 2024",
+      "file": "docs/gate1/raw/KESELURUHAN1723170306278.pdf",
+      "source_url": "https://disdukcapil.tangerangselatankota.go.id/uploads/demografi/KESELURUHAN1723170306278.pdf",
+      "sha256": "2497133eef9902bca32f43cf60ca86c328424cb9e5e22ba2a9020207a0dfc684",
+      "retrieved_at": "2026-10-19",
+      "license": "Belum diverifikasi (tidak ada klausul lisensi terbuka pada dokumen)",
+      "tables_used": [
+        "JUMLAH PENDUDUK KECAMATAN (halaman 1)",
+        "JUMLAH PENDUDUK PER KECAMATAN BERDASARKAN USIA (halaman 9-17)"
+      ]
+    },
+    {
+      "id": "disdukcapil_dkb_2025_s1",
+      "agency": "Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang Selatan",
+      "period": "DKB Semester I Tahun 2025",
+      "file": "docs/gate1/raw/KESELURUHAN1764555784678.pdf",
+      "source_url": "https://disdukcapil.tangerangselatankota.go.id/uploads/demografi/KESELURUHAN1764555784678.pdf",
+      "sha256": "3f664727dc7fd748b53d0e48a96adf86f31534d749b0a7d8fda85526946f1289",
+      "retrieved_at": "2026-10-19",
+      "license": "Belum diverifikasi (tidak ada klausul lisensi terbuka pada dokumen)",
+      "tables_used": [
+        "JUMLAH PENDUDUK KECAMATAN (halaman 1)",
+        "JUMLAH PENDUDUK PER KECAMATAN BERDASARKAN USIA (halaman 9-18)"
+      ]
+    }
+  ]
+}

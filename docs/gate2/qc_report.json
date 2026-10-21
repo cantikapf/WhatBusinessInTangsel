@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-10-21T12:11:29.878Z",
+  "passed": true,
+  "failures": [],
+  "checks": [
+    {
+      "name": "QC-1 7 kecamatan lengkap di 3 sumber (missing != 0)",
+      "pass": true,
+      "detail": "7/7 lengkap"
+    },
+    {
+      "name": "QC-2 jumlah populasi per kecamatan == total kota",
+      "pass": true,
+      "detail": "1474311 vs 1474311"
+    },
+    {
+      "name": "QC-3 populasi == TOTAL pada tabel PDF",
+      "pass": true,
+      "detail": "1474311 vs 1474311"
+    },
+    {
+      "name": "QC-4 luas geometri OSM dalam toleransi",
+      "pass": true,
+      "detail": "165.86 km2 vs 164.86 km2 (deviasi 0.61%, toleransi 2%)"
+    },
+    {
+      "name": "QC-5 kepadatan == populasi / luas",
+      "pass": true,
+      "detail": "7/7 konsisten"
+    },
+    {
+      "name": "QC-6 rasio usia masuk akal",
+      "pass": true,
+      "detail": "7/7 valid"
+    },
+    {
+      "name": "QC-7 hitungan sektor integer >= 0",
+      "pass": true,
+      "detail": "21 nilai valid"
+    },
+    {
+      "name": "QC-8 penyebut populasi & luas > 0",
+      "pass": true,
+      "detail": "14/14 positif"
+    },
+    {
+      "name": "QC-9 SHA-256 raw PDF == source_manifest",
+      "pass": true,
+      "detail": "3/3 cocok"
+    },
+    {
+      "name": "QC-10 snapshot OSM tercatat",
+      "pass": true,
+      "detail": "sectors + boundaries tercatat"
+    },
+    {
+      "name": "QC-11 tidak ada nilai null/NaN",
+      "pass": true,
+      "detail": "7 baris bersih"
+    }
+  ]
+}

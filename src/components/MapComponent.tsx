@@ -4,13 +4,7 @@ import 'leaflet/dist/leaflet.css';
 
 // Import data directly for static performance and robust bundling
 import geojsonData from '../data/geojson/tangsel_subdistricts.json';
-import demographics from '../data/demographics.json';
-import competitorsData from '../data/competitors.json';
-const competitors = competitorsData.competitors;
-import traffic from '../data/traffic.json';
-import biMetrics from '../data/biMetrics.json';
-
-import { maxCompetitors } from '../lib/engine/scoring';
+import verifiedDataset from '../data/verifiedDataset';
 
 interface MapComponentProps {
   selectedSubdistrict: string;
@@ -43,29 +37,24 @@ export const MapComponent: React.FC<MapComponentProps> = ({
       case 'none':
         setLegendText('Tanpa Overlay');
         break;
-      case 'population':
+      case 'density':
         setLegendText('Kepadatan Penduduk (jiwa/km²)');
         break;
+      case 'population':
+        setLegendText('Total Penduduk (jiwa)');
+        break;
       case 'competitors':
-        setLegendText('Kepadatan Kompetitor (bisnis sejenis)');
-        break;
-      case 'traffic':
-        setLegendText('Tingkat Lalu Lintas (Tinggi, Sedang, Rendah)');
-        break;
-      case 'dayaBeli':
-        setLegendText('Daya Beli Masyarakat (Rp)');
-        break;
-      case 'biayaSewa':
-        setLegendText('Biaya Sewa Rata-rata (Rp/m²)');
+        setLegendText('Kepadatan POI Terpetakan (POI/10k jiwa)');
         break;
       case 'demografiUmur':
+      case 'youth':
         setLegendText('Persentase Pemuda (15-34 tahun)');
         break;
-      case 'trenHistoris':
-        setLegendText('Tren Pertumbuhan Historis (%)');
+      case 'productive':
+        setLegendText('Persentase Usia Produktif (15-64 tahun)');
         break;
       case 'anchorPoi':
-        setLegendText('Jumlah Anchor POI (Transit/Node)');
+        setLegendText('Jumlah Anchor POI (Stasiun/Terminal/Mall)');
         break;
       default:
         setLegendText('Tanpa Overlay');
@@ -80,11 +69,13 @@ export const MapComponent: React.FC<MapComponentProps> = ({
     const map = L.map(mapRef.current).setView([-6.30, 106.72], 12);
     mapInstanceRef.current = map;
 
-    // Tile Layer setup
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 20
+    // Tile Layer setup. CARTO basemaps now require an API key and answer
+    // keyless requests with a "API KEY REQUIRED" placeholder, which rendered a
+    // blank map. OSM's own tile server works keyless; usage policy allows this
+    // low-volume portfolio traffic. ponytail: keep OSM tiles until a key exists.
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
     }).addTo(map);
 
     // Create GeoJSON Layer
@@ -105,9 +96,36 @@ export const MapComponent: React.FC<MapComponentProps> = ({
           className: 'map-tooltip'
         });
 
-        // Click Handler
-        layer.on('click', () => {
+        const handlePolygonSelect = () => {
           onSelectSubdistrict(feature.properties.id);
+        };
+
+        // Click Handler
+        layer.on('click', handlePolygonSelect);
+
+        // Keyboard & ARIA accessibility
+        layer.on('add', () => {
+          try {
+            if (typeof layer.getElement === 'function') {
+              const el = layer.getElement();
+              if (el) {
+                el.setAttribute('tabindex', '0');
+                el.setAttribute('role', 'button');
+                el.setAttribute(
+                  'aria-label',
+                  `Kecamatan ${feature.properties.name} — tekan Enter untuk menganalisis`
+                );
+                el.addEventListener('keydown', (e: KeyboardEvent) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handlePolygonSelect();
+                  }
+                });
+              }
+            }
+          } catch (e) {
+            // Null guard: do not throw when getElement returns null
+          }
         });
       }
     }).addTo(map);
@@ -145,10 +163,11 @@ export const MapComponent: React.FC<MapComponentProps> = ({
       let className = '';
       let tooltipExtra = '';
 
+      const row = verifiedDataset.by_kecamatan[subId];
+
       // Calculate styles based on overlays
-      if (activeOverlay === 'population') {
-        const demo = (demographics as Record<string, any>)[subId];
-        const density = demo ? demo.density : 0;
+      if (activeOverlay === 'density') {
+        const density = row ? row.density : 0;
         tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Kepadatan: ${density.toLocaleString('id-ID')} jiwa/km²</span>`;
         fillColor = density > 11000 ? '#4a148c' :
                     density > 10000 ? '#7b1fa2' :
@@ -156,70 +175,49 @@ export const MapComponent: React.FC<MapComponentProps> = ({
                     density > 6500  ? '#d1c4e9' :
                                       '#f3e5f5';
         fillOpacity = 0.6;
+      } else if (activeOverlay === 'population') {
+        const pop = row ? row.population : 0;
+        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Penduduk: ${pop.toLocaleString('id-ID')} jiwa</span>`;
+        fillColor = pop > 300000 ? '#1e3a8a' :
+                    pop > 200000 ? '#2563eb' :
+                    pop > 150000 ? '#60a5fa' :
+                                   '#bfdbfe';
+        fillOpacity = 0.6;
       } else if (activeOverlay === 'competitors' && selectedSector) {
-        const sectComp = (competitors as Record<string, any>)[subId];
-        const comp = sectComp ? sectComp[selectedSector] : 0;
-        const maxC = maxCompetitors[selectedSector] || 100;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Kompetitor: ${comp} bisnis</span>`;
-        const ratio = comp / maxC;
+        const secKey = selectedSector.toLowerCase() as 'retail' | 'health' | 'education';
+        const poiRate = row?.sector_poi_per_10k?.[secKey] ?? 0;
+        const rawPoi = row?.sector_poi?.[secKey] ?? 0;
+        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Kepadatan POI Terpetakan: ${poiRate} / 10k (${rawPoi} POI)</span>`;
+        const maxRate = verifiedDataset.normalizers.sector_per_10k_max[secKey] || 5;
+        const ratio = poiRate / maxRate;
         fillColor = ratio > 0.8 ? '#b71c1c' :
                     ratio > 0.5 ? '#e65100' :
                     ratio > 0.3 ? '#f57c00' :
                     ratio > 0.1 ? '#ffe082' :
                                   '#fff8e1';
         fillOpacity = 0.6;
-      } else if (activeOverlay === 'traffic') {
-        const tr = (traffic as Record<string, any>)[subId];
-        const accessibility = tr ? tr.accessibilityScore : 0.5;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Aksesibilitas: ${(accessibility * 10).toFixed(1)}/10</span>`;
-        fillColor = accessibility >= 0.85 ? '#1b5e20' :
-                    accessibility >= 0.75 ? '#4caf50' :
-                    accessibility >= 0.65 ? '#81c784' :
-                                            '#c8e6c9';
+      } else if (activeOverlay === 'demografiUmur' || activeOverlay === 'youth') {
+        const youth = row ? row.youth_15_34_pct : 0;
+        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Pemuda (15-34): ${(youth * 100).toFixed(1)}%</span>`;
+        fillColor = youth > 0.328 ? '#311b92' :
+                    youth > 0.320 ? '#512da8' :
+                    youth > 0.310 ? '#7e57c2' :
+                                    '#d1c4e9';
         fillOpacity = 0.6;
-      } else if (activeOverlay === 'dayaBeli') {
-        const bi = (biMetrics as Record<string, any>)[subId];
-        const db = bi ? bi.dayaBeli : 0;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Daya Beli: Rp ${db.toLocaleString('id-ID')}</span>`;
-        fillColor = db > 3500000 ? '#0d47a1' :
-                    db > 3000000 ? '#1976d2' :
-                    db > 2600000 ? '#42a5f5' :
-                                   '#bbdefb';
-        fillOpacity = 0.6;
-      } else if (activeOverlay === 'biayaSewa') {
-        const bi = (biMetrics as Record<string, any>)[subId];
-        const bs = bi ? bi.biayaSewa : 0;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Biaya Sewa: Rp ${bs.toLocaleString('id-ID')}/bln</span>`;
-        fillColor = bs > 400000 ? '#b71c1c' :
-                    bs > 300000 ? '#e65100' :
-                    bs > 200000 ? '#f57c00' :
-                                  '#ffe082';
-        fillOpacity = 0.6;
-      } else if (activeOverlay === 'demografiUmur') {
-        const bi = (biMetrics as Record<string, any>)[subId];
-        const youth = bi ? bi.demografiUmur.youth_15_34_pct : 0;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Pemuda (15-34): ${(youth * 100).toFixed(0)}%</span>`;
-        fillColor = youth > 0.34 ? '#311b92' :
-                    youth > 0.32 ? '#512da8' :
-                    youth > 0.30 ? '#7e57c2' :
-                                   '#d1c4e9';
-        fillOpacity = 0.6;
-      } else if (activeOverlay === 'trenHistoris') {
-        const bi = (biMetrics as Record<string, any>)[subId];
-        const growth = bi ? bi.trenHistoris : 0;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Pertumbuhan: ${(growth * 100).toFixed(1)}%</span>`;
-        fillColor = growth > 0.07 ? '#004d40' :
-                    growth > 0.06 ? '#00796b' :
-                    growth > 0.05 ? '#26a69a' :
-                                    '#b2dfdb';
+      } else if (activeOverlay === 'productive') {
+        const prod = row ? row.productive_15_64_pct : 0;
+        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Produktif (15-64): ${(prod * 100).toFixed(1)}%</span>`;
+        fillColor = prod > 0.730 ? '#065f46' :
+                    prod > 0.720 ? '#059669' :
+                    prod > 0.714 ? '#34d399' :
+                                   '#a7f3d0';
         fillOpacity = 0.6;
       } else if (activeOverlay === 'anchorPoi') {
-        const bi = (biMetrics as Record<string, any>)[subId];
-        const poi = bi ? bi.anchorPoiCount : 0;
-        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Anchor POI: ${poi} node</span>`;
-        fillColor = poi > 9 ? '#e65100' :
-                    poi > 7 ? '#f57c00' :
-                    poi > 5 ? '#ffb74d' :
+        const poi = row ? row.anchor_poi : 0;
+        tooltipExtra = `<br><span style="color:#cbd5e1;font-size:10px;">Anchor POI: ${poi} simpul</span>`;
+        fillColor = poi > 6 ? '#e65100' :
+                    poi > 4 ? '#f57c00' :
+                    poi > 2 ? '#ffb74d' :
                               '#ffe082';
         fillOpacity = 0.6;
       }
@@ -280,24 +278,28 @@ export const MapComponent: React.FC<MapComponentProps> = ({
             id="overlay-mode-select"
             value={activeOverlay}
             onChange={handleOverlayChange}
-            className="bg-slate-50 border border-slate-200 text-slate-700 rounded-lg px-2 py-1 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500"
+            className="bg-slate-50 border border-slate-200 text-slate-700 rounded-lg px-2 py-1 text-xs"
           >
             <option value="none">Tanpa Overlay</option>
-            <option value="population">Kepadatan Penduduk</option>
-            <option value="competitors">Kepadatan Kompetitor</option>
-            <option value="traffic">Aksesibilitas & Traffic</option>
-            <option value="dayaBeli">Daya Beli (Purchasing Power)</option>
-            <option value="biayaSewa">Biaya Sewa (Rent)</option>
-            <option value="demografiUmur">Demografi Umur (Youth Ratio)</option>
-            <option value="trenHistoris">Tren Historis (Growth Rate)</option>
-            <option value="anchorPoi">Anchor POI (Transit Nodes)</option>
+            <option value="density">Kepadatan Penduduk</option>
+            <option value="population">Total Penduduk</option>
+            <option value="competitors">Kepadatan POI Terpetakan</option>
+            <option value="demografiUmur">Demografi Pemuda (15-34)</option>
+            <option value="productive">Demografi Produktif (15-64)</option>
+            <option value="anchorPoi">Anchor POI (Transit/Mall)</option>
           </select>
         </div>
       </div>
 
       {/* Leaflet Map Container */}
       <div className="relative">
-        <div id="map" ref={mapRef} className="h-[420px] w-full z-0"></div>
+        <div
+          id="map"
+          ref={mapRef}
+          role="application"
+          aria-label="Peta choropleth 7 kecamatan Kota Tangerang Selatan"
+          className="h-[420px] w-full z-0"
+        ></div>
 
         {/* Map Legend Panel */}
         <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur px-3.5 py-2.5 rounded-xl border border-slate-200 shadow-lg z-[1000] text-xs max-w-[260px] pointer-events-auto">

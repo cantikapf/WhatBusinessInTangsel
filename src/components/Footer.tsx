@@ -21,26 +21,53 @@ export const Footer: React.FC = () => {
             <path d="M12 16v-4" />
             <path d="M12 8h.01" />
           </svg>
-          Catatan Metodologi &amp; Sumber Data
+          Tentang Angka di Halaman Ini
         </h4>
         <ul className="space-y-2 text-slate-500 leading-relaxed list-disc pl-5">
           <li>
-            <strong>Jumlah Usaha (Kompetitor):</strong> Diekstraksi melalui metode agregasi spasial{' '}
-            <em>Point of Interest</em> (POI) menggunakan{' '}
+            <strong>Penduduk dan usia</strong> diambil dari{' '}
             <a
-              href="https://overpass-turbo.eu/"
+              href="https://disdukcapil.tangerangselatankota.go.id/uploads/demografi/KESELURUHAN1764555784678.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 hover:text-indigo-700 underline font-semibold transition-colors"
+              className="text-indigo-600 hover:text-indigo-700 underline"
             >
-              Overpass API OpenStreetMap
+              Data Konsolidasi Bersih Dukcapil semester I 2025
+            </a>{' '}
+            (Dinas Kependudukan dan Pencatatan Sipil) Kota Tangerang Selatan. Luas wilayah hanya
+            diterbitkan di{' '}
+            <a
+              href="https://disdukcapil.tangerangselatankota.go.id/uploads/demografi/KESELURUHAN1706581708476.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:text-indigo-700 underline"
+            >
+              rilis semester II 2023
             </a>
-            . Pengumpulan data menggunakan <em>tag</em> khusus (seperti <code>amenity=cafe</code>,{' '}
-            <code>shop=clothes</code>) di area pembatas kecamatan.
+            , jadi bagian itu lebih tua dari angka penduduknya.
           </li>
           <li>
-            <strong>Demografi &amp; Populasi:</strong> Bersumber dari rilis dataset resmi Badan Pusat
-            Statistik (BPS) Kota Tangerang Selatan.{' '}
+            <strong>Kepadatan POI</strong> dihitung dari{' '}
+            <a
+              href="https://www.openstreetmap.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:text-indigo-700 underline"
+            >
+              OpenStreetMap
+            </a>{' '}
+            (lisensi{' '}
+            <a
+              href="https://opendatacommons.org/licenses/odbl/1-0/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:text-indigo-700 underline"
+            >
+              ODbL 1.0
+            </a>
+            ) untuk tiga sektor: retail, kesehatan, dan pendidikan. OSM diisi sukarela, jadi
+            angkanya menunjukkan seberapa rajin sebuah kawasan dipetakan, bukan berapa banyak usaha
+            yang sebenarnya berdiri di sana.{' '}
             <a
               href="/dataset_penduduk_tangsel.csv"
               download
@@ -60,18 +87,22 @@ export const Footer: React.FC = () => {
               >
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                 <polyline points="7 10 12 15 17 10" />
-                <line x1="12" x2="12" y1="15" y2="3" />
+                <line x1="12" y1="15" y2="3" />
               </svg>{' '}
-              Unduh File Dataset (.csv)
+              Unduh data penduduk dan luas (.csv)
             </a>
           </li>
           <li>
-            <strong>Skor Prospek &amp; Aksesibilitas:</strong> Merupakan kalkulasi algoritma{' '}
-            <em>weighted scoring</em> yang menyeimbangkan peluang dari kepadatan penduduk, hambatan
-            dari rasio kompetitor eksisting, serta estimasi volume lalu lintas (
-            <em>traffic level</em>), yang kini ditingkatkan pada versi 2.0 dengan menambahkan 5
-            metrik bisnis intelijen baru (daya beli, biaya sewa, demografi umur pemuda, pertumbuhan
-            historis, dan kedekatan transit node).
+            <strong>Skor</strong> menggabungkan enam indikator dengan bobot yang saya tentukan
+            sendiri. Bobot itu belum dikalibrasi terhadap usaha yang benar-benar berhasil atau
+            gagal, karena datanya tidak tersedia. Yang sudah saya periksa adalah seberapa jauh
+            peringkat bergeser kalau bobotnya diubah: juara bertahan selama perubahan di bawah
+            sekitar sepuluh poin persen, tapi label kategorinya tidak sekuat itu.
+          </li>
+          <li>
+            <strong>Yang belum masuk hitungan:</strong> modal, harga sewa, aturan zonasi, perilaku
+            pesaing, dan permintaan yang benar-benar teramati. Kalau salah satu dari itu menentukan
+            keputusanmu, angka di sini belum cukup.
           </li>
         </ul>
       </div>
@@ -81,8 +112,9 @@ export const Footer: React.FC = () => {
         <div>
           <p className="font-bold text-slate-700 text-sm">Tertarik berkolaborasi?</p>
           <p className="text-slate-500 text-xs mt-0.5">
-            Proyek ini dibuat oleh <strong className="text-slate-700">Cantikaputri Febrianti</strong> sebagai portofolio Business Analyst
-            — menggunakan data nyata BPS &amp; OSM untuk analisis bisnis berbasis lokasi.
+            Proyek ini dibuat oleh <strong className="text-slate-700">Cantikaputri Febrianti</strong>{' '}
+            sebagai portofolio Business Analyst: latihan membangun alat bantu keputusan lokasi usaha
+            dari data publik, lengkap dengan batas pemakaiannya.
           </p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
@@ -100,7 +132,7 @@ export const Footer: React.FC = () => {
             Connect di LinkedIn
           </a>
           <a
-            href="https://github.com/cantikapf/tangsel-bisnis-v2"
+            href="https://github.com/cantikapf/WhatBusinessInTangsel"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-semibold bg-slate-800 text-white hover:bg-slate-700 transition-colors shadow-sm"
@@ -114,7 +146,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <p className="pt-2 font-medium">
-        WhatBusinessInTangsel &copy; 2026 · Cantikaputri Febrianti · Made with Lucide, Leaflet, and Chart.js.
+        WhatBusinessInTangsel &copy; 2026 · Cantikaputri Febrianti. Peta dasar &copy; kontributor OpenStreetMap.
       </p>
     </footer>
   );

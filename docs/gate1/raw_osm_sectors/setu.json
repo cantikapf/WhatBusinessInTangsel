@@ -1,0 +1,511 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T11:47:51Z",
+    "timestamp_areas_base": "2026-10-19T07:02:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2893009781,
+  "tags": {
+    "name": "Indomaret Paradise Serpong City",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 10164541122,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:postcode": "15315",
+    "addr:street": "Jalan Paradise Serpong City",
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "fixme": "Indomaret Fresh",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12823743681,
+  "tags": {
+    "amenity": "language_school",
+    "name": "PEC"
+  }
+},
+{
+  "type": "node",
+  "id": 12866821559,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:housenumber": "7",
+    "addr:postcode": "15314",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Kademangan",
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "opening_hours": "Mo-Sa 08:00-23:00",
+    "operator": "PT. Indomarco Prismatama",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "payment:qris": "yes",
+    "phone": "+62 21 1500580",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12867026957,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:postcode": "51314",
+    "addr:province": "Banten",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Klinik Amarapura",
+    "opening_hours": "Mo-Sa 05:30AM-10:00PM",
+    "operator": "Diah",
+    "operator:type": "public",
+    "phone": "+62 21 75870008"
+  }
+},
+{
+  "type": "node",
+  "id": 13011829857,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 13926235001,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14283599726,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Klinik Pratama Polres Tangsel"
+  }
+},
+{
+  "type": "node",
+  "id": 14283702193,
+  "tags": {
+    "amenity": "school",
+    "name": "SD Negeri Puspiptek",
+    "operator:type": "government",
+    "school:type_idn": "sd"
+  }
+},
+{
+  "type": "way",
+  "id": 307282238,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "brand:wikipedia": "en:Alfamart",
+    "building": "yes",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 436508387,
+  "tags": {
+    "access:roof": "no",
+    "addr:full": "Komplek Puspiptek",
+    "amenity": "clinic",
+    "backup_generator": "no",
+    "building": "clinic",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "healthcare": "clinic",
+    "name": "Balai Kesehatan Puspiptek",
+    "operator:type": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 478685849,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 529906210,
+  "tags": {
+    "addr:street": "JL. Adil, Serpong, Setu, Kota Tangerang Selatan, Banten 15310",
+    "amenity": "school",
+    "grades": "7-12",
+    "name": "SMP SMK Muhammadiyah",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 529910049,
+  "tags": {
+    "addr:full": "Jl. Raya Serpong Puspiptek, Muncul, Setu, Muncul, Setu, Kota Tangerang Selatan, Banten 15314",
+    "amenity": "school",
+    "name": "SMAN 2 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 530351678,
+  "tags": {
+    "addr:full": "Jl. Raya Serpong No.15, RT.1/RW.2, Kademangan, Setu, Kota Tangerang Selatan, Banten 15314",
+    "alt_name": "SDN 1 Kademangan",
+    "amenity": "school",
+    "building": "school",
+    "isced:level": "1",
+    "name": "SD Negeri 1 Kademangan"
+  }
+},
+{
+  "type": "way",
+  "id": 530351749,
+  "tags": {
+    "addr:full": "Jalan Raya Puspitek, Kademangan, Setu, Kota Tangerang Selatan, Banten 15313",
+    "amenity": "school",
+    "building": "school",
+    "name": "SMP IT Insan Harapan"
+  }
+},
+{
+  "type": "way",
+  "id": 545462986,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "height": "4",
+    "min_height": "0",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "source": "Mapped by FajrAl using Citra Udara ATR",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 559791859,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "TK bhakti puspiptek"
+  }
+},
+{
+  "type": "way",
+  "id": 632318340,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "convenience",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 687400650,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:district": "Setu",
+    "addr:postcode": "15312",
+    "addr:province": "Banten",
+    "addr:street": "Jalan Raya Puspiptek",
+    "addr:subdistrict": "Setu",
+    "alt_name": "Kampus ITI",
+    "amenity": "university",
+    "check_date": "2025-06-21",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "ITI@wifi.id",
+    "landuse": "education",
+    "name": "Institut Teknologi Indonesia",
+    "opening_hours": "Mo-Sa 06:00-17:00",
+    "operator": "Yayasan Pengembangan Teknologi Indonesia",
+    "operator:type": "private",
+    "phone": "+6281360090013",
+    "start_date": "1984",
+    "website": "https://iti.ac.id/",
+    "wheelchair": "limited",
+    "wikidata": "Q12486657",
+    "wikipedia": "id:Institut Teknologi Indonesia"
+  }
+},
+{
+  "type": "way",
+  "id": 975861341,
+  "tags": {
+    "amenity": "school",
+    "name": "SMP Islam Al-Azhar 25"
+  }
+},
+{
+  "type": "way",
+  "id": 1060290013,
+  "tags": {
+    "amenity": "school",
+    "name": "Hikari School"
+  }
+},
+{
+  "type": "way",
+  "id": 1096477744,
+  "tags": {
+    "addr:city": "Tangerang Selatan",
+    "addr:postcode": "15315",
+    "addr:street": "Jalan Paradise Serpong City",
+    "building": "commercial",
+    "building:levels": "2",
+    "name": "Paradise Walk Serpong",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "operator": "Progress Group",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+62 81250001300",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1121975728,
+  "tags": {
+    "brand": "Alfamidi",
+    "brand:wikidata": "Q12471462",
+    "building": "yes",
+    "height": "4",
+    "min_height": "0",
+    "name": "Alfamidi",
+    "shop": "convenience",
+    "source": "Mapped by FajrAl using Citra Udara ATR"
+  }
+},
+{
+  "type": "way",
+  "id": 1183606792,
+  "tags": {
+    "amenity": "school",
+    "name": "SMKN 3 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1234942566,
+  "tags": {
+    "alt_name": "SDN Babakan 02",
+    "amenity": "school",
+    "isced:level": "1",
+    "name": "SD Negeri Babakan 02"
+  }
+},
+{
+  "type": "way",
+  "id": 1302666697,
+  "tags": {
+    "amenity": "school",
+    "name": "SMP Negeri 8 Tangerang Selatan"
+  }
+},
+{
+  "type": "way",
+  "id": 1351793487,
+  "tags": {
+    "amenity": "school",
+    "landuse": "education"
+  }
+},
+{
+  "type": "way",
+  "id": 1351793488,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1472179105,
+  "tags": {
+    "amenity": "school",
+    "education": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 1479913382,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret",
+    "brand:wikidata": "Q4262825",
+    "brand:wikipedia": "id:Indomaret",
+    "building": "yes",
+    "height": "4",
+    "min_height": "0",
+    "name": "Indomaret",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "convenience",
+    "source": "Mapped by FajrAl using Citra Udara ATR",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1479913953,
+  "tags": {
+    "brand": "Alfamart",
+    "brand:wikidata": "Q23745600",
+    "building": "yes",
+    "height": "4",
+    "min_height": "0",
+    "name": "Alfamart",
+    "operator": "PT Sumber Alfaria Trijaya,Tbk",
+    "shop": "convenience",
+    "source": "Mapped by FajrAl using Citra Udara ATR",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "toilets:unisex": "yes",
+    "website": "https://alfamart.co.id"
+  }
+},
+{
+  "type": "way",
+  "id": 1479919673,
+  "tags": {
+    "air_conditioning": "yes",
+    "brand": "Indomaret Fresh",
+    "brand:wikidata": "Q138347581",
+    "building": "yes",
+    "height": "6",
+    "min_height": "0",
+    "name": "Indomaret Fresh",
+    "name:en": "Indomaret",
+    "name:id": "Indomaret",
+    "name:ja": "インドマレット",
+    "opening_hours": "24/7",
+    "operator": "PT. Indomarco Prismatama",
+    "shop": "supermarket",
+    "source": "Mapped by FajrAl using Citra Udara ATR",
+    "toilets": "yes",
+    "toilets:access": "permissive",
+    "website": "https://www.klikindomaret.com"
+  }
+},
+{
+  "type": "relation",
+  "id": 8057922,
+  "tags": {
+    "access:roof": "no",
+    "alt_name": "SMPN 8 Kota Tangerang Selatan",
+    "amenity": "school",
+    "backup_generator": "no",
+    "building": "yes",
+    "building:condition": "good",
+    "building:floor": "ceramics",
+    "building:levels": "2",
+    "building:roof": "tile",
+    "building:structure": "confined_masonry",
+    "building:walls": "brick",
+    "grades": "7-9",
+    "isced:level": "2",
+    "name": "SMP Negeri 8 Kota Tangerang Selatan",
+    "operator:type": "Komplek PUSPIPTEK",
+    "school:type_idn": "smp",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

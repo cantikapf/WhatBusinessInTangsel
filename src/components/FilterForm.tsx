@@ -92,17 +92,12 @@ export const FilterForm: React.FC<FilterFormProps> = ({
           id="sector-select"
           value={localSector}
           onChange={handleSectorChange}
-          className="w-full bg-slate-50 border border-slate-200 text-slate-800 rounded-xl px-3.5 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+          className="w-full bg-slate-50 border border-slate-200 text-slate-800 rounded-xl px-3.5 py-2.5 text-sm transition-all"
         >
           <option value="">-- Pilih Sektor --</option>
-          <option value="fnb">FnB (Kafe/Restoran/Warteg/Bakery)</option>
-          <option value="fashion">Fashion & Clothing</option>
-          <option value="beauty">Salon & Kecantikan</option>
-          <option value="education">Pendidikan (Bimbel/Kursus)</option>
-          <option value="health">Kesehatan (Apotek/Klinik)</option>
           <option value="retail">Retail & Minimarket</option>
-          <option value="automotive">Otomotif (Bengkel/Cuci Motor-Mobil)</option>
-          <option value="services">Jasa (Laundry/Percetakan/dll)</option>
+          <option value="health">Kesehatan (Apotek/Klinik)</option>
+          <option value="education">Pendidikan (Sekolah/Kursus)</option>
         </select>
       </div>
 
@@ -115,7 +110,7 @@ export const FilterForm: React.FC<FilterFormProps> = ({
           id="subdistrict-select"
           value={localSubdistrict}
           onChange={handleSubdistrictChange}
-          className="w-full bg-slate-50 border border-slate-200 text-slate-800 rounded-xl px-3.5 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+          className="w-full bg-slate-50 border border-slate-200 text-slate-800 rounded-xl px-3.5 py-2.5 text-sm transition-all"
         >
           <option value="">-- Pilih Kecamatan --</option>
           <option value="setu">Setu</option>
@@ -156,6 +151,7 @@ export const FilterForm: React.FC<FilterFormProps> = ({
       {validationError && (
         <div
           id="validation-error"
+          role="alert"
           className="text-xs text-rose-600 bg-rose-50 border border-rose-100 rounded-lg p-3 font-medium block animate-fade-in"
         >
           {validationError}
