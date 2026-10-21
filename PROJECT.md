@@ -17,7 +17,7 @@ Live: https://whatbusinessintangsel.netlify.app/ · Repo: `origin/master`
 | Lint | `npx next lint` | ✔ no warnings or errors |
 | Type check | `npx tsc --noEmit` | ✔ clean |
 | Engine | `npx tsx test-engine.js` | 15 passed, 0 failed (incl. 21/21 matrix, missing-data throws, determinism) |
-| UI | `npx tsx --test tests/ui.test.js` | 8 subtests pass |
+| UI | `npx tsx --test tests/ui.test.js` | 9 subtests pass |
 | Build | `npm run build` | ✓ compiled, 4 static pages, `/` = 171 kB First Load JS |
 | Data pipeline | `npm run data:build` | QC 11/11 lulus, `verified_dataset.json` ditulis |
 | Data QC selftest | `npm run data:qc` | 5/5 — 4 mutasi terdeteksi gagal, kontrol sehat lulus |
@@ -126,6 +126,7 @@ Re-ran all 56 (kecamatan × sector) combinations: composite range **5.7–6.8**,
 - [x] Gate 5 — fokus keyboard terlihat di semua permukaan: satu token `--focus-ring` (indigo `#4f46e5` di light, `#a5b4fc` di dark) dipakai `:focus-visible` untuk `select`, `button`, `a`, `[tabindex]`, dan `path` peta. `focus:outline-none focus:ring-1` dibuang dari `FilterForm`/`MapComponent` karena membuat fokus tak terlihat. Diverifikasi dengan menekan Tab: 24/24 stop benar di dua tema (sekarang cek permanen di `tests/browser/qa.js`).
 - [x] Gate 5 — **deploy 2026-10-21**: `master` di-push (`72254b0`), Netlify rebuild dari push itu. Live: `root 200`, `dataset_penduduk_tangsel.csv` 200, teks "Badan Pusat" 0×, "Dukcapil" 6×, tanpa kebocoran `docs/gate*`/`source_manifest`/`SHA-256`. Smoke test browser QA di URL live: **43/43**.
 - [x] Gate 5 — repo bisa membangun dirinya sendiri: clone bersih tanpa PDF (gitignored) lulus tsc, lint, engine 15/15, UI 8/8, `data:qc` LULUS, `npm run build` static. Sebelum ini 76 file kode+docs belum pernah di-commit sejak 24 Juli.
+- [x] Gate 5 — `LICENSE` MIT untuk kode, **dengan seksi terpisah** yang menegaskan data tidak tercakup: DKB Dukcapil tanpa klausul lisensi terbuka, OSM/ODbL wajib atribusi + share-alike, indeks sendiri boleh dipakai tapi bukan nasihat tervalidasi. `package.json` `license: MIT`, README punya seksi Lisensi yang terbaca. Dikunci test (`License separates code from data`); diuji negatif — menghapus seksi itu memerahkan 2 assert.
 - [x] Gate 5 — `tests/ui.test.js` tidak lagi memaku tanggal `2026-10-20`: assert memakai `dataset.generated_at.slice(0,10)` supaya `npm run data:build` ulang tidak memerahkan suite.
 
 ## Gotchas (Gate 5 — dark mode)

@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Cantikaputri Febrianti
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+DATA IS NOT COVERED BY THIS LICENSE
+
+The MIT license above covers the source code of this project only. The data it
+displays carries its own terms, which this license cannot and does not change:
+
+1. Population, area, age and density figures come from Data Konsolidasi Bersih
+   (DKB) published by Dinas Kependudukan dan Pencatatan Sipil Kota Tangerang
+   Selatan. Those PDFs contain no open-license clause. They are used here with
+   attribution and a recorded limitation, not under a grant of rights. Anyone
+   reusing those figures must establish their own basis for doing so.
+
+2. Point-of-interest counts and administrative boundaries come from
+   OpenStreetMap, (c) OpenStreetMap contributors, licensed under the Open
+   Database License (ODbL) 1.0. Reuse of those layers is bound by ODbL,
+   including its attribution and share-alike terms:
+   https://opendatacommons.org/licenses/odbl/1-0/
+
+3. The composite index, its indicator weights and its thresholds are this
+   project's own construction. They are documented but not calibrated against
+   business outcomes, and they are not a feasibility ruling. Reusing them is
+   permitted under the MIT license above; treating them as validated advice is
+   not supported by any evidence in this repository.

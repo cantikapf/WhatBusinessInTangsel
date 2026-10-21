@@ -155,7 +155,7 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 
 ```bash
 npm run lint        # ESLint (next/core-web-vitals)
-npm test            # engine (15 kasus) + UI render suite (8 subtest)
+npm test            # engine (15 kasus) + UI render suite (9 subtest)
 npm run data:build  # rantai data: derive + fetch cache + 11 QC + emit dataset
 npm run data:qc     # uji bahwa QC benar-benar menggigit (4 mutasi + kontrol)
 npm run build       # type check + static build
@@ -233,6 +233,16 @@ Proyek ini menampilkan kemampuan dalam:
 Akuisisi data (Disdukcapil & Overpass) sudah dijalankan dan dapat direproduksi: berkas mentah,
 hash, skrip ekstraksi, dan QC tersimpan di `docs/gate1/` dan `docs/gate2/`. Yang masih terbuka
 adalah lisensi publikasi Dukcapil, audiensi batas OSM terhadap BIG, dan kalibrasi bobot.
+
+## Lisensi
+
+Kode proyek ini **MIT** — lihat [`LICENSE`](LICENSE). Lisensi itu tidak mencakup data.
+
+| Bahan | Ketentuan |
+|---|---|
+| Kode, model skor, figure | MIT |
+| Angka penduduk, luas, usia, kepadatan | DKB Disdukcapil Kota Tangerang Selatan. PDF-nya **tidak memuat klausul lisensi terbuka**; dipakai di sini dengan atribusi dan batasan tercatat, bukan berdasarkan pemberian hak. Pemakaian ulang angka ini perlu dasar sendiri. |
+| POI & batas kecamatan | OpenStreetMap © kontributor, [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) — wajib atribusi dan share-alike. |
 
 [![LinkedIn](https://img.shields.io/badge/Connect_di_LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cantikaputri-febrianti/)
 

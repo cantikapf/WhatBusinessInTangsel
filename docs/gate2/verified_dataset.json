@@ -1,6 +1,6 @@
 {
   "generated_by": "docs/gate2/build.js",
-  "generated_at": "2026-10-21T12:18:36.117Z",
+  "generated_at": "2026-10-21T12:46:26.522Z",
   "note": "Satu-satunya sumber angka untuk UI. Jangan edit manual — jalankan ulang build.js.",
   "normalizers": {
     "density_max": 11797,

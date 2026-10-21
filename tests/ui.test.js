@@ -302,4 +302,22 @@ test('UI Components Render Suite', async (t) => {
     assert.ok(comparisonPanelSrc.includes('id="comparison-error"'), 'ComparisonPanel must specify id="comparison-error"');
     assert.ok(comparisonPanelSrc.includes('Maksimal perbandingan adalah 3 lokasi'), 'ComparisonPanel must guard max 3 locations limit');
   });
+
+  await t.test('License separates code from data', () => {
+    // The MIT grant covers the code. Data carries its own terms, and Dukcapil's
+    // PDFs grant no open license at all — the file has to say so explicitly or
+    // MIT reads as a relicense of someone else's figures.
+    const license = fs.readFileSync(path.resolve(process.cwd(), 'LICENSE'), 'utf8');
+    assert.ok(license.startsWith('MIT License'), 'LICENSE must begin with the MIT grant');
+    assert.ok(license.includes('DATA IS NOT COVERED BY THIS LICENSE'), 'LICENSE must separate data from the code grant');
+    assert.ok(license.includes('Dinas Kependudukan dan Pencatatan Sipil'), 'LICENSE must name the Dukcapil source');
+    assert.ok(license.includes('no open-license clause'), 'LICENSE must state the Dukcapil license gap');
+    assert.ok(license.includes('ODbL'), 'LICENSE must state the ODbL obligation for OSM layers');
+
+    const pkg = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'package.json'), 'utf8'));
+    assert.strictEqual(pkg.license, 'MIT', 'package.json must declare the same license as LICENSE');
+
+    const readme = fs.readFileSync(path.resolve(process.cwd(), 'README.md'), 'utf8');
+    assert.ok(readme.includes('## Lisensi'), 'README must have a license section readers will actually find');
+  });
 });
